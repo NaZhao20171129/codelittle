@@ -1,0 +1,1418 @@
+cannot open file problem_50_2 to read the problem
+cannot open file problem_50_20 to read the problem
+cannot open file problem_50_21 to read the problem
+cannot open file problem_50_22 to read the problem
+cannot open file problem_50_23 to read the problem
+cannot open file problem_50_24 to read the problem
+cannot open file problem_50_25 to read the problem
+cannot open file problem_50_26 to read the problem
+cannot open file problem_50_27 to read the problem
+cannot open file problem_50_28 to read the problem
+cannot open file problem_50_29 to read the problem
+cannot open file problem_50_3 to read the problem
+cannot open file problem_50_30 to read the problem
+cannot open file problem_50_31 to read the problem
+cannot open file problem_50_32 to read the problem
+cannot open file problem_50_33 to read the problem
+cannot open file problem_50_34 to read the problem
+cannot open file problem_50_35 to read the problem
+cannot open file problem_50_36 to read the problem
+cannot open file problem_50_37 to read the problem
+cannot open file problem_50_38 to read the problem
+cannot open file problem_50_39 to read the problem
+cannot open file problem_50_4 to read the problem
+cannot open file problem_50_40 to read the problem
+cannot open file problem_50_41 to read the problem
+cannot open file problem_50_42 to read the problem
+cannot open file problem_50_43 to read the problem
+cannot open file problem_50_44 to read the problem
+cannot open file problem_50_45 to read the problem
+cannot open file problem_50_46 to read the problem
+cannot open file problem_50_47 to read the problem
+cannot open file problem_50_48 to read the problem
+cannot open file problem_50_49 to read the problem
+cannot open file problem_50_5 to read the problem
+cannot open file problem_50_50 to read the problem
+cannot open file problem_50_6 to read the problem
+cannot open file problem_50_7 to read the problem
+cannot open file problem_50_8 to read the problem
+cannot open file problem_50_9 to read the problem
+initialize population with type 2
+initialize individual with no parameter   High Level
+initlize a opeatorIndividual now .
+initialize individual with no parameter   High Level
+initlize a opeatorIndividual now .
+initialize individual with no parameter   High Level
+initlize a opeatorIndividual now .
+initialize individual with no parameter   High Level
+initlize a opeatorIndividual now .
+initialize individual with no parameter   High Level
+initlize a opeatorIndividual now .
+initialize individual with no parameter   High Level
+initlize a opeatorIndividual now .
+initialize individual with no parameter   High Level
+initlize a opeatorIndividual now .
+initialize individual with no parameter   High Level
+initlize a opeatorIndividual now .
+initialize individual with no parameter   High Level
+initlize a opeatorIndividual now .
+initialize population with type 1
+initialize individual with cityNum50
+initialize individual of chromosome with parament 50
+initialize individual with cityNum50
+initialize individual of chromosome with parament 50
+initialize individual with cityNum50
+initialize individual of chromosome with parament 50
+initialize individual with cityNum50
+initialize individual of chromosome with parament 50
+initialize individual with cityNum50
+initialize individual of chromosome with parament 50
+initialize individual with cityNum50
+initialize individual of chromosome with parament 50
+initialize individual with cityNum50
+initialize individual of chromosome with parament 50
+initialize individual with cityNum50
+initialize individual of chromosome with parament 50
+initialize individual with cityNum50
+initialize individual of chromosome with parament 50
+initialize individual with cityNum50
+initialize individual of chromosome with parament 50
+initialize individual with cityNum50
+initialize individual of chromosome with parament 50
+initialize individual with cityNum50
+initialize individual of chromosome with parament 50
+initialize individual with cityNum50
+initialize individual of chromosome with parament 50
+initialize individual with cityNum50
+initialize individual of chromosome with parament 50
+initialize individual with cityNum50
+initialize individual of chromosome with parament 50
+lowLeval GA  Generations : 0
+the best individual is: 
+chromosome:  24 17 26 6 50 4 41 48 29 21 28 37 46 9 12 18 2 5 11 22 43 7 8 34 31 39 27 10 23 1 30 40 45 13 36 38 16 35 33 3 14 32 44 47 25 20 42 49 19 15 
+fitness:  :0
+
+ the other individual are as fellows 
+chromosome:  39 1 14 43 25 44 15 35 38 24 13 33 5 8 34 37 41 32 36 22 26 12 9 40 45 28 49 47 18 7 30 50 16 20 48 23 3 6 2 4 27 11 17 19 21 29 46 42 31 10 
+fitness:  :0
+
+chromosome:  24 17 26 6 50 4 41 48 29 21 28 37 46 9 12 18 2 5 11 22 43 7 8 34 31 39 27 10 23 1 30 40 45 13 36 38 16 35 33 3 14 32 44 47 25 20 42 49 19 15 
+fitness:  :0
+
+chromosome:  3 41 16 50 35 32 2 13 11 43 10 18 31 17 14 23 44 26 46 21 9 4 48 49 38 12 40 36 15 24 5 45 34 22 19 1 20 42 29 7 8 30 37 28 33 39 6 25 27 47 
+fitness:  :0
+
+chromosome:  4 17 13 22 2 26 8 33 7 37 28 16 9 19 46 49 36 6 44 47 42 45 15 43 35 32 3 31 20 14 10 12 18 24 38 21 27 48 30 41 40 34 29 25 5 1 39 23 50 11 
+fitness:  :0
+
+chromosome:  31 6 1 17 37 34 14 27 13 19 28 12 7 50 46 47 42 15 26 2 23 4 29 40 48 35 8 3 10 5 11 24 32 41 22 16 30 25 18 49 9 45 38 44 33 39 36 20 21 43 
+fitness:  :0
+
+
+the problem is 0
+computing cost
+the solution is39 1 14 43 25 44 15 35 38 24 13 33 5 8 34 37 41 32 36 22 26 12 9 40 45 28 49 47 18 7 30 50 16 20 48 23 3 6 2 4 27 11 17 19 21 29 46 42 31 10 
+
+computing the distance between citys: 39  1
+computing the distance between citys: 1  14
+computing the distance between citys: 14  43
+computing the distance between citys: 43  25
+computing the distance between citys: 25  44
+computing the distance between citys: 44  15
+computing the distance between citys: 15  35
+computing the distance between citys: 35  38
+computing the distance between citys: 38  24
+computing the distance between citys: 24  13
+computing the distance between citys: 13  33
+computing the distance between citys: 33  5
+computing the distance between citys: 5  8
+computing the distance between citys: 8  34
+computing the distance between citys: 34  37
+computing the distance between citys: 37  41
+computing the distance between citys: 41  32
+computing the distance between citys: 32  36
+computing the distance between citys: 36  22
+computing the distance between citys: 22  26
+computing the distance between citys: 26  12
+computing the distance between citys: 12  9
+computing the distance between citys: 9  40
+computing the distance between citys: 40  45
+computing the distance between citys: 45  28
+computing the distance between citys: 28  49
+computing the distance between citys: 49  47
+computing the distance between citys: 47  18
+computing the distance between citys: 18  7
+computing the distance between citys: 7  30
+computing the distance between citys: 30  50
+computing the distance between citys: 50  16
+computing the distance between citys: 16  20
+computing the distance between citys: 20  48
+computing the distance between citys: 48  23
+computing the distance between citys: 23  3
+computing the distance between citys: 3  6
+computing the distance between citys: 6  2
+computing the distance between citys: 2  4
+computing the distance between citys: 4  27
+computing the distance between citys: 27  11
+computing the distance between citys: 11  17
+computing the distance between citys: 17  19
+computing the distance between citys: 19  21
+computing the distance between citys: 21  29
+computing the distance between citys: 29  46
+computing the distance between citys: 46  42
+computing the distance between citys: 42  31
+computing the distance between citys: 31  10
+computing the distance between citys: 10  39
+cmputing over
+the problem is 0
+computing cost
+the solution is24 17 26 6 50 4 41 48 29 21 28 37 46 9 12 18 2 5 11 22 43 7 8 34 31 39 27 10 23 1 30 40 45 13 36 38 16 35 33 3 14 32 44 47 25 20 42 49 19 15 
+
+computing the distance between citys: 24  17
+computing the distance between citys: 17  26
+computing the distance between citys: 26  6
+computing the distance between citys: 6  50
+computing the distance between citys: 50  4
+computing the distance between citys: 4  41
+computing the distance between citys: 41  48
+computing the distance between citys: 48  29
+computing the distance between citys: 29  21
+computing the distance between citys: 21  28
+computing the distance between citys: 28  37
+computing the distance between citys: 37  46
+computing the distance between citys: 46  9
+computing the distance between citys: 9  12
+computing the distance between citys: 12  18
+computing the distance between citys: 18  2
+computing the distance between citys: 2  5
+computing the distance between citys: 5  11
+computing the distance between citys: 11  22
+computing the distance between citys: 22  43
+computing the distance between citys: 43  7
+computing the distance between citys: 7  8
+computing the distance between citys: 8  34
+computing the distance between citys: 34  31
+computing the distance between citys: 31  39
+computing the distance between citys: 39  27
+computing the distance between citys: 27  10
+computing the distance between citys: 10  23
+computing the distance between citys: 23  1
+computing the distance between citys: 1  30
+computing the distance between citys: 30  40
+computing the distance between citys: 40  45
+computing the distance between citys: 45  13
+computing the distance between citys: 13  36
+computing the distance between citys: 36  38
+computing the distance between citys: 38  16
+computing the distance between citys: 16  35
+computing the distance between citys: 35  33
+computing the distance between citys: 33  3
+computing the distance between citys: 3  14
+computing the distance between citys: 14  32
+computing the distance between citys: 32  44
+computing the distance between citys: 44  47
+computing the distance between citys: 47  25
+computing the distance between citys: 25  20
+computing the distance between citys: 20  42
+computing the distance between citys: 42  49
+computing the distance between citys: 49  19
+computing the distance between citys: 19  15
+computing the distance between citys: 15  24
+cmputing over
+the problem is 1
+computing cost
+the solution is3 41 16 50 35 32 2 13 11 43 10 18 31 17 14 23 44 26 46 21 9 4 48 49 38 12 40 36 15 24 5 45 34 22 19 1 20 42 29 7 8 30 37 28 33 39 6 25 27 47 
+
+computing the distance between citys: 3  41
+computing the distance between citys: 41  16
+computing the distance between citys: 16  50
+computing the distance between citys: 50  35
+computing the distance between citys: 35  32
+computing the distance between citys: 32  2
+computing the distance between citys: 2  13
+computing the distance between citys: 13  11
+computing the distance between citys: 11  43
+computing the distance between citys: 43  10
+computing the distance between citys: 10  18
+computing the distance between citys: 18  31
+computing the distance between citys: 31  17
+computing the distance between citys: 17  14
+computing the distance between citys: 14  23
+computing the distance between citys: 23  44
+computing the distance between citys: 44  26
+computing the distance between citys: 26  46
+computing the distance between citys: 46  21
+computing the distance between citys: 21  9
+computing the distance between citys: 9  4
+computing the distance between citys: 4  48
+computing the distance between citys: 48  49
+computing the distance between citys: 49  38
+computing the distance between citys: 38  12
+computing the distance between citys: 12  40
+computing the distance between citys: 40  36
+computing the distance between citys: 36  15
+computing the distance between citys: 15  24
+computing the distance between citys: 24  5
+computing the distance between citys: 5  45
+computing the distance between citys: 45  34
+computing the distance between citys: 34  22
+computing the distance between citys: 22  19
+computing the distance between citys: 19  1
+computing the distance between citys: 1  20
+computing the distance between citys: 20  42
+computing the distance between citys: 42  29
+computing the distance between citys: 29  7
+computing the distance between citys: 7  8
+computing the distance between citys: 8  30
+computing the distance between citys: 30  37
+computing the distance between citys: 37  28
+computing the distance between citys: 28  33
+computing the distance between citys: 33  39
+computing the distance between citys: 39  6
+computing the distance between citys: 6  25
+computing the distance between citys: 25  27
+computing the distance between citys: 27  47
+computing the distance between citys: 47  3
+cmputing over
+the problem is 1
+computing cost
+the solution is4 17 13 22 2 26 8 33 7 37 28 16 9 19 46 49 36 6 44 47 42 45 15 43 35 32 3 31 20 14 10 12 18 24 38 21 27 48 30 41 40 34 29 25 5 1 39 23 50 11 
+
+computing the distance between citys: 4  17
+computing the distance between citys: 17  13
+computing the distance between citys: 13  22
+computing the distance between citys: 22  2
+computing the distance between citys: 2  26
+computing the distance between citys: 26  8
+computing the distance between citys: 8  33
+computing the distance between citys: 33  7
+computing the distance between citys: 7  37
+computing the distance between citys: 37  28
+computing the distance between citys: 28  16
+computing the distance between citys: 16  9
+computing the distance between citys: 9  19
+computing the distance between citys: 19  46
+computing the distance between citys: 46  49
+computing the distance between citys: 49  36
+computing the distance between citys: 36  6
+computing the distance between citys: 6  44
+computing the distance between citys: 44  47
+computing the distance between citys: 47  42
+computing the distance between citys: 42  45
+computing the distance between citys: 45  15
+computing the distance between citys: 15  43
+computing the distance between citys: 43  35
+computing the distance between citys: 35  32
+computing the distance between citys: 32  3
+computing the distance between citys: 3  31
+computing the distance between citys: 31  20
+computing the distance between citys: 20  14
+computing the distance between citys: 14  10
+computing the distance between citys: 10  12
+computing the distance between citys: 12  18
+computing the distance between citys: 18  24
+computing the distance between citys: 24  38
+computing the distance between citys: 38  21
+computing the distance between citys: 21  27
+computing the distance between citys: 27  48
+computing the distance between citys: 48  30
+computing the distance between citys: 30  41
+computing the distance between citys: 41  40
+computing the distance between citys: 40  34
+computing the distance between citys: 34  29
+computing the distance between citys: 29  25
+computing the distance between citys: 25  5
+computing the distance between citys: 5  1
+computing the distance between citys: 1  39
+computing the distance between citys: 39  23
+computing the distance between citys: 23  50
+computing the distance between citys: 50  11
+computing the distance between citys: 11  4
+cmputing over
+the problem is 2
+computing cost
+the solution is31 6 1 17 37 34 14 27 13 19 28 12 7 50 46 47 42 15 26 2 23 4 29 40 48 35 8 3 10 5 11 24 32 41 22 16 30 25 18 49 9 45 38 44 33 39 36 20 21 43 
+
+computing the distance between citys: 31  6
+computing the distance between citys: 6  1
+computing the distance between citys: 1  17
+computing the distance between citys: 17  37
+computing the distance between citys: 37  34
+computing the distance between citys: 34  14
+computing the distance between citys: 14  27
+computing the distance between citys: 27  13
+computing the distance between citys: 13  19
+computing the distance between citys: 19  28
+computing the distance between citys: 28  12
+computing the distance between citys: 12  7
+computing the distance between citys: 7  50
+computing the distance between citys: 50  46
+computing the distance between citys: 46  47
+computing the distance between citys: 47  42
+computing the distance between citys: 42  15
+computing the distance between citys: 15  26
+computing the distance between citys: 26  2
+computing the distance between citys: 2  23
+computing the distance between citys: 23  4
+computing the distance between citys: 4  29
+computing the distance between citys: 29  40
+computing the distance between citys: 40  48
+computing the distance between citys: 48  35
+computing the distance between citys: 35  8
+computing the distance between citys: 8  3
+computing the distance between citys: 3  10
+computing the distance between citys: 10  5
+computing the distance between citys: 5  11
+computing the distance between citys: 11  24
+computing the distance between citys: 24  32
+computing the distance between citys: 32  41
+computing the distance between citys: 41  22
+computing the distance between citys: 22  16
+computing the distance between citys: 16  30
+computing the distance between citys: 30  25
+computing the distance between citys: 25  18
+computing the distance between citys: 18  49
+computing the distance between citys: 49  9
+computing the distance between citys: 9  45
+computing the distance between citys: 45  38
+computing the distance between citys: 38  44
+computing the distance between citys: 44  33
+computing the distance between citys: 33  39
+computing the distance between citys: 39  36
+computing the distance between citys: 36  20
+computing the distance between citys: 20  21
+computing the distance between citys: 21  43
+computing the distance between citys: 43  31
+cmputing over
+lowLeval GA  Generations : 1
+the best individual is: 
+chromosome:  3 41 16 50 35 32 2 13 11 43 10 18 31 17 14 23 44 26 46 21 9 4 48 49 38 12 40 36 15 24 5 45 34 22 19 1 20 42 29 7 8 30 37 28 33 39 6 25 27 47 
+fitness:  :8373.32
+
+ the other individual are as fellows 
+chromosome:  39 1 14 43 25 44 15 35 38 24 13 33 5 8 34 37 41 32 36 22 26 12 9 40 45 28 49 47 18 7 30 50 16 20 48 23 3 6 2 4 27 11 17 19 21 29 46 42 31 10 
+fitness:  :7239.68
+
+chromosome:  24 17 26 6 50 4 41 48 29 21 28 37 46 9 12 18 2 5 11 22 43 7 8 34 31 39 27 10 23 1 30 40 45 13 36 38 16 35 33 3 14 32 44 47 25 20 42 49 19 15 
+fitness:  :6791.88
+
+chromosome:  3 41 16 50 35 32 2 13 11 43 10 18 31 17 14 23 44 26 46 21 9 4 48 49 38 12 40 36 15 24 5 45 34 22 19 1 20 42 29 7 8 30 37 28 33 39 6 25 27 47 
+fitness:  :8373.32
+
+chromosome:  4 17 13 22 2 26 8 33 7 37 28 16 9 19 46 49 36 6 44 47 42 45 15 43 35 32 3 31 20 14 10 12 18 24 38 21 27 48 30 41 40 34 29 25 5 1 39 23 50 11 
+fitness:  :7615.83
+
+chromosome:  31 6 1 17 37 34 14 27 13 19 28 12 7 50 46 47 42 15 26 2 23 4 29 40 48 35 8 3 10 5 11 24 32 41 22 16 30 25 18 49 9 45 38 44 33 39 36 20 21 43 
+fitness:  :7428.14
+
+
+the problem is 2
+computing cost
+the solution is39 1 14 43 25 44 15 35 38 24 13 33 5 8 34 37 41 32 36 22 26 12 9 40 45 28 49 47 18 7 30 50 16 20 48 23 3 6 2 4 27 11 17 19 21 29 46 42 31 10 
+
+computing the distance between citys: 39  1
+computing the distance between citys: 1  14
+computing the distance between citys: 14  43
+computing the distance between citys: 43  25
+computing the distance between citys: 25  44
+computing the distance between citys: 44  15
+computing the distance between citys: 15  35
+computing the distance between citys: 35  38
+computing the distance between citys: 38  24
+computing the distance between citys: 24  13
+computing the distance between citys: 13  33
+computing the distance between citys: 33  5
+computing the distance between citys: 5  8
+computing the distance between citys: 8  34
+computing the distance between citys: 34  37
+computing the distance between citys: 37  41
+computing the distance between citys: 41  32
+computing the distance between citys: 32  36
+computing the distance between citys: 36  22
+computing the distance between citys: 22  26
+computing the distance between citys: 26  12
+computing the distance between citys: 12  9
+computing the distance between citys: 9  40
+computing the distance between citys: 40  45
+computing the distance between citys: 45  28
+computing the distance between citys: 28  49
+computing the distance between citys: 49  47
+computing the distance between citys: 47  18
+computing the distance between citys: 18  7
+computing the distance between citys: 7  30
+computing the distance between citys: 30  50
+computing the distance between citys: 50  16
+computing the distance between citys: 16  20
+computing the distance between citys: 20  48
+computing the distance between citys: 48  23
+computing the distance between citys: 23  3
+computing the distance between citys: 3  6
+computing the distance between citys: 6  2
+computing the distance between citys: 2  4
+computing the distance between citys: 4  27
+computing the distance between citys: 27  11
+computing the distance between citys: 11  17
+computing the distance between citys: 17  19
+computing the distance between citys: 19  21
+computing the distance between citys: 21  29
+computing the distance between citys: 29  46
+computing the distance between citys: 46  42
+computing the distance between citys: 42  31
+computing the distance between citys: 31  10
+computing the distance between citys: 10  39
+cmputing over
+the problem is 3
+computing cost
+the solution is24 17 26 6 50 4 41 48 29 21 28 37 46 9 12 18 2 5 11 22 43 7 8 34 31 39 27 10 23 1 30 40 45 13 36 38 16 35 33 3 14 32 44 47 25 20 42 49 19 15 
+
+computing the distance between citys: 24  17
+computing the distance between citys: 17  26
+computing the distance between citys: 26  6
+computing the distance between citys: 6  50
+computing the distance between citys: 50  4
+computing the distance between citys: 4  41
+computing the distance between citys: 41  48
+computing the distance between citys: 48  29
+computing the distance between citys: 29  21
+computing the distance between citys: 21  28
+computing the distance between citys: 28  37
+computing the distance between citys: 37  46
+computing the distance between citys: 46  9
+computing the distance between citys: 9  12
+computing the distance between citys: 12  18
+computing the distance between citys: 18  2
+computing the distance between citys: 2  5
+computing the distance between citys: 5  11
+computing the distance between citys: 11  22
+computing the distance between citys: 22  43
+computing the distance between citys: 43  7
+computing the distance between citys: 7  8
+computing the distance between citys: 8  34
+computing the distance between citys: 34  31
+computing the distance between citys: 31  39
+computing the distance between citys: 39  27
+computing the distance between citys: 27  10
+computing the distance between citys: 10  23
+computing the distance between citys: 23  1
+computing the distance between citys: 1  30
+computing the distance between citys: 30  40
+computing the distance between citys: 40  45
+computing the distance between citys: 45  13
+computing the distance between citys: 13  36
+computing the distance between citys: 36  38
+computing the distance between citys: 38  16
+computing the distance between citys: 16  35
+computing the distance between citys: 35  33
+computing the distance between citys: 33  3
+computing the distance between citys: 3  14
+computing the distance between citys: 14  32
+computing the distance between citys: 32  44
+computing the distance between citys: 44  47
+computing the distance between citys: 47  25
+computing the distance between citys: 25  20
+computing the distance between citys: 20  42
+computing the distance between citys: 42  49
+computing the distance between citys: 49  19
+computing the distance between citys: 19  15
+computing the distance between citys: 15  24
+cmputing over
+the problem is 3
+computing cost
+the solution is3 41 16 50 35 32 2 13 11 43 10 18 31 17 14 23 44 26 46 21 9 4 48 49 38 12 40 36 15 24 5 45 34 22 19 1 20 42 29 7 8 30 37 28 33 39 6 25 27 47 
+
+computing the distance between citys: 3  41
+computing the distance between citys: 41  16
+computing the distance between citys: 16  50
+computing the distance between citys: 50  35
+computing the distance between citys: 35  32
+computing the distance between citys: 32  2
+computing the distance between citys: 2  13
+computing the distance between citys: 13  11
+computing the distance between citys: 11  43
+computing the distance between citys: 43  10
+computing the distance between citys: 10  18
+computing the distance between citys: 18  31
+computing the distance between citys: 31  17
+computing the distance between citys: 17  14
+computing the distance between citys: 14  23
+computing the distance between citys: 23  44
+computing the distance between citys: 44  26
+computing the distance between citys: 26  46
+computing the distance between citys: 46  21
+computing the distance between citys: 21  9
+computing the distance between citys: 9  4
+computing the distance between citys: 4  48
+computing the distance between citys: 48  49
+computing the distance between citys: 49  38
+computing the distance between citys: 38  12
+computing the distance between citys: 12  40
+computing the distance between citys: 40  36
+computing the distance between citys: 36  15
+computing the distance between citys: 15  24
+computing the distance between citys: 24  5
+computing the distance between citys: 5  45
+computing the distance between citys: 45  34
+computing the distance between citys: 34  22
+computing the distance between citys: 22  19
+computing the distance between citys: 19  1
+computing the distance between citys: 1  20
+computing the distance between citys: 20  42
+computing the distance between citys: 42  29
+computing the distance between citys: 29  7
+computing the distance between citys: 7  8
+computing the distance between citys: 8  30
+computing the distance between citys: 30  37
+computing the distance between citys: 37  28
+computing the distance between citys: 28  33
+computing the distance between citys: 33  39
+computing the distance between citys: 39  6
+computing the distance between citys: 6  25
+computing the distance between citys: 25  27
+computing the distance between citys: 27  47
+computing the distance between citys: 47  3
+cmputing over
+the problem is 4
+computing cost
+the solution is4 17 13 22 2 26 8 33 7 37 28 16 9 19 46 49 36 6 44 47 42 45 15 43 35 32 3 31 20 14 10 12 18 24 38 21 27 48 30 41 40 34 29 25 5 1 39 23 50 11 
+
+computing the distance between citys: 4  17
+computing the distance between citys: 17  13
+computing the distance between citys: 13  22
+computing the distance between citys: 22  2
+computing the distance between citys: 2  26
+computing the distance between citys: 26  8
+computing the distance between citys: 8  33
+computing the distance between citys: 33  7
+computing the distance between citys: 7  37
+computing the distance between citys: 37  28
+computing the distance between citys: 28  16
+computing the distance between citys: 16  9
+computing the distance between citys: 9  19
+computing the distance between citys: 19  46
+computing the distance between citys: 46  49
+computing the distance between citys: 49  36
+computing the distance between citys: 36  6
+computing the distance between citys: 6  44
+computing the distance between citys: 44  47
+computing the distance between citys: 47  42
+computing the distance between citys: 42  45
+computing the distance between citys: 45  15
+computing the distance between citys: 15  43
+computing the distance between citys: 43  35
+computing the distance between citys: 35  32
+computing the distance between citys: 32  3
+computing the distance between citys: 3  31
+computing the distance between citys: 31  20
+computing the distance between citys: 20  14
+computing the distance between citys: 14  10
+computing the distance between citys: 10  12
+computing the distance between citys: 12  18
+computing the distance between citys: 18  24
+computing the distance between citys: 24  38
+computing the distance between citys: 38  21
+computing the distance between citys: 21  27
+computing the distance between citys: 27  48
+computing the distance between citys: 48  30
+computing the distance between citys: 30  41
+computing the distance between citys: 41  40
+computing the distance between citys: 40  34
+computing the distance between citys: 34  29
+computing the distance between citys: 29  25
+computing the distance between citys: 25  5
+computing the distance between citys: 5  1
+computing the distance between citys: 1  39
+computing the distance between citys: 39  23
+computing the distance between citys: 23  50
+computing the distance between citys: 50  11
+computing the distance between citys: 11  4
+cmputing over
+the problem is 4
+computing cost
+the solution is31 6 1 17 37 34 14 27 13 19 28 12 7 50 46 47 42 15 26 2 23 4 29 40 48 35 8 3 10 5 11 24 32 41 22 16 30 25 18 49 9 45 38 44 33 39 36 20 21 43 
+
+computing the distance between citys: 31  6
+computing the distance between citys: 6  1
+computing the distance between citys: 1  17
+computing the distance between citys: 17  37
+computing the distance between citys: 37  34
+computing the distance between citys: 34  14
+computing the distance between citys: 14  27
+computing the distance between citys: 27  13
+computing the distance between citys: 13  19
+computing the distance between citys: 19  28
+computing the distance between citys: 28  12
+computing the distance between citys: 12  7
+computing the distance between citys: 7  50
+computing the distance between citys: 50  46
+computing the distance between citys: 46  47
+computing the distance between citys: 47  42
+computing the distance between citys: 42  15
+computing the distance between citys: 15  26
+computing the distance between citys: 26  2
+computing the distance between citys: 2  23
+computing the distance between citys: 23  4
+computing the distance between citys: 4  29
+computing the distance between citys: 29  40
+computing the distance between citys: 40  48
+computing the distance between citys: 48  35
+computing the distance between citys: 35  8
+computing the distance between citys: 8  3
+computing the distance between citys: 3  10
+computing the distance between citys: 10  5
+computing the distance between citys: 5  11
+computing the distance between citys: 11  24
+computing the distance between citys: 24  32
+computing the distance between citys: 32  41
+computing the distance between citys: 41  22
+computing the distance between citys: 22  16
+computing the distance between citys: 16  30
+computing the distance between citys: 30  25
+computing the distance between citys: 25  18
+computing the distance between citys: 18  49
+computing the distance between citys: 49  9
+computing the distance between citys: 9  45
+computing the distance between citys: 45  38
+computing the distance between citys: 38  44
+computing the distance between citys: 44  33
+computing the distance between citys: 33  39
+computing the distance between citys: 39  36
+computing the distance between citys: 36  20
+computing the distance between citys: 20  21
+computing the distance between citys: 21  43
+computing the distance between citys: 43  31
+cmputing over
+lowLeval GA  Generations : 2
+the best individual is: 
+chromosome:  3 41 16 50 35 32 2 13 11 43 10 18 31 17 14 23 44 26 46 21 9 4 48 49 38 12 40 36 15 24 5 45 34 22 19 1 20 42 29 7 8 30 37 28 33 39 6 25 27 47 
+fitness:  :7993.74
+
+ the other individual are as fellows 
+chromosome:  39 1 14 43 25 44 15 35 38 24 13 33 5 8 34 37 41 32 36 22 26 12 9 40 45 28 49 47 18 7 30 50 16 20 48 23 3 6 2 4 27 11 17 19 21 29 46 42 31 10 
+fitness:  :7738.45
+
+chromosome:  24 17 26 6 50 4 41 48 29 21 28 37 46 9 12 18 2 5 11 22 43 7 8 34 31 39 27 10 23 1 30 40 45 13 36 38 16 35 33 3 14 32 44 47 25 20 42 49 19 15 
+fitness:  :7066.11
+
+chromosome:  3 41 16 50 35 32 2 13 11 43 10 18 31 17 14 23 44 26 46 21 9 4 48 49 38 12 40 36 15 24 5 45 34 22 19 1 20 42 29 7 8 30 37 28 33 39 6 25 27 47 
+fitness:  :7993.74
+
+chromosome:  4 17 13 22 2 26 8 33 7 37 28 16 9 19 46 49 36 6 44 47 42 45 15 43 35 32 3 31 20 14 10 12 18 24 38 21 27 48 30 41 40 34 29 25 5 1 39 23 50 11 
+fitness:  :6847.55
+
+chromosome:  31 6 1 17 37 34 14 27 13 19 28 12 7 50 46 47 42 15 26 2 23 4 29 40 48 35 8 3 10 5 11 24 32 41 22 16 30 25 18 49 9 45 38 44 33 39 36 20 21 43 
+fitness:  :7189.53
+
+
+initialize individual with no parameter   High Level
+initialize individual with no parameter   High Level
+the problem is 5
+computing cost
+the solution is39 1 14 43 25 44 15 35 38 24 13 33 5 8 34 37 41 32 36 22 26 12 9 40 45 28 49 47 18 7 30 50 16 20 48 23 3 6 2 4 27 11 17 19 21 29 46 42 31 10 
+
+computing the distance between citys: 39  1
+computing the distance between citys: 1  14
+computing the distance between citys: 14  43
+computing the distance between citys: 43  25
+computing the distance between citys: 25  44
+computing the distance between citys: 44  15
+computing the distance between citys: 15  35
+computing the distance between citys: 35  38
+computing the distance between citys: 38  24
+computing the distance between citys: 24  13
+computing the distance between citys: 13  33
+computing the distance between citys: 33  5
+computing the distance between citys: 5  8
+computing the distance between citys: 8  34
+computing the distance between citys: 34  37
+computing the distance between citys: 37  41
+computing the distance between citys: 41  32
+computing the distance between citys: 32  36
+computing the distance between citys: 36  22
+computing the distance between citys: 22  26
+computing the distance between citys: 26  12
+computing the distance between citys: 12  9
+computing the distance between citys: 9  40
+computing the distance between citys: 40  45
+computing the distance between citys: 45  28
+computing the distance between citys: 28  49
+computing the distance between citys: 49  47
+computing the distance between citys: 47  18
+computing the distance between citys: 18  7
+computing the distance between citys: 7  30
+computing the distance between citys: 30  50
+computing the distance between citys: 50  16
+computing the distance between citys: 16  20
+computing the distance between citys: 20  48
+computing the distance between citys: 48  23
+computing the distance between citys: 23  3
+computing the distance between citys: 3  6
+computing the distance between citys: 6  2
+computing the distance between citys: 2  4
+computing the distance between citys: 4  27
+computing the distance between citys: 27  11
+computing the distance between citys: 11  17
+computing the distance between citys: 17  19
+computing the distance between citys: 19  21
+computing the distance between citys: 21  29
+computing the distance between citys: 29  46
+computing the distance between citys: 46  42
+computing the distance between citys: 42  31
+computing the distance between citys: 31  10
+computing the distance between citys: 10  39
+cmputing over
+the problem is 5
+computing cost
+the solution is24 17 26 6 50 4 41 48 29 21 28 37 46 9 12 18 2 5 11 22 43 7 8 34 31 39 27 10 23 1 30 40 45 13 36 38 16 35 33 3 14 32 44 47 25 20 42 49 19 15 
+
+computing the distance between citys: 24  17
+computing the distance between citys: 17  26
+computing the distance between citys: 26  6
+computing the distance between citys: 6  50
+computing the distance between citys: 50  4
+computing the distance between citys: 4  41
+computing the distance between citys: 41  48
+computing the distance between citys: 48  29
+computing the distance between citys: 29  21
+computing the distance between citys: 21  28
+computing the distance between citys: 28  37
+computing the distance between citys: 37  46
+computing the distance between citys: 46  9
+computing the distance between citys: 9  12
+computing the distance between citys: 12  18
+computing the distance between citys: 18  2
+computing the distance between citys: 2  5
+computing the distance between citys: 5  11
+computing the distance between citys: 11  22
+computing the distance between citys: 22  43
+computing the distance between citys: 43  7
+computing the distance between citys: 7  8
+computing the distance between citys: 8  34
+computing the distance between citys: 34  31
+computing the distance between citys: 31  39
+computing the distance between citys: 39  27
+computing the distance between citys: 27  10
+computing the distance between citys: 10  23
+computing the distance between citys: 23  1
+computing the distance between citys: 1  30
+computing the distance between citys: 30  40
+computing the distance between citys: 40  45
+computing the distance between citys: 45  13
+computing the distance between citys: 13  36
+computing the distance between citys: 36  38
+computing the distance between citys: 38  16
+computing the distance between citys: 16  35
+computing the distance between citys: 35  33
+computing the distance between citys: 33  3
+computing the distance between citys: 3  14
+computing the distance between citys: 14  32
+computing the distance between citys: 32  44
+computing the distance between citys: 44  47
+computing the distance between citys: 47  25
+computing the distance between citys: 25  20
+computing the distance between citys: 20  42
+computing the distance between citys: 42  49
+computing the distance between citys: 49  19
+computing the distance between citys: 19  15
+computing the distance between citys: 15  24
+cmputing over
+the problem is 6
+computing cost
+the solution is3 41 16 50 35 32 2 13 11 43 10 18 31 17 14 23 44 26 46 21 9 4 48 49 38 12 40 36 15 24 5 45 34 22 19 1 20 42 29 7 8 30 37 28 33 39 6 25 27 47 
+
+computing the distance between citys: 3  41
+computing the distance between citys: 41  16
+computing the distance between citys: 16  50
+computing the distance between citys: 50  35
+computing the distance between citys: 35  32
+computing the distance between citys: 32  2
+computing the distance between citys: 2  13
+computing the distance between citys: 13  11
+computing the distance between citys: 11  43
+computing the distance between citys: 43  10
+computing the distance between citys: 10  18
+computing the distance between citys: 18  31
+computing the distance between citys: 31  17
+computing the distance between citys: 17  14
+computing the distance between citys: 14  23
+computing the distance between citys: 23  44
+computing the distance between citys: 44  26
+computing the distance between citys: 26  46
+computing the distance between citys: 46  21
+computing the distance between citys: 21  9
+computing the distance between citys: 9  4
+computing the distance between citys: 4  48
+computing the distance between citys: 48  49
+computing the distance between citys: 49  38
+computing the distance between citys: 38  12
+computing the distance between citys: 12  40
+computing the distance between citys: 40  36
+computing the distance between citys: 36  15
+computing the distance between citys: 15  24
+computing the distance between citys: 24  5
+computing the distance between citys: 5  45
+computing the distance between citys: 45  34
+computing the distance between citys: 34  22
+computing the distance between citys: 22  19
+computing the distance between citys: 19  1
+computing the distance between citys: 1  20
+computing the distance between citys: 20  42
+computing the distance between citys: 42  29
+computing the distance between citys: 29  7
+computing the distance between citys: 7  8
+computing the distance between citys: 8  30
+computing the distance between citys: 30  37
+computing the distance between citys: 37  28
+computing the distance between citys: 28  33
+computing the distance between citys: 33  39
+computing the distance between citys: 39  6
+computing the distance between citys: 6  25
+computing the distance between citys: 25  27
+computing the distance between citys: 27  47
+computing the distance between citys: 47  3
+cmputing over
+the problem is 6
+computing cost
+the solution is4 17 13 22 2 26 8 33 7 37 28 16 9 19 46 49 36 6 44 47 42 45 15 43 35 32 3 31 20 14 10 12 18 24 38 21 27 48 30 41 40 34 29 25 5 1 39 23 50 11 
+
+computing the distance between citys: 4  17
+computing the distance between citys: 17  13
+computing the distance between citys: 13  22
+computing the distance between citys: 22  2
+computing the distance between citys: 2  26
+computing the distance between citys: 26  8
+computing the distance between citys: 8  33
+computing the distance between citys: 33  7
+computing the distance between citys: 7  37
+computing the distance between citys: 37  28
+computing the distance between citys: 28  16
+computing the distance between citys: 16  9
+computing the distance between citys: 9  19
+computing the distance between citys: 19  46
+computing the distance between citys: 46  49
+computing the distance between citys: 49  36
+computing the distance between citys: 36  6
+computing the distance between citys: 6  44
+computing the distance between citys: 44  47
+computing the distance between citys: 47  42
+computing the distance between citys: 42  45
+computing the distance between citys: 45  15
+computing the distance between citys: 15  43
+computing the distance between citys: 43  35
+computing the distance between citys: 35  32
+computing the distance between citys: 32  3
+computing the distance between citys: 3  31
+computing the distance between citys: 31  20
+computing the distance between citys: 20  14
+computing the distance between citys: 14  10
+computing the distance between citys: 10  12
+computing the distance between citys: 12  18
+computing the distance between citys: 18  24
+computing the distance between citys: 24  38
+computing the distance between citys: 38  21
+computing the distance between citys: 21  27
+computing the distance between citys: 27  48
+computing the distance between citys: 48  30
+computing the distance between citys: 30  41
+computing the distance between citys: 41  40
+computing the distance between citys: 40  34
+computing the distance between citys: 34  29
+computing the distance between citys: 29  25
+computing the distance between citys: 25  5
+computing the distance between citys: 5  1
+computing the distance between citys: 1  39
+computing the distance between citys: 39  23
+computing the distance between citys: 23  50
+computing the distance between citys: 50  11
+computing the distance between citys: 11  4
+cmputing over
+the problem is 7
+computing cost
+the solution is31 6 1 17 37 34 14 27 13 19 28 12 7 50 46 47 42 15 26 2 23 4 29 40 48 35 8 3 10 5 11 24 32 41 22 16 30 25 18 49 9 45 38 44 33 39 36 20 21 43 
+
+computing the distance between citys: 31  6
+computing the distance between citys: 6  1
+computing the distance between citys: 1  17
+computing the distance between citys: 17  37
+computing the distance between citys: 37  34
+computing the distance between citys: 34  14
+computing the distance between citys: 14  27
+computing the distance between citys: 27  13
+computing the distance between citys: 13  19
+computing the distance between citys: 19  28
+computing the distance between citys: 28  12
+computing the distance between citys: 12  7
+computing the distance between citys: 7  50
+computing the distance between citys: 50  46
+computing the distance between citys: 46  47
+computing the distance between citys: 47  42
+computing the distance between citys: 42  15
+computing the distance between citys: 15  26
+computing the distance between citys: 26  2
+computing the distance between citys: 2  23
+computing the distance between citys: 23  4
+computing the distance between citys: 4  29
+computing the distance between citys: 29  40
+computing the distance between citys: 40  48
+computing the distance between citys: 48  35
+computing the distance between citys: 35  8
+computing the distance between citys: 8  3
+computing the distance between citys: 3  10
+computing the distance between citys: 10  5
+computing the distance between citys: 5  11
+computing the distance between citys: 11  24
+computing the distance between citys: 24  32
+computing the distance between citys: 32  41
+computing the distance between citys: 41  22
+computing the distance between citys: 22  16
+computing the distance between citys: 16  30
+computing the distance between citys: 30  25
+computing the distance between citys: 25  18
+computing the distance between citys: 18  49
+computing the distance between citys: 49  9
+computing the distance between citys: 9  45
+computing the distance between citys: 45  38
+computing the distance between citys: 38  44
+computing the distance between citys: 44  33
+computing the distance between citys: 33  39
+computing the distance between citys: 39  36
+computing the distance between citys: 36  20
+computing the distance between citys: 20  21
+computing the distance between citys: 21  43
+computing the distance between citys: 43  31
+cmputing over
+lowLeval GA  Generations : 3
+the best individual is: 
+chromosome:  3 41 16 50 35 32 2 13 11 43 10 18 31 17 14 23 44 26 46 21 9 4 48 49 38 12 40 36 15 24 5 45 34 22 19 1 20 42 29 7 8 30 37 28 33 39 6 25 27 47 
+fitness:  :7941.59
+
+ the other individual are as fellows 
+chromosome:  39 1 14 43 25 44 15 35 38 24 13 33 5 8 34 37 41 32 36 22 26 12 9 40 45 28 49 47 18 7 30 50 16 20 48 23 3 6 2 4 27 11 17 19 21 29 46 42 31 10 
+fitness:  :7645.24
+
+chromosome:  24 17 26 6 50 4 41 48 29 21 28 37 46 9 12 18 2 5 11 22 43 7 8 34 31 39 27 10 23 1 30 40 45 13 36 38 16 35 33 3 14 32 44 47 25 20 42 49 19 15 
+fitness:  :7605.45
+
+chromosome:  3 41 16 50 35 32 2 13 11 43 10 18 31 17 14 23 44 26 46 21 9 4 48 49 38 12 40 36 15 24 5 45 34 22 19 1 20 42 29 7 8 30 37 28 33 39 6 25 27 47 
+fitness:  :7941.59
+
+chromosome:  4 17 13 22 2 26 8 33 7 37 28 16 9 19 46 49 36 6 44 47 42 45 15 43 35 32 3 31 20 14 10 12 18 24 38 21 27 48 30 41 40 34 29 25 5 1 39 23 50 11 
+fitness:  :7018.23
+
+chromosome:  31 6 1 17 37 34 14 27 13 19 28 12 7 50 46 47 42 15 26 2 23 4 29 40 48 35 8 3 10 5 11 24 32 41 22 16 30 25 18 49 9 45 38 44 33 39 36 20 21 43 
+fitness:  :7459.07
+
+
+the problem is 7
+computing cost
+the solution is39 1 14 43 25 44 15 35 38 24 13 33 5 8 34 37 41 32 36 22 26 12 9 40 45 28 49 47 18 7 30 50 16 20 48 23 3 6 2 4 27 11 17 19 21 29 46 42 31 10 
+
+computing the distance between citys: 39  1
+computing the distance between citys: 1  14
+computing the distance between citys: 14  43
+computing the distance between citys: 43  25
+computing the distance between citys: 25  44
+computing the distance between citys: 44  15
+computing the distance between citys: 15  35
+computing the distance between citys: 35  38
+computing the distance between citys: 38  24
+computing the distance between citys: 24  13
+computing the distance between citys: 13  33
+computing the distance between citys: 33  5
+computing the distance between citys: 5  8
+computing the distance between citys: 8  34
+computing the distance between citys: 34  37
+computing the distance between citys: 37  41
+computing the distance between citys: 41  32
+computing the distance between citys: 32  36
+computing the distance between citys: 36  22
+computing the distance between citys: 22  26
+computing the distance between citys: 26  12
+computing the distance between citys: 12  9
+computing the distance between citys: 9  40
+computing the distance between citys: 40  45
+computing the distance between citys: 45  28
+computing the distance between citys: 28  49
+computing the distance between citys: 49  47
+computing the distance between citys: 47  18
+computing the distance between citys: 18  7
+computing the distance between citys: 7  30
+computing the distance between citys: 30  50
+computing the distance between citys: 50  16
+computing the distance between citys: 16  20
+computing the distance between citys: 20  48
+computing the distance between citys: 48  23
+computing the distance between citys: 23  3
+computing the distance between citys: 3  6
+computing the distance between citys: 6  2
+computing the distance between citys: 2  4
+computing the distance between citys: 4  27
+computing the distance between citys: 27  11
+computing the distance between citys: 11  17
+computing the distance between citys: 17  19
+computing the distance between citys: 19  21
+computing the distance between citys: 21  29
+computing the distance between citys: 29  46
+computing the distance between citys: 46  42
+computing the distance between citys: 42  31
+computing the distance between citys: 31  10
+computing the distance between citys: 10  39
+cmputing over
+the problem is 8
+computing cost
+the solution is24 17 26 6 50 4 41 48 29 21 28 37 46 9 12 18 2 5 11 22 43 7 8 34 31 39 27 10 23 1 30 40 45 13 36 38 16 35 33 3 14 32 44 47 25 20 42 49 19 15 
+
+computing the distance between citys: 24  17
+computing the distance between citys: 17  26
+computing the distance between citys: 26  6
+computing the distance between citys: 6  50
+computing the distance between citys: 50  4
+computing the distance between citys: 4  41
+computing the distance between citys: 41  48
+computing the distance between citys: 48  29
+computing the distance between citys: 29  21
+computing the distance between citys: 21  28
+computing the distance between citys: 28  37
+computing the distance between citys: 37  46
+computing the distance between citys: 46  9
+computing the distance between citys: 9  12
+computing the distance between citys: 12  18
+computing the distance between citys: 18  2
+computing the distance between citys: 2  5
+computing the distance between citys: 5  11
+computing the distance between citys: 11  22
+computing the distance between citys: 22  43
+computing the distance between citys: 43  7
+computing the distance between citys: 7  8
+computing the distance between citys: 8  34
+computing the distance between citys: 34  31
+computing the distance between citys: 31  39
+computing the distance between citys: 39  27
+computing the distance between citys: 27  10
+computing the distance between citys: 10  23
+computing the distance between citys: 23  1
+computing the distance between citys: 1  30
+computing the distance between citys: 30  40
+computing the distance between citys: 40  45
+computing the distance between citys: 45  13
+computing the distance between citys: 13  36
+computing the distance between citys: 36  38
+computing the distance between citys: 38  16
+computing the distance between citys: 16  35
+computing the distance between citys: 35  33
+computing the distance between citys: 33  3
+computing the distance between citys: 3  14
+computing the distance between citys: 14  32
+computing the distance between citys: 32  44
+computing the distance between citys: 44  47
+computing the distance between citys: 47  25
+computing the distance between citys: 25  20
+computing the distance between citys: 20  42
+computing the distance between citys: 42  49
+computing the distance between citys: 49  19
+computing the distance between citys: 19  15
+computing the distance between citys: 15  24
+cmputing over
+the problem is 8
+computing cost
+the solution is3 41 16 50 35 32 2 13 11 43 10 18 31 17 14 23 44 26 46 21 9 4 48 49 38 12 40 36 15 24 5 45 34 22 19 1 20 42 29 7 8 30 37 28 33 39 6 25 27 47 
+
+computing the distance between citys: 3  41
+computing the distance between citys: 41  16
+computing the distance between citys: 16  50
+computing the distance between citys: 50  35
+computing the distance between citys: 35  32
+computing the distance between citys: 32  2
+computing the distance between citys: 2  13
+computing the distance between citys: 13  11
+computing the distance between citys: 11  43
+computing the distance between citys: 43  10
+computing the distance between citys: 10  18
+computing the distance between citys: 18  31
+computing the distance between citys: 31  17
+computing the distance between citys: 17  14
+computing the distance between citys: 14  23
+computing the distance between citys: 23  44
+computing the distance between citys: 44  26
+computing the distance between citys: 26  46
+computing the distance between citys: 46  21
+computing the distance between citys: 21  9
+computing the distance between citys: 9  4
+computing the distance between citys: 4  48
+computing the distance between citys: 48  49
+computing the distance between citys: 49  38
+computing the distance between citys: 38  12
+computing the distance between citys: 12  40
+computing the distance between citys: 40  36
+computing the distance between citys: 36  15
+computing the distance between citys: 15  24
+computing the distance between citys: 24  5
+computing the distance between citys: 5  45
+computing the distance between citys: 45  34
+computing the distance between citys: 34  22
+computing the distance between citys: 22  19
+computing the distance between citys: 19  1
+computing the distance between citys: 1  20
+computing the distance between citys: 20  42
+computing the distance between citys: 42  29
+computing the distance between citys: 29  7
+computing the distance between citys: 7  8
+computing the distance between citys: 8  30
+computing the distance between citys: 30  37
+computing the distance between citys: 37  28
+computing the distance between citys: 28  33
+computing the distance between citys: 33  39
+computing the distance between citys: 39  6
+computing the distance between citys: 6  25
+computing the distance between citys: 25  27
+computing the distance between citys: 27  47
+computing the distance between citys: 47  3
+cmputing over
+the problem is 9
+computing cost
+the solution is4 17 13 22 2 26 8 33 7 37 28 16 9 19 46 49 36 6 44 47 42 45 15 43 35 32 3 31 20 14 10 12 18 24 38 21 27 48 30 41 40 34 29 25 5 1 39 23 50 11 
+
+computing the distance between citys: 4  17
+computing the distance between citys: 17  13
+computing the distance between citys: 13  22
+computing the distance between citys: 22  2
+computing the distance between citys: 2  26
+computing the distance between citys: 26  8
+computing the distance between citys: 8  33
+computing the distance between citys: 33  7
+computing the distance between citys: 7  37
+computing the distance between citys: 37  28
+computing the distance between citys: 28  16
+computing the distance between citys: 16  9
+computing the distance between citys: 9  19
+computing the distance between citys: 19  46
+computing the distance between citys: 46  49
+computing the distance between citys: 49  36
+computing the distance between citys: 36  6
+computing the distance between citys: 6  44
+computing the distance between citys: 44  47
+computing the distance between citys: 47  42
+computing the distance between citys: 42  45
+computing the distance between citys: 45  15
+computing the distance between citys: 15  43
+computing the distance between citys: 43  35
+computing the distance between citys: 35  32
+computing the distance between citys: 32  3
+computing the distance between citys: 3  31
+computing the distance between citys: 31  20
+computing the distance between citys: 20  14
+computing the distance between citys: 14  10
+computing the distance between citys: 10  12
+computing the distance between citys: 12  18
+computing the distance between citys: 18  24
+computing the distance between citys: 24  38
+computing the distance between citys: 38  21
+computing the distance between citys: 21  27
+computing the distance between citys: 27  48
+computing the distance between citys: 48  30
+computing the distance between citys: 30  41
+computing the distance between citys: 41  40
+computing the distance between citys: 40  34
+computing the distance between citys: 34  29
+computing the distance between citys: 29  25
+computing the distance between citys: 25  5
+computing the distance between citys: 5  1
+computing the distance between citys: 1  39
+computing the distance between citys: 39  23
+computing the distance between citys: 23  50
+computing the distance between citys: 50  11
+computing the distance between citys: 11  4
+cmputing over
+the problem is 9
+computing cost
+the solution is31 6 1 17 37 34 14 27 13 19 28 12 7 50 46 47 42 15 26 2 23 4 29 40 48 35 8 3 10 5 11 24 32 41 22 16 30 25 18 49 9 45 38 44 33 39 36 20 21 43 
+
+computing the distance between citys: 31  6
+computing the distance between citys: 6  1
+computing the distance between citys: 1  17
+computing the distance between citys: 17  37
+computing the distance between citys: 37  34
+computing the distance between citys: 34  14
+computing the distance between citys: 14  27
+computing the distance between citys: 27  13
+computing the distance between citys: 13  19
+computing the distance between citys: 19  28
+computing the distance between citys: 28  12
+computing the distance between citys: 12  7
+computing the distance between citys: 7  50
+computing the distance between citys: 50  46
+computing the distance between citys: 46  47
+computing the distance between citys: 47  42
+computing the distance between citys: 42  15
+computing the distance between citys: 15  26
+computing the distance between citys: 26  2
+computing the distance between citys: 2  23
+computing the distance between citys: 23  4
+computing the distance between citys: 4  29
+computing the distance between citys: 29  40
+computing the distance between citys: 40  48
+computing the distance between citys: 48  35
+computing the distance between citys: 35  8
+computing the distance between citys: 8  3
+computing the distance between citys: 3  10
+computing the distance between citys: 10  5
+computing the distance between citys: 5  11
+computing the distance between citys: 11  24
+computing the distance between citys: 24  32
+computing the distance between citys: 32  41
+computing the distance between citys: 41  22
+computing the distance between citys: 22  16
+computing the distance between citys: 16  30
+computing the distance between citys: 30  25
+computing the distance between citys: 25  18
+computing the distance between citys: 18  49
+computing the distance between citys: 49  9
+computing the distance between citys: 9  45
+computing the distance between citys: 45  38
+computing the distance between citys: 38  44
+computing the distance between citys: 44  33
+computing the distance between citys: 33  39
+computing the distance between citys: 39  36
+computing the distance between citys: 36  20
+computing the distance between citys: 20  21
+computing the distance between citys: 21  43
+computing the distance between citys: 43  31
+cmputing over
+lowLeval GA  Generations : 4
+the best individual is: 
+chromosome:  3 41 16 50 35 32 2 13 11 43 10 18 31 17 14 23 44 26 46 21 9 4 48 49 38 12 40 36 15 24 5 45 34 22 19 1 20 42 29 7 8 30 37 28 33 39 6 25 27 47 
+fitness:  :8255.24
+
+ the other individual are as fellows 
+chromosome:  39 1 14 43 25 44 15 35 38 24 13 33 5 8 34 37 41 32 36 22 26 12 9 40 45 28 49 47 18 7 30 50 16 20 48 23 3 6 2 4 27 11 17 19 21 29 46 42 31 10 
+fitness:  :8240.54
+
+chromosome:  24 17 26 6 50 4 41 48 29 21 28 37 46 9 12 18 2 5 11 22 43 7 8 34 31 39 27 10 23 1 30 40 45 13 36 38 16 35 33 3 14 32 44 47 25 20 42 49 19 15 
+fitness:  :7267.38
+
+chromosome:  3 41 16 50 35 32 2 13 11 43 10 18 31 17 14 23 44 26 46 21 9 4 48 49 38 12 40 36 15 24 5 45 34 22 19 1 20 42 29 7 8 30 37 28 33 39 6 25 27 47 
+fitness:  :8255.24
+
+chromosome:  4 17 13 22 2 26 8 33 7 37 28 16 9 19 46 49 36 6 44 47 42 45 15 43 35 32 3 31 20 14 10 12 18 24 38 21 27 48 30 41 40 34 29 25 5 1 39 23 50 11 
+fitness:  :7727.24
+
+chromosome:  31 6 1 17 37 34 14 27 13 19 28 12 7 50 46 47 42 15 26 2 23 4 29 40 48 35 8 3 10 5 11 24 32 41 22 16 30 25 18 49 9 45 38 44 33 39 36 20 21 43 
+fitness:  :8044.18
+
+
+initialize individual with no parameter   High Level
+initialize individual with no parameter   High Level
+the problem is 10
+computing cost
+the solution is39 1 14 43 25 44 15 35 38 24 13 33 5 8 34 37 41 32 36 22 26 12 9 40 45 28 49 47 18 7 30 50 16 20 48 23 3 6 2 4 27 11 17 19 21 29 46 42 31 10 
+
+computing the distance between citys: 39  1
+computing the distance between citys: 1  14
+computing the distance between citys: 14  43
+computing the distance between citys: 43  25
+computing the distance between citys: 25  44
+computing the distance between citys: 44  15
+computing the distance between citys: 15  35
+computing the distance between citys: 35  38
+computing the distance between citys: 38  24
+computing the distance between citys: 24  13
+computing the distance between citys: 13  33
+computing the distance between citys: 33  5
+computing the distance between citys: 5  8
+computing the distance between citys: 8  34
+computing the distance between citys: 34  37
+computing the distance between citys: 37  41
+computing the distance between citys: 41  32
+computing the distance between citys: 32  36
+computing the distance between citys: 36  22
+computing the distance between citys: 22  26
+computing the distance between citys: 26  12
+computing the distance between citys: 12  9
+computing the distance between citys: 9  40
+computing the distance between citys: 40  45
+computing the distance between citys: 45  28
+computing the distance between citys: 28  49
+computing the distance between citys: 49  47
+computing the distance between citys: 47  18
+computing the distance between citys: 18  7
+computing the distance between citys: 7  30
+computing the distance between citys: 30  50
+computing the distance between citys: 50  16
+computing the distance between citys: 16  20
+computing the distance between citys: 20  48
+computing the distance between citys: 48  23
+computing the distance between citys: 23  3
+computing the distance between citys: 3  6
+computing the distance between citys: 6  2
+computing the distance between citys: 2  4
+computing the distance between citys: 4  27
+computing the distance between citys: 27  11
+computing the distance between citys: 11  17
+computing the distance between citys: 17  19
+computing the distance between citys: 19  21
+computing the distance between citys: 21  29
+computing the distance between citys: 29  46
+computing the distance between citys: 46  42
+computing the distance between citys: 42  31
+computing the distance between citys: 31  10
+computing the distance between citys: 10  39
+cmputing over
+the problem is 10
+computing cost
+the solution is24 17 26 6 50 4 41 48 29 21 28 37 46 9 12 18 2 5 11 22 43 7 8 34 31 39 27 10 23 1 30 40 45 13 36 38 16 35 33 3 14 32 44 47 25 20 42 49 19 15 
+
+computing the distance between citys: 24  17
+computing the distance between citys: 17  26
+computing the distance between citys: 26  6
+computing the distance between citys: 6  50
+computing the distance between citys: 50  4
+computing the distance between citys: 4  41
+computing the distance between citys: 41  48
+computing the distance between citys: 48  29
+computing the distance between citys: 29  21
+computing the distance between citys: 21  28
+computing the distance between citys: 28  37
+computing the distance between citys: 37  46
+computing the distance between citys: 46  9
+computing the distance between citys: 9  12
+computing the distance between citys: 12  18
+computing the distance between citys: 18  2
+computing the distance between citys: 2  5
+computing the distance between citys: 5  11
+computing the distance between citys: 11  22
+computing the distance between citys: 22  43
+computing the distance between citys: 43  7
+computing the distance between citys: 7  8
+computing the distance between citys: 8  34
+computing the distance between citys: 34  31
+computing the distance between citys: 31  39
+computing the distance between citys: 39  27
+computing the distance between citys: 27  10
+computing the distance between citys: 10  23
+computing the distance between citys: 23  1
+computing the distance between citys: 1  30
+computing the distance between citys: 30  40
+computing the distance between citys: 40  45
+computing the distance between citys: 45  13
+computing the distance between citys: 13  36
+computing the distance between citys: 36  38
+computing the distance between citys: 38  16
+computing the distance between citys: 16  35
+computing the distance between citys: 35  33
+computing the distance between citys: 33  3
+computing the distance between citys: 3  14
+computing the distance between citys: 14  32
+computing the distance between citys: 32  44
+computing the distance between citys: 44  47
+computing the distance between citys: 47  25
+computing the distance between citys: 25  20
+computing the distance between citys: 20  42
+computing the distance between citys: 42  49
+computing the distance between citys: 49  19
+computing the distance between citys: 19  15
+computing the distance between citys: 15  24
+cmputing over
+the problem is 11
+computing cost
+the solution is3 41 16 50 35 32 2 13 11 43 10 18 31 17 14 23 44 26 46 21 9 4 48 49 38 12 40 36 15 24 5 45 34 22 19 1 20 42 29 7 8 30 37 28 33 39 6 25 27 47 
+
+computing the distance between citys: 3  41

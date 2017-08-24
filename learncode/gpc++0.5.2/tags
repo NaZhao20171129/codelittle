@@ -1,0 +1,775 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ADF0	lawn/lawn.h	/^const int ADF0=3;   \/\/ ADF function calls$/;"	v
+ADF1	lawn/lawn.h	/^const int ADF1=4;$/;"	v
+AM	src/gprand.cc	107;"	d	file:
+AM	src/gprand.cc	58;"	d	file:
+ARG0	lawn/lawn.h	/^const int ARG0=8;   \/\/ Argument for any ADF tree$/;"	v
+AddBestToNewPopulation	include/gp.h	/^    AddBestToNewPopulation,$/;"	m	class:GPVariables
+Ant	ant/ant.h	/^class Ant$/;"	c
+CPPFLAGS	ant/Makefile	/^CPPFLAGS	= $(OVERALLCPPFLAGS) -I$(GPINCLUDE)$/;"	m
+CPPFLAGS	lawn/Makefile	/^CPPFLAGS	= $(OVERALLCPPFLAGS) -I$(GPINCLUDE)$/;"	m
+CPPFLAGS	skeleton/Makefile	/^CPPFLAGS	= $(OVERALLCPPFLAGS) -I$(GPINCLUDE)$/;"	m
+CPPFLAGS	src/Makefile	/^CPPFLAGS	= $(OVERALLCPPFLAGS) -I$(GPINCLUDE) $/;"	m
+CPPFLAGS	symbreg/Makefile	/^CPPFLAGS	= $(OVERALLCPPFLAGS) -I$(GPINCLUDE)$/;"	m
+CreationProbability	include/gp.h	/^  double CrossoverProbability, CreationProbability,$/;"	m	class:GPVariables
+CreationType	include/gp.h	/^    CreationType,$/;"	m	class:GPVariables
+CrossoverProbability	include/gp.h	/^  double CrossoverProbability, CreationProbability,$/;"	m	class:GPVariables
+DATADOUBLE	include/gpconfig.h	/^enum GPDataType {DATAINT=1, DATAFLOAT, DATADOUBLE, DATASTRING};$/;"	e	enum:GPDataType
+DATAFLOAT	include/gpconfig.h	/^enum GPDataType {DATAINT=1, DATAFLOAT, DATADOUBLE, DATASTRING};$/;"	e	enum:GPDataType
+DATAINT	include/gpconfig.h	/^enum GPDataType {DATAINT=1, DATAFLOAT, DATADOUBLE, DATASTRING};$/;"	e	enum:GPDataType
+DATAPOINTS	symbreg/symbreg.cc	55;"	d	file:
+DATASTRING	include/gpconfig.h	/^enum GPDataType {DATAINT=1, DATAFLOAT, DATADOUBLE, DATASTRING};$/;"	e	enum:GPDataType
+DemeSize	include/gp.h	/^    DemeSize,$/;"	m	class:GPVariables
+DemeticGrouping	include/gp.h	/^    DemeticGrouping,$/;"	m	class:GPVariables
+DemeticMigProbability	include/gp.h	/^    DemeticMigProbability;$/;"	m	class:GPVariables
+EPS	src/gprand.cc	112;"	d	file:
+EPS	src/gprand.cc	63;"	d	file:
+EQUATION	symbreg/symbreg.cc	54;"	d	file:
+EXIT_FAILURE	src/misc.cc	56;"	d	file:
+FOOD	ant/ant.h	/^const char FOOD='X';$/;"	v
+FORWARD	ant/ant.h	/^const int FORWARD=2;     \/\/ Move forward$/;"	v
+FROG	lawn/lawn.h	/^const int FROG=5;   \/\/ Jump and mow there$/;"	v
+FUNCTION1	skeleton/skeleton.cc	/^const int FUNCTION1=0;$/;"	v
+FUNCTION2	skeleton/skeleton.cc	/^const int FUNCTION2=1;$/;"	v
+GAP	ant/ant.h	/^const char GAP='O';$/;"	v
+GP	include/gp.h	/^  GP () { fitnessValid=0; GPlength=0; GPdepth=0; }$/;"	f	class:GP
+GP	include/gp.h	/^  GP (const GP& gpo) : GPContainer(gpo) { stdFitness=gpo.stdFitness; $/;"	f	class:GP
+GP	include/gp.h	/^  GP (int trees) : GPContainer (trees) { fitnessValid=0; $/;"	f	class:GP
+GP	include/gp.h	/^class GP : public GPContainer$/;"	c
+GPAdfNodeSet	include/gp.h	/^  GPAdfNodeSet () {}$/;"	f	class:GPAdfNodeSet
+GPAdfNodeSet	include/gp.h	/^  GPAdfNodeSet (const GPAdfNodeSet& gpo) : GPContainer(gpo) {}$/;"	f	class:GPAdfNodeSet
+GPAdfNodeSet	include/gp.h	/^  GPAdfNodeSet (int numOfTrees) : GPContainer(numOfTrees) {}$/;"	f	class:GPAdfNodeSet
+GPAdfNodeSet	include/gp.h	/^class GPAdfNodeSet : public GPContainer$/;"	c
+GPAdfNodeSetID	include/gp.h	91;"	d
+GPCREATE_SEGMENTATIONFAULT_ON_ERROR	include/gp.h	68;"	d
+GPConfigVarInformation	include/gpconfig.h	/^struct GPConfigVarInformation {$/;"	s
+GPConfiguration	include/gpconfig.h	/^class GPConfiguration$/;"	c
+GPConfiguration	src/config.cc	/^GPConfiguration::GPConfiguration (ostream &out, char *fname,$/;"	f	class:GPConfiguration
+GPContainer	include/gp.h	/^class GPContainer : public GPObject$/;"	c
+GPContainer	src/contain.cc	/^GPContainer::GPContainer ()$/;"	f	class:GPContainer
+GPContainer	src/contain.cc	/^GPContainer::GPContainer (const GPContainer& gpc) : GPObject(gpc)$/;"	f	class:GPContainer
+GPContainer	src/contain.cc	/^GPContainer::GPContainer (int numObjects) $/;"	f	class:GPContainer
+GPContainerID	include/gp.h	88;"	d
+GPCreateRegisteredClassObject	src/loadsave.cc	/^GPObject* GPCreateRegisteredClassObject (int ID)$/;"	f
+GPCreationType	include/gp.h	/^enum GPCreationType {$/;"	g
+GPDataType	include/gpconfig.h	/^enum GPDataType {DATAINT=1, DATAFLOAT, DATADOUBLE, DATASTRING};$/;"	g
+GPExitSystem	src/misc.cc	/^void GPExitSystem (char *functionName, char *errorMessage)$/;"	f
+GPGene	include/gp.h	/^  GPGene () { node=0; }$/;"	f	class:GPGene
+GPGene	include/gp.h	/^  GPGene (GPNode& gpo)$/;"	f	class:GPGene
+GPGene	include/gp.h	/^  GPGene (const GPGene& gpo)$/;"	f	class:GPGene
+GPGene	include/gp.h	/^class GPGene : public GPContainer$/;"	c
+GPGeneID	include/gp.h	93;"	d
+GPGrow	include/gp.h	/^  GPGrow,$/;"	e	enum:GPCreationType
+GPID	include/gp.h	94;"	d
+GPINTERNALCHECK	include/gp.h	64;"	d
+GPInit	src/misc.cc	/^void GPInit (int printCopyright, long seedRandomGenerator)$/;"	f
+GPKERNEL	src/Makefile	/^GPKERNEL= 	compare.o \\$/;"	m
+GPNode	include/gp.h	/^  GPNode () { nodeValue=0; numOfArgs=0; representation=0; }$/;"	f	class:GPNode
+GPNode	include/gp.h	/^  GPNode (int nVal, char* str, int args=0) : nodeValue(nVal), $/;"	f	class:GPNode
+GPNode	include/gp.h	/^class GPNode : public GPObject$/;"	c
+GPNode	src/node.cc	/^GPNode::GPNode (const GPNode& gpo) : GPObject(gpo) $/;"	f	class:GPNode
+GPNodeID	include/gp.h	89;"	d
+GPNodeSet	include/gp.h	/^  GPNodeSet () { numFunctions=0; numTerminals=0; }$/;"	f	class:GPNodeSet
+GPNodeSet	include/gp.h	/^  GPNodeSet (const GPNodeSet& gpo) : GPContainer(gpo) { $/;"	f	class:GPNodeSet
+GPNodeSet	include/gp.h	/^  GPNodeSet (int numOfNodes) : GPContainer (numOfNodes) {$/;"	f	class:GPNodeSet
+GPNodeSet	include/gp.h	/^class GPNodeSet : public GPContainer$/;"	c
+GPNodeSetID	include/gp.h	90;"	d
+GPObject	include/gp.h	/^  GPObject () {}$/;"	f	class:GPObject
+GPObject	include/gp.h	/^  GPObject (const GPObject&) {}$/;"	f	class:GPObject
+GPObject	include/gp.h	/^class GPObject$/;"	c
+GPObjectID	include/gp.h	87;"	d
+GPPopulation	include/gp.h	/^  GPPopulation () {}$/;"	f	class:GPPopulation
+GPPopulation	include/gp.h	/^  GPPopulation (GPVariables& GPVar_, GPAdfNodeSet& adfNs_) : $/;"	f	class:GPPopulation
+GPPopulation	include/gp.h	/^  GPPopulation (const GPPopulation& gpo) : GPContainer(gpo), adfNs(gpo.adfNs)$/;"	f	class:GPPopulation
+GPPopulation	include/gp.h	/^class GPPopulation : public GPContainer$/;"	c
+GPPopulationID	include/gp.h	95;"	d
+GPPopulationRange	include/gp.h	/^struct GPPopulationRange$/;"	s
+GPPrintCopyright	src/misc.cc	/^void GPPrintCopyright (ostream& os)$/;"	f
+GPProbabilisticSelection	include/gp.h	/^  GPProbabilisticSelection=0,$/;"	e	enum:GPSelectionType
+GPRampedGrow	include/gp.h	/^  GPRampedGrow,$/;"	e	enum:GPCreationType
+GPRampedHalf	include/gp.h	/^  GPRampedHalf,$/;"	e	enum:GPCreationType
+GPRampedVariable	include/gp.h	/^  GPRampedVariable,$/;"	e	enum:GPCreationType
+GPRandomPercent	src/gprand.cc	/^int GPRandomPercent (double percent)$/;"	f
+GPRegisterClass	src/loadsave.cc	/^void GPRegisterClass (GPObject* gpo)$/;"	f
+GPRegisterKernelClasses	src/loadsave.cc	/^void GPRegisterKernelClasses ()$/;"	f
+GPSelectionType	include/gp.h	/^enum GPSelectionType {$/;"	g
+GPTournamentSelection	include/gp.h	/^  GPTournamentSelection,$/;"	e	enum:GPSelectionType
+GPUserDefinedCreation	include/gp.h	/^  GPUserDefinedCreation};$/;"	e	enum:GPCreationType
+GPUserDefinedSelection	include/gp.h	/^  GPUserDefinedSelection};$/;"	e	enum:GPSelectionType
+GPUserID	include/gp.h	96;"	d
+GPVar	include/gp.h	/^  GPVariables GPVar;$/;"	m	class:GPPopulation
+GPVariable	include/gp.h	/^  GPVariable=0,$/;"	e	enum:GPCreationType
+GPVariables	include/gp.h	/^class GPVariables : public GPObject$/;"	c
+GPVariables	src/gpv.cc	/^GPVariables::GPVariables ()$/;"	f	class:GPVariables
+GPVariables	src/gpv.cc	/^GPVariables::GPVariables (const GPVariables& gpo) : GPObject(gpo) $/;"	f	class:GPVariables
+GPVariablesID	include/gp.h	92;"	d
+GPVersion	src/misc.cc	/^char *GPVersion="0.5.2";$/;"	v
+GPdepth	include/gp.h	/^  int GPlength, GPdepth;$/;"	m	class:GP
+GPlength	include/gp.h	/^  int GPlength, GPdepth;$/;"	m	class:GP
+GPrand	src/gprand.cc	/^long GPrand ()$/;"	f
+GPsrand	src/gprand.cc	/^void GPsrand (long seed)$/;"	f
+IA	src/gprand.cc	105;"	d	file:
+IA	src/gprand.cc	56;"	d	file:
+IDX1	doc/gpkernel_1.html	/^<A NAME="IDX1"><\/A>$/;"	a
+IDX10	doc/gpkernel_1.html	/^<A NAME="IDX10"><\/A>$/;"	a
+IDX100	doc/gpkernel_1.html	/^<A NAME="IDX100"><\/A>$/;"	a
+IDX101	doc/gpkernel_1.html	/^<A NAME="IDX101"><\/A>$/;"	a
+IDX102	doc/gpkernel_1.html	/^<A NAME="IDX102"><\/A>$/;"	a
+IDX103	doc/gpkernel_1.html	/^<A NAME="IDX103"><\/A>$/;"	a
+IDX104	doc/gpkernel_1.html	/^<A NAME="IDX104"><\/A>$/;"	a
+IDX105	doc/gpkernel_1.html	/^<A NAME="IDX105"><\/A>$/;"	a
+IDX106	doc/gpkernel_1.html	/^<A NAME="IDX106"><\/A>$/;"	a
+IDX107	doc/gpkernel_1.html	/^<A NAME="IDX107"><\/A>$/;"	a
+IDX108	doc/gpkernel_1.html	/^<A NAME="IDX108"><\/A>$/;"	a
+IDX109	doc/gpkernel_1.html	/^<A NAME="IDX109"><\/A>$/;"	a
+IDX11	doc/gpkernel_1.html	/^<A NAME="IDX11"><\/A>$/;"	a
+IDX110	doc/gpkernel_1.html	/^<A NAME="IDX110"><\/A>$/;"	a
+IDX111	doc/gpkernel_1.html	/^<A NAME="IDX111"><\/A>$/;"	a
+IDX112	doc/gpkernel_1.html	/^<A NAME="IDX112"><\/A>$/;"	a
+IDX113	doc/gpkernel_1.html	/^<A NAME="IDX113"><\/A>$/;"	a
+IDX114	doc/gpkernel_1.html	/^<A NAME="IDX114"><\/A>$/;"	a
+IDX115	doc/gpkernel_1.html	/^<A NAME="IDX115"><\/A>$/;"	a
+IDX116	doc/gpkernel_1.html	/^<A NAME="IDX116"><\/A>$/;"	a
+IDX117	doc/gpkernel_1.html	/^<A NAME="IDX117"><\/A>$/;"	a
+IDX118	doc/gpkernel_1.html	/^<A NAME="IDX118"><\/A>$/;"	a
+IDX119	doc/gpkernel_1.html	/^<A NAME="IDX119"><\/A>$/;"	a
+IDX12	doc/gpkernel_1.html	/^<A NAME="IDX12"><\/A>$/;"	a
+IDX120	doc/gpkernel_1.html	/^<A NAME="IDX120"><\/A>$/;"	a
+IDX121	doc/gpkernel_1.html	/^<A NAME="IDX121"><\/A>$/;"	a
+IDX122	doc/gpkernel_1.html	/^<A NAME="IDX122"><\/A>$/;"	a
+IDX123	doc/gpkernel_1.html	/^<A NAME="IDX123"><\/A>$/;"	a
+IDX124	doc/gpkernel_1.html	/^<A NAME="IDX124"><\/A>$/;"	a
+IDX125	doc/gpkernel_1.html	/^<A NAME="IDX125"><\/A>$/;"	a
+IDX126	doc/gpkernel_1.html	/^<A NAME="IDX126"><\/A>$/;"	a
+IDX127	doc/gpkernel_1.html	/^<A NAME="IDX127"><\/A>$/;"	a
+IDX128	doc/gpkernel_1.html	/^<A NAME="IDX128"><\/A>$/;"	a
+IDX129	doc/gpkernel_1.html	/^<A NAME="IDX129"><\/A>$/;"	a
+IDX13	doc/gpkernel_1.html	/^<A NAME="IDX13"><\/A>$/;"	a
+IDX130	doc/gpkernel_1.html	/^<A NAME="IDX130"><\/A>$/;"	a
+IDX131	doc/gpkernel_1.html	/^<A NAME="IDX131"><\/A>$/;"	a
+IDX132	doc/gpkernel_1.html	/^<A NAME="IDX132"><\/A>$/;"	a
+IDX133	doc/gpkernel_1.html	/^<A NAME="IDX133"><\/A>$/;"	a
+IDX134	doc/gpkernel_1.html	/^<A NAME="IDX134"><\/A>$/;"	a
+IDX135	doc/gpkernel_1.html	/^<A NAME="IDX135"><\/A>$/;"	a
+IDX136	doc/gpkernel_1.html	/^<A NAME="IDX136"><\/A>$/;"	a
+IDX137	doc/gpkernel_1.html	/^<A NAME="IDX137"><\/A>$/;"	a
+IDX138	doc/gpkernel_1.html	/^<A NAME="IDX138"><\/A>$/;"	a
+IDX139	doc/gpkernel_1.html	/^<A NAME="IDX139"><\/A>$/;"	a
+IDX14	doc/gpkernel_1.html	/^<A NAME="IDX14"><\/A>$/;"	a
+IDX140	doc/gpkernel_1.html	/^<A NAME="IDX140"><\/A>$/;"	a
+IDX141	doc/gpkernel_1.html	/^<A NAME="IDX141"><\/A>$/;"	a
+IDX142	doc/gpkernel_1.html	/^<A NAME="IDX142"><\/A>$/;"	a
+IDX143	doc/gpkernel_1.html	/^<A NAME="IDX143"><\/A>$/;"	a
+IDX144	doc/gpkernel_1.html	/^<A NAME="IDX144"><\/A>$/;"	a
+IDX145	doc/gpkernel_1.html	/^<A NAME="IDX145"><\/A>$/;"	a
+IDX146	doc/gpkernel_1.html	/^<A NAME="IDX146"><\/A>$/;"	a
+IDX147	doc/gpkernel_1.html	/^<A NAME="IDX147"><\/A>$/;"	a
+IDX148	doc/gpkernel_1.html	/^<A NAME="IDX148"><\/A>$/;"	a
+IDX149	doc/gpkernel_1.html	/^<A NAME="IDX149"><\/A>$/;"	a
+IDX15	doc/gpkernel_1.html	/^<A NAME="IDX15"><\/A>$/;"	a
+IDX150	doc/gpkernel_1.html	/^<A NAME="IDX150"><\/A>$/;"	a
+IDX151	doc/gpkernel_1.html	/^<A NAME="IDX151"><\/A>$/;"	a
+IDX152	doc/gpkernel_1.html	/^<A NAME="IDX152"><\/A>$/;"	a
+IDX153	doc/gpkernel_1.html	/^<A NAME="IDX153"><\/A>$/;"	a
+IDX154	doc/gpkernel_1.html	/^<A NAME="IDX154"><\/A>$/;"	a
+IDX155	doc/gpkernel_1.html	/^<A NAME="IDX155"><\/A>$/;"	a
+IDX156	doc/gpkernel_1.html	/^<A NAME="IDX156"><\/A>$/;"	a
+IDX157	doc/gpkernel_1.html	/^<A NAME="IDX157"><\/A>$/;"	a
+IDX158	doc/gpkernel_1.html	/^<A NAME="IDX158"><\/A>$/;"	a
+IDX159	doc/gpkernel_1.html	/^<A NAME="IDX159"><\/A>$/;"	a
+IDX16	doc/gpkernel_1.html	/^<A NAME="IDX16"><\/A>$/;"	a
+IDX160	doc/gpkernel_1.html	/^<A NAME="IDX160"><\/A>$/;"	a
+IDX161	doc/gpkernel_1.html	/^<A NAME="IDX161"><\/A>$/;"	a
+IDX162	doc/gpkernel_1.html	/^<A NAME="IDX162"><\/A>$/;"	a
+IDX163	doc/gpkernel_1.html	/^<A NAME="IDX163"><\/A>$/;"	a
+IDX164	doc/gpkernel_1.html	/^<A NAME="IDX164"><\/A>$/;"	a
+IDX165	doc/gpkernel_1.html	/^<A NAME="IDX165"><\/A>$/;"	a
+IDX166	doc/gpkernel_1.html	/^<A NAME="IDX166"><\/A>$/;"	a
+IDX167	doc/gpkernel_1.html	/^<A NAME="IDX167"><\/A>$/;"	a
+IDX168	doc/gpkernel_1.html	/^<A NAME="IDX168"><\/A>$/;"	a
+IDX169	doc/gpkernel_1.html	/^<A NAME="IDX169"><\/A>$/;"	a
+IDX17	doc/gpkernel_1.html	/^<A NAME="IDX17"><\/A>$/;"	a
+IDX170	doc/gpkernel_1.html	/^<A NAME="IDX170"><\/A>$/;"	a
+IDX171	doc/gpkernel_1.html	/^<A NAME="IDX171"><\/A>$/;"	a
+IDX172	doc/gpkernel_1.html	/^<A NAME="IDX172"><\/A>$/;"	a
+IDX173	doc/gpkernel_1.html	/^<A NAME="IDX173"><\/A>$/;"	a
+IDX174	doc/gpkernel_1.html	/^<A NAME="IDX174"><\/A>$/;"	a
+IDX175	doc/gpkernel_1.html	/^<A NAME="IDX175"><\/A>$/;"	a
+IDX176	doc/gpkernel_1.html	/^<A NAME="IDX176"><\/A>$/;"	a
+IDX177	doc/gpkernel_1.html	/^<A NAME="IDX177"><\/A>$/;"	a
+IDX178	doc/gpkernel_1.html	/^<A NAME="IDX178"><\/A>$/;"	a
+IDX179	doc/gpkernel_1.html	/^<A NAME="IDX179"><\/A>$/;"	a
+IDX18	doc/gpkernel_1.html	/^<A NAME="IDX18"><\/A>$/;"	a
+IDX19	doc/gpkernel_1.html	/^<A NAME="IDX19"><\/A>$/;"	a
+IDX2	doc/gpkernel_1.html	/^<A NAME="IDX2"><\/A>$/;"	a
+IDX20	doc/gpkernel_1.html	/^<A NAME="IDX20"><\/A>$/;"	a
+IDX21	doc/gpkernel_1.html	/^<A NAME="IDX21"><\/A>$/;"	a
+IDX22	doc/gpkernel_1.html	/^<A NAME="IDX22"><\/A>$/;"	a
+IDX23	doc/gpkernel_1.html	/^<A NAME="IDX23"><\/A>$/;"	a
+IDX24	doc/gpkernel_1.html	/^<A NAME="IDX24"><\/A>$/;"	a
+IDX25	doc/gpkernel_1.html	/^<A NAME="IDX25"><\/A>$/;"	a
+IDX26	doc/gpkernel_1.html	/^<A NAME="IDX26"><\/A>$/;"	a
+IDX27	doc/gpkernel_1.html	/^<A NAME="IDX27"><\/A>$/;"	a
+IDX28	doc/gpkernel_1.html	/^<A NAME="IDX28"><\/A>$/;"	a
+IDX29	doc/gpkernel_1.html	/^<A NAME="IDX29"><\/A>$/;"	a
+IDX3	doc/gpkernel_1.html	/^<A NAME="IDX3"><\/A>$/;"	a
+IDX30	doc/gpkernel_1.html	/^<A NAME="IDX30"><\/A>$/;"	a
+IDX31	doc/gpkernel_1.html	/^<A NAME="IDX31"><\/A>$/;"	a
+IDX32	doc/gpkernel_1.html	/^<A NAME="IDX32"><\/A>$/;"	a
+IDX33	doc/gpkernel_1.html	/^<A NAME="IDX33"><\/A>$/;"	a
+IDX34	doc/gpkernel_1.html	/^<A NAME="IDX34"><\/A>$/;"	a
+IDX35	doc/gpkernel_1.html	/^<A NAME="IDX35"><\/A>$/;"	a
+IDX36	doc/gpkernel_1.html	/^<A NAME="IDX36"><\/A>$/;"	a
+IDX37	doc/gpkernel_1.html	/^<A NAME="IDX37"><\/A>$/;"	a
+IDX38	doc/gpkernel_1.html	/^<A NAME="IDX38"><\/A>$/;"	a
+IDX39	doc/gpkernel_1.html	/^<A NAME="IDX39"><\/A>$/;"	a
+IDX4	doc/gpkernel_1.html	/^<A NAME="IDX4"><\/A>$/;"	a
+IDX40	doc/gpkernel_1.html	/^<A NAME="IDX40"><\/A>$/;"	a
+IDX41	doc/gpkernel_1.html	/^<A NAME="IDX41"><\/A>$/;"	a
+IDX42	doc/gpkernel_1.html	/^<A NAME="IDX42"><\/A>$/;"	a
+IDX43	doc/gpkernel_1.html	/^<A NAME="IDX43"><\/A>$/;"	a
+IDX44	doc/gpkernel_1.html	/^<A NAME="IDX44"><\/A>$/;"	a
+IDX45	doc/gpkernel_1.html	/^<A NAME="IDX45"><\/A>$/;"	a
+IDX46	doc/gpkernel_1.html	/^<A NAME="IDX46"><\/A>$/;"	a
+IDX47	doc/gpkernel_1.html	/^<A NAME="IDX47"><\/A>$/;"	a
+IDX48	doc/gpkernel_1.html	/^<A NAME="IDX48"><\/A>$/;"	a
+IDX49	doc/gpkernel_1.html	/^<A NAME="IDX49"><\/A>$/;"	a
+IDX5	doc/gpkernel_1.html	/^<A NAME="IDX5"><\/A>$/;"	a
+IDX50	doc/gpkernel_1.html	/^<A NAME="IDX50"><\/A>$/;"	a
+IDX51	doc/gpkernel_1.html	/^<A NAME="IDX51"><\/A>$/;"	a
+IDX52	doc/gpkernel_1.html	/^<A NAME="IDX52"><\/A>$/;"	a
+IDX53	doc/gpkernel_1.html	/^<A NAME="IDX53"><\/A>$/;"	a
+IDX54	doc/gpkernel_1.html	/^<A NAME="IDX54"><\/A>$/;"	a
+IDX55	doc/gpkernel_1.html	/^<A NAME="IDX55"><\/A>$/;"	a
+IDX56	doc/gpkernel_1.html	/^<A NAME="IDX56"><\/A>$/;"	a
+IDX57	doc/gpkernel_1.html	/^<A NAME="IDX57"><\/A>$/;"	a
+IDX58	doc/gpkernel_1.html	/^<A NAME="IDX58"><\/A>$/;"	a
+IDX59	doc/gpkernel_1.html	/^<A NAME="IDX59"><\/A>$/;"	a
+IDX6	doc/gpkernel_1.html	/^<A NAME="IDX6"><\/A>$/;"	a
+IDX60	doc/gpkernel_1.html	/^<A NAME="IDX60"><\/A>$/;"	a
+IDX61	doc/gpkernel_1.html	/^<A NAME="IDX61"><\/A>$/;"	a
+IDX62	doc/gpkernel_1.html	/^<A NAME="IDX62"><\/A>$/;"	a
+IDX63	doc/gpkernel_1.html	/^<A NAME="IDX63"><\/A>$/;"	a
+IDX64	doc/gpkernel_1.html	/^<A NAME="IDX64"><\/A>$/;"	a
+IDX65	doc/gpkernel_1.html	/^<A NAME="IDX65"><\/A>$/;"	a
+IDX66	doc/gpkernel_1.html	/^<A NAME="IDX66"><\/A>$/;"	a
+IDX67	doc/gpkernel_1.html	/^<A NAME="IDX67"><\/A>$/;"	a
+IDX68	doc/gpkernel_1.html	/^<A NAME="IDX68"><\/A>$/;"	a
+IDX69	doc/gpkernel_1.html	/^<A NAME="IDX69"><\/A>$/;"	a
+IDX7	doc/gpkernel_1.html	/^<A NAME="IDX7"><\/A>$/;"	a
+IDX70	doc/gpkernel_1.html	/^<A NAME="IDX70"><\/A>$/;"	a
+IDX71	doc/gpkernel_1.html	/^<A NAME="IDX71"><\/A>$/;"	a
+IDX72	doc/gpkernel_1.html	/^<A NAME="IDX72"><\/A>$/;"	a
+IDX73	doc/gpkernel_1.html	/^<A NAME="IDX73"><\/A>$/;"	a
+IDX74	doc/gpkernel_1.html	/^<A NAME="IDX74"><\/A>$/;"	a
+IDX75	doc/gpkernel_1.html	/^<A NAME="IDX75"><\/A>$/;"	a
+IDX76	doc/gpkernel_1.html	/^<A NAME="IDX76"><\/A>$/;"	a
+IDX77	doc/gpkernel_1.html	/^<A NAME="IDX77"><\/A>$/;"	a
+IDX78	doc/gpkernel_1.html	/^<A NAME="IDX78"><\/A>$/;"	a
+IDX79	doc/gpkernel_1.html	/^<A NAME="IDX79"><\/A>$/;"	a
+IDX8	doc/gpkernel_1.html	/^<A NAME="IDX8"><\/A>$/;"	a
+IDX80	doc/gpkernel_1.html	/^<A NAME="IDX80"><\/A>$/;"	a
+IDX81	doc/gpkernel_1.html	/^<A NAME="IDX81"><\/A>$/;"	a
+IDX82	doc/gpkernel_1.html	/^<A NAME="IDX82"><\/A>$/;"	a
+IDX83	doc/gpkernel_1.html	/^<A NAME="IDX83"><\/A>$/;"	a
+IDX84	doc/gpkernel_1.html	/^<A NAME="IDX84"><\/A>$/;"	a
+IDX85	doc/gpkernel_1.html	/^<A NAME="IDX85"><\/A>$/;"	a
+IDX86	doc/gpkernel_1.html	/^<A NAME="IDX86"><\/A>$/;"	a
+IDX87	doc/gpkernel_1.html	/^<A NAME="IDX87"><\/A>$/;"	a
+IDX88	doc/gpkernel_1.html	/^<A NAME="IDX88"><\/A>$/;"	a
+IDX89	doc/gpkernel_1.html	/^<A NAME="IDX89"><\/A>$/;"	a
+IDX9	doc/gpkernel_1.html	/^<A NAME="IDX9"><\/A>$/;"	a
+IDX90	doc/gpkernel_1.html	/^<A NAME="IDX90"><\/A>$/;"	a
+IDX91	doc/gpkernel_1.html	/^<A NAME="IDX91"><\/A>$/;"	a
+IDX92	doc/gpkernel_1.html	/^<A NAME="IDX92"><\/A>$/;"	a
+IDX93	doc/gpkernel_1.html	/^<A NAME="IDX93"><\/A>$/;"	a
+IDX94	doc/gpkernel_1.html	/^<A NAME="IDX94"><\/A>$/;"	a
+IDX95	doc/gpkernel_1.html	/^<A NAME="IDX95"><\/A>$/;"	a
+IDX96	doc/gpkernel_1.html	/^<A NAME="IDX96"><\/A>$/;"	a
+IDX97	doc/gpkernel_1.html	/^<A NAME="IDX97"><\/A>$/;"	a
+IDX98	doc/gpkernel_1.html	/^<A NAME="IDX98"><\/A>$/;"	a
+IDX99	doc/gpkernel_1.html	/^<A NAME="IDX99"><\/A>$/;"	a
+IFFOODAHEAD	ant/ant.h	/^const int IFFOODAHEAD=3; \/\/ If food is ahead$/;"	v
+IM	src/gprand.cc	106;"	d	file:
+IM	src/gprand.cc	57;"	d	file:
+IQ	src/gprand.cc	108;"	d	file:
+IQ	src/gprand.cc	59;"	d	file:
+IR	src/gprand.cc	109;"	d	file:
+IR	src/gprand.cc	60;"	d	file:
+InfoFileName	ant/ant.cc	/^char *InfoFileName="data";$/;"	v
+InfoFileName	lawn/lawn.cc	/^char *InfoFileName="data";$/;"	v
+InfoFileName	symbreg/symbreg.cc	/^char *InfoFileName="data";$/;"	v
+IntegerArraySel	src/select.cc	/^  IntegerArraySel (int size) $/;"	f	class:IntegerArraySel
+IntegerArraySel	src/select.cc	/^class IntegerArraySel$/;"	c	file:
+IntegerArrayTourn	src/select.cc	/^  IntegerArrayTourn (int size) $/;"	f	class:IntegerArrayTourn
+IntegerArrayTourn	src/select.cc	/^class IntegerArrayTourn$/;"	c	file:
+LDFLAGS	ant/Makefile	/^LDFLAGS		= $(OVERALLLDFLAGS) -L$(GPLIB) -lgp -lm$/;"	m
+LDFLAGS	lawn/Makefile	/^LDFLAGS		= $(OVERALLLDFLAGS) -L$(GPLIB) -lgp -lm$/;"	m
+LDFLAGS	skeleton/Makefile	/^LDFLAGS		= $(OVERALLLDFLAGS) -L$(GPLIB) -lgp -lm$/;"	m
+LDFLAGS	symbreg/Makefile	/^LDFLAGS		= $(OVERALLLDFLAGS) -L$(GPLIB) -lgp -lm $/;"	m
+LEFT	ant/ant.h	/^const int LEFT=0;        \/\/ Turn left$/;"	v
+LEFT	lawn/lawn.h	/^const int LEFT=0;   \/\/ Turn left$/;"	v
+LawnHorizontal	lawn/lawn.h	42;"	d
+LawnVertical	lawn/lawn.h	43;"	d
+MAXIMUMCLASSNUM	src/loadsave.cc	51;"	d	file:
+MOW	lawn/lawn.h	/^const int MOW=1;    \/\/ Move forward and mow$/;"	v
+MaximumDepthForCreation	include/gp.h	/^    MaximumDepthForCreation,$/;"	m	class:GPVariables
+MaximumDepthForCrossover	include/gp.h	/^    MaximumDepthForCrossover,$/;"	m	class:GPVariables
+Mower	lawn/lawn.h	/^class Mower$/;"	c
+MyGP	ant/ant.h	/^  MyGP (MyGP& gpo) : GP (gpo) { }$/;"	f	class:MyGP
+MyGP	ant/ant.h	/^  MyGP (int genes) : GP (genes) { }$/;"	f	class:MyGP
+MyGP	ant/ant.h	/^class MyGP : public GP $/;"	c
+MyGP	lawn/lawn.h	/^  MyGP (MyGP& gpo) : GP (gpo) { mown=gpo.mown; }$/;"	f	class:MyGP
+MyGP	lawn/lawn.h	/^  MyGP (int genes) : GP (genes) { mown=0.0; }$/;"	f	class:MyGP
+MyGP	lawn/lawn.h	/^class MyGP : public GP $/;"	c
+MyGP	skeleton/skeleton.cc	/^  MyGP () {}$/;"	f	class:MyGP
+MyGP	skeleton/skeleton.cc	/^  MyGP (MyGP& gpo) : GP (gpo) { }$/;"	f	class:MyGP
+MyGP	skeleton/skeleton.cc	/^  MyGP (int genes) : GP (genes) {}$/;"	f	class:MyGP
+MyGP	skeleton/skeleton.cc	/^class MyGP : public GP $/;"	c	file:
+MyGP	symbreg/symbreg.h	/^  MyGP (MyGP& gpo) : GP (gpo) { }$/;"	f	class:MyGP
+MyGP	symbreg/symbreg.h	/^  MyGP (int genes) : GP (genes) {}$/;"	f	class:MyGP
+MyGP	symbreg/symbreg.h	/^class MyGP : public GP $/;"	c
+MyGPID	skeleton/skeleton.cc	/^const int MyGPID=GPUserID+1;$/;"	v
+MyGene	ant/ant.h	/^  MyGene (GPNode& gpo) : GPGene (gpo) { }$/;"	f	class:MyGene
+MyGene	ant/ant.h	/^  MyGene (const MyGene& gpo) : GPGene (gpo) { }$/;"	f	class:MyGene
+MyGene	ant/ant.h	/^class MyGene : public GPGene$/;"	c
+MyGene	lawn/lawn.h	/^  MyGene (GPNode& gpo) : GPGene (gpo) { valueAssigned=0; }$/;"	f	class:MyGene
+MyGene	lawn/lawn.h	/^  MyGene (const MyGene& gpo) : GPGene (gpo) { $/;"	f	class:MyGene
+MyGene	lawn/lawn.h	/^class MyGene : public GPGene$/;"	c
+MyGene	skeleton/skeleton.cc	/^  MyGene () {}$/;"	f	class:MyGene
+MyGene	skeleton/skeleton.cc	/^  MyGene (GPNode& gpo) : GPGene (gpo) {}$/;"	f	class:MyGene
+MyGene	skeleton/skeleton.cc	/^  MyGene (const MyGene& gpo) : GPGene (gpo) { }$/;"	f	class:MyGene
+MyGene	skeleton/skeleton.cc	/^class MyGene : public GPGene$/;"	c	file:
+MyGene	symbreg/symbreg.h	/^  MyGene (GPNode& gpo) : GPGene (gpo) {}$/;"	f	class:MyGene
+MyGene	symbreg/symbreg.h	/^  MyGene (const MyGene& gpo) : GPGene (gpo) { }$/;"	f	class:MyGene
+MyGene	symbreg/symbreg.h	/^class MyGene : public GPGene$/;"	c
+MyGeneID	skeleton/skeleton.cc	/^const int MyGeneID=GPUserID;$/;"	v
+MyPopulation	ant/ant.h	/^  MyPopulation (GPVariables& GPVar_, GPAdfNodeSet& adfNs_) : $/;"	f	class:MyPopulation
+MyPopulation	ant/ant.h	/^  MyPopulation (MyPopulation& gpo) : GPPopulation(gpo) {}$/;"	f	class:MyPopulation
+MyPopulation	ant/ant.h	/^class MyPopulation : public GPPopulation$/;"	c
+MyPopulation	lawn/lawn.h	/^  MyPopulation (GPVariables& GPVar_, GPAdfNodeSet& adfNs_) : $/;"	f	class:MyPopulation
+MyPopulation	lawn/lawn.h	/^  MyPopulation (MyPopulation& gpo) : GPPopulation(gpo) {}$/;"	f	class:MyPopulation
+MyPopulation	lawn/lawn.h	/^class MyPopulation : public GPPopulation$/;"	c
+MyPopulation	skeleton/skeleton.cc	/^  MyPopulation () {}$/;"	f	class:MyPopulation
+MyPopulation	skeleton/skeleton.cc	/^  MyPopulation (GPVariables& GPVar_, GPAdfNodeSet& adfNs_) : $/;"	f	class:MyPopulation
+MyPopulation	skeleton/skeleton.cc	/^  MyPopulation (MyPopulation& gpo) : GPPopulation(gpo) {}$/;"	f	class:MyPopulation
+MyPopulation	skeleton/skeleton.cc	/^class MyPopulation : public GPPopulation$/;"	c	file:
+MyPopulation	symbreg/symbreg.h	/^  MyPopulation (GPVariables& GPVar_, GPAdfNodeSet& adfNs_) : $/;"	f	class:MyPopulation
+MyPopulation	symbreg/symbreg.h	/^  MyPopulation (MyPopulation& gpo) : GPPopulation(gpo) {}$/;"	f	class:MyPopulation
+MyPopulation	symbreg/symbreg.h	/^class MyPopulation : public GPPopulation$/;"	c
+MyPopulationID	skeleton/skeleton.cc	/^const int MyPopulationID=GPUserID+2;$/;"	v
+NDIV	src/gprand.cc	111;"	d	file:
+NDIV	src/gprand.cc	62;"	d	file:
+NOTHING	ant/ant.h	/^const char NOTHING='.';$/;"	v
+NTAB	src/gprand.cc	110;"	d	file:
+NTAB	src/gprand.cc	61;"	d	file:
+Nth	src/contain.cc	/^GPObject* GPContainer::Nth (int n) const$/;"	f	class:GPContainer
+NthChild	include/gp.h	/^  GPGene* NthChild (int n) {$/;"	f	class:GPGene
+NthGP	include/gp.h	/^  GP* NthGP (int n) { return (GP*) GPContainer::Nth (n); }$/;"	f	class:GPPopulation
+NthGene	include/gp.h	/^  GPGene* NthGene (int n) { return (GPGene*) GPContainer::Nth(n); }$/;"	f	class:GP
+NthMyChild	ant/ant.h	/^  MyGene* NthMyChild (int n) {$/;"	f	class:MyGene
+NthMyChild	lawn/lawn.h	/^  MyGene* NthMyChild (int n) {$/;"	f	class:MyGene
+NthMyChild	skeleton/skeleton.cc	/^  MyGene* NthMyChild (int n) {$/;"	f	class:MyGene
+NthMyChild	symbreg/symbreg.h	/^  MyGene* NthMyChild (int n) {$/;"	f	class:MyGene
+NthMyGP	ant/ant.h	/^  MyGP* NthMyGP (int n) {$/;"	f	class:MyPopulation
+NthMyGP	lawn/lawn.h	/^  MyGP* NthMyGP (int n) {$/;"	f	class:MyPopulation
+NthMyGP	skeleton/skeleton.cc	/^  MyGP* NthMyGP (int n) {$/;"	f	class:MyPopulation
+NthMyGene	ant/ant.h	/^  MyGene* NthMyGene (int n) {$/;"	f	class:MyGP
+NthMyGene	lawn/lawn.h	/^  MyGene* NthMyGene (int n) {$/;"	f	class:MyGP
+NthMyGene	skeleton/skeleton.cc	/^  MyGene* NthMyGene (int n) {$/;"	f	class:MyGP
+NthMyGene	symbreg/symbreg.h	/^  MyGene* NthMyGene (int n) {$/;"	f	class:MyGP
+NthNode	include/gp.h	/^  GPNode* NthNode (int n) {$/;"	f	class:GPNodeSet
+NthNodeSet	include/gp.h	/^  GPNodeSet* NthNodeSet (int n) { $/;"	f	class:GPAdfNodeSet
+NumberOfGenerations	include/gp.h	/^    NumberOfGenerations,$/;"	m	class:GPVariables
+OBJS	ant/Makefile	/^OBJS		= ant.o trail.o$/;"	m
+OBJS	lawn/Makefile	/^OBJS		= mower.o lawn.o$/;"	m
+OBJS	skeleton/Makefile	/^OBJS		= skeleton.o$/;"	m
+OBJS	src/Makefile	/^OBJS		= $(GPKERNEL) $/;"	m
+OBJS	symbreg/Makefile	/^OBJS		= symbreg.o$/;"	m
+PROG2	ant/ant.h	/^const int PROG2=4;       \/\/ Execute two arguments, return sum$/;"	v
+PROG3	ant/ant.h	/^const int PROG3=5;       \/\/ Execute three arguments, return sum$/;"	v
+PROGN	lawn/lawn.h	/^const int PROGN=7;  \/\/ Execute both arguments, return result from second$/;"	v
+PopulationSize	include/gp.h	/^  int PopulationSize,$/;"	m	class:GPVariables
+RIGHT	ant/ant.h	/^const int RIGHT=1;       \/\/ Turn right$/;"	v
+RNMX	src/gprand.cc	113;"	d	file:
+RNMX	src/gprand.cc	64;"	d	file:
+RV	lawn/lawn.h	/^const int RV=2;     \/\/ Random vector. Koza used the name RV8$/;"	v
+SEC1	doc/gpkernel_1.html	/^<H1><A NAME="SEC1" HREF="gpkernel_toc.html#TOC1">1  The Genetic Programming Kernel<\/A><\/H1>$/;"	a
+SEC10	doc/gpkernel_1.html	/^<H3><A NAME="SEC10" HREF="gpkernel_toc.html#TOC10">1.4.3  Container for Node Sets<\/A><\/H3>$/;"	a
+SEC11	doc/gpkernel_1.html	/^<H3><A NAME="SEC11" HREF="gpkernel_toc.html#TOC11">1.4.4  How to Use the Classes<\/A><\/H3>$/;"	a
+SEC12	doc/gpkernel_1.html	/^<H2><A NAME="SEC12" HREF="gpkernel_toc.html#TOC12">1.5  The Population<\/A><\/H2>$/;"	a
+SEC13	doc/gpkernel_1.html	/^<H2><A NAME="SEC13" HREF="gpkernel_toc.html#TOC13">1.6  The Genetic Program<\/A><\/H2>$/;"	a
+SEC14	doc/gpkernel_1.html	/^<H2><A NAME="SEC14" HREF="gpkernel_toc.html#TOC14">1.7  The Gene<\/A><\/H2>$/;"	a
+SEC15	doc/gpkernel_1.html	/^<H2><A NAME="SEC15" HREF="gpkernel_toc.html#TOC15">1.8  Configuration Variables<\/A><\/H2>$/;"	a
+SEC16	doc/gpkernel_1.html	/^<H2><A NAME="SEC16" HREF="gpkernel_toc.html#TOC16">1.9  Loading and Saving of Populations<\/A><\/H2>$/;"	a
+SEC17	doc/gpkernel_1.html	/^<H3><A NAME="SEC17" HREF="gpkernel_toc.html#TOC17">1.9.1  Registration<\/A><\/H3>$/;"	a
+SEC18	doc/gpkernel_1.html	/^<H3><A NAME="SEC18" HREF="gpkernel_toc.html#TOC18">1.9.2  Requirements<\/A><\/H3>$/;"	a
+SEC19	doc/gpkernel_1.html	/^<H3><A NAME="SEC19" HREF="gpkernel_toc.html#TOC19">1.9.3  Loading and Saving of Gene and Population Objects<\/A><\/H3>$/;"	a
+SEC2	doc/gpkernel_1.html	/^<H2><A NAME="SEC2" HREF="gpkernel_toc.html#TOC2">1.1  License<\/A><\/H2>$/;"	a
+SEC20	doc/gpkernel_1.html	/^<H3><A NAME="SEC20" HREF="gpkernel_toc.html#TOC20">1.9.4  Example<\/A><\/H3>$/;"	a
+SEC21	doc/gpkernel_1.html	/^<H2><A NAME="SEC21" HREF="gpkernel_toc.html#TOC21">1.10  Miscellaneous<\/A><\/H2>$/;"	a
+SEC22	doc/gpkernel_1.html	/^<H3><A NAME="SEC22" HREF="gpkernel_toc.html#TOC22">1.10.1  Error Handling<\/A><\/H3>$/;"	a
+SEC23	doc/gpkernel_1.html	/^<H3><A NAME="SEC23" HREF="gpkernel_toc.html#TOC23">1.10.2  Kernel Initialisation<\/A><\/H3>$/;"	a
+SEC24	doc/gpkernel_1.html	/^<H3><A NAME="SEC24" HREF="gpkernel_toc.html#TOC24">1.10.3  Random Functions<\/A><\/H3>$/;"	a
+SEC25	doc/gpkernel_1.html	/^<H3><A NAME="SEC25" HREF="gpkernel_toc.html#TOC25">1.10.4  Reading a Configuration File<\/A><\/H3>$/;"	a
+SEC26	doc/gpkernel_1.html	/^<H3><A NAME="SEC26" HREF="gpkernel_toc.html#TOC26">1.10.5  Restrictions<\/A><\/H3>$/;"	a
+SEC27	doc/gpkernel_1.html	/^<H2><A NAME="SEC27" HREF="gpkernel_toc.html#TOC27">1.11  Inheriting the Kernel Classes<\/A><\/H2>$/;"	a
+SEC28	doc/gpkernel_2.html	/^<H1><A NAME="SEC28" HREF="gpkernel_toc.html#TOC28">2  Parameter Study<\/A><\/H1>$/;"	a
+SEC29	doc/gpkernel_2.html	/^<H2><A NAME="SEC29" HREF="gpkernel_toc.html#TOC29">2.1  Initial Configuration<\/A><\/H2>$/;"	a
+SEC3	doc/gpkernel_1.html	/^<H2><A NAME="SEC3" HREF="gpkernel_toc.html#TOC3">1.2  The Class Hierarchy<\/A><\/H2>$/;"	a
+SEC30	doc/gpkernel_2.html	/^<H2><A NAME="SEC30" HREF="gpkernel_toc.html#TOC30">2.2  Results<\/A><\/H2>$/;"	a
+SEC31	doc/gpkernel_2.html	/^<H2><A NAME="SEC31" HREF="gpkernel_toc.html#TOC31">2.3  Conclusions<\/A><\/H2>$/;"	a
+SEC32	doc/gpkernel_3.html	/^<H1><A NAME="SEC32" HREF="gpkernel_toc.html#TOC32">Index<\/A><\/H1>$/;"	a
+SEC4	doc/gpkernel_1.html	/^<H2><A NAME="SEC4" HREF="gpkernel_toc.html#TOC4">1.3  Underlying Class definitions<\/A><\/H2>$/;"	a
+SEC5	doc/gpkernel_1.html	/^<H3><A NAME="SEC5" HREF="gpkernel_toc.html#TOC5">1.3.1  The Base Class GPObject<\/A><\/H3>$/;"	a
+SEC6	doc/gpkernel_1.html	/^<H3><A NAME="SEC6" HREF="gpkernel_toc.html#TOC6">1.3.2  The Container Class GPContainer<\/A><\/H3>$/;"	a
+SEC7	doc/gpkernel_1.html	/^<H2><A NAME="SEC7" HREF="gpkernel_toc.html#TOC7">1.4  Functions and Terminals<\/A><\/H2>$/;"	a
+SEC8	doc/gpkernel_1.html	/^<H3><A NAME="SEC8" HREF="gpkernel_toc.html#TOC8">1.4.1  Class GPNode<\/A><\/H3>$/;"	a
+SEC9	doc/gpkernel_1.html	/^<H3><A NAME="SEC9" HREF="gpkernel_toc.html#TOC9">1.4.2  Sets of Nodes<\/A><\/H3>$/;"	a
+SelectionType	include/gp.h	/^    SelectionType,$/;"	m	class:GPVariables
+ShrinkMutationProbability	include/gp.h	/^    SwapMutationProbability, ShrinkMutationProbability,$/;"	m	class:GPVariables
+SteadyState	include/gp.h	/^    SteadyState;$/;"	m	class:GPVariables
+SwapMutationProbability	include/gp.h	/^    SwapMutationProbability, ShrinkMutationProbability,$/;"	m	class:GPVariables
+TARGET	ant/Makefile	/^TARGET		= ant$/;"	m
+TARGET	lawn/Makefile	/^TARGET		= lawn$/;"	m
+TARGET	skeleton/Makefile	/^TARGET		= skeleton$/;"	m
+TARGET	src/Makefile	/^TARGET		= $(GPLIBFILE)$/;"	m
+TARGET	symbreg/Makefile	/^TARGET		= sym$/;"	m
+TERMINAL1	skeleton/skeleton.cc	/^const int TERMINAL1=2;$/;"	v
+TERMINAL2	skeleton/skeleton.cc	/^const int TERMINAL2=3;$/;"	v
+TOC1	doc/gpkernel_toc.html	/^<LI><A NAME="TOC1" HREF="gpkernel_1.html#SEC1">1  The Genetic Programming Kernel<\/A>$/;"	a
+TOC10	doc/gpkernel_toc.html	/^<LI><A NAME="TOC10" HREF="gpkernel_1.html#SEC10">1.4.3  Container for Node Sets<\/A>$/;"	a
+TOC11	doc/gpkernel_toc.html	/^<LI><A NAME="TOC11" HREF="gpkernel_1.html#SEC11">1.4.4  How to Use the Classes<\/A>$/;"	a
+TOC12	doc/gpkernel_toc.html	/^<LI><A NAME="TOC12" HREF="gpkernel_1.html#SEC12">1.5  The Population<\/A>$/;"	a
+TOC13	doc/gpkernel_toc.html	/^<LI><A NAME="TOC13" HREF="gpkernel_1.html#SEC13">1.6  The Genetic Program<\/A>$/;"	a
+TOC14	doc/gpkernel_toc.html	/^<LI><A NAME="TOC14" HREF="gpkernel_1.html#SEC14">1.7  The Gene<\/A>$/;"	a
+TOC15	doc/gpkernel_toc.html	/^<LI><A NAME="TOC15" HREF="gpkernel_1.html#SEC15">1.8  Configuration Variables<\/A>$/;"	a
+TOC16	doc/gpkernel_toc.html	/^<LI><A NAME="TOC16" HREF="gpkernel_1.html#SEC16">1.9  Loading and Saving of Populations<\/A>$/;"	a
+TOC17	doc/gpkernel_toc.html	/^<LI><A NAME="TOC17" HREF="gpkernel_1.html#SEC17">1.9.1  Registration<\/A>$/;"	a
+TOC18	doc/gpkernel_toc.html	/^<LI><A NAME="TOC18" HREF="gpkernel_1.html#SEC18">1.9.2  Requirements<\/A>$/;"	a
+TOC19	doc/gpkernel_toc.html	/^<LI><A NAME="TOC19" HREF="gpkernel_1.html#SEC19">1.9.3  Loading and Saving of Gene and Population Objects<\/A>$/;"	a
+TOC2	doc/gpkernel_toc.html	/^<LI><A NAME="TOC2" HREF="gpkernel_1.html#SEC2">1.1  License<\/A>$/;"	a
+TOC20	doc/gpkernel_toc.html	/^<LI><A NAME="TOC20" HREF="gpkernel_1.html#SEC20">1.9.4  Example<\/A>$/;"	a
+TOC21	doc/gpkernel_toc.html	/^<LI><A NAME="TOC21" HREF="gpkernel_1.html#SEC21">1.10  Miscellaneous<\/A>$/;"	a
+TOC22	doc/gpkernel_toc.html	/^<LI><A NAME="TOC22" HREF="gpkernel_1.html#SEC22">1.10.1  Error Handling<\/A>$/;"	a
+TOC23	doc/gpkernel_toc.html	/^<LI><A NAME="TOC23" HREF="gpkernel_1.html#SEC23">1.10.2  Kernel Initialisation<\/A>$/;"	a
+TOC24	doc/gpkernel_toc.html	/^<LI><A NAME="TOC24" HREF="gpkernel_1.html#SEC24">1.10.3  Random Functions<\/A>$/;"	a
+TOC25	doc/gpkernel_toc.html	/^<LI><A NAME="TOC25" HREF="gpkernel_1.html#SEC25">1.10.4  Reading a Configuration File<\/A>$/;"	a
+TOC26	doc/gpkernel_toc.html	/^<LI><A NAME="TOC26" HREF="gpkernel_1.html#SEC26">1.10.5  Restrictions<\/A>$/;"	a
+TOC27	doc/gpkernel_toc.html	/^<LI><A NAME="TOC27" HREF="gpkernel_1.html#SEC27">1.11  Inheriting the Kernel Classes<\/A>$/;"	a
+TOC28	doc/gpkernel_toc.html	/^<LI><A NAME="TOC28" HREF="gpkernel_2.html#SEC28">2  Parameter Study<\/A>$/;"	a
+TOC29	doc/gpkernel_toc.html	/^<LI><A NAME="TOC29" HREF="gpkernel_2.html#SEC29">2.1  Initial Configuration<\/A>$/;"	a
+TOC3	doc/gpkernel_toc.html	/^<LI><A NAME="TOC3" HREF="gpkernel_1.html#SEC3">1.2  The Class Hierarchy<\/A>$/;"	a
+TOC30	doc/gpkernel_toc.html	/^<LI><A NAME="TOC30" HREF="gpkernel_2.html#SEC30">2.2  Results<\/A>$/;"	a
+TOC31	doc/gpkernel_toc.html	/^<LI><A NAME="TOC31" HREF="gpkernel_2.html#SEC31">2.3  Conclusions<\/A>$/;"	a
+TOC32	doc/gpkernel_toc.html	/^<LI><A NAME="TOC32" HREF="gpkernel_3.html#SEC32">Index<\/A>$/;"	a
+TOC4	doc/gpkernel_toc.html	/^<LI><A NAME="TOC4" HREF="gpkernel_1.html#SEC4">1.3  Underlying Class definitions<\/A>$/;"	a
+TOC5	doc/gpkernel_toc.html	/^<LI><A NAME="TOC5" HREF="gpkernel_1.html#SEC5">1.3.1  The Base Class GPObject<\/A>$/;"	a
+TOC6	doc/gpkernel_toc.html	/^<LI><A NAME="TOC6" HREF="gpkernel_1.html#SEC6">1.3.2  The Container Class GPContainer<\/A>$/;"	a
+TOC7	doc/gpkernel_toc.html	/^<LI><A NAME="TOC7" HREF="gpkernel_1.html#SEC7">1.4  Functions and Terminals<\/A>$/;"	a
+TOC8	doc/gpkernel_toc.html	/^<LI><A NAME="TOC8" HREF="gpkernel_1.html#SEC8">1.4.1  Class GPNode<\/A>$/;"	a
+TOC9	doc/gpkernel_toc.html	/^<LI><A NAME="TOC9" HREF="gpkernel_1.html#SEC9">1.4.2  Sets of Nodes<\/A>$/;"	a
+TRAIL	ant/trail.h	18;"	d
+TournamentSize	include/gp.h	/^    TournamentSize,$/;"	m	class:GPVariables
+VA	lawn/lawn.h	/^const int VA=6;     \/\/ Vector addition. Koza used the name VA8 $/;"	v
+Vector	lawn/lawn.h	/^  Vector () : x(0), y(0) {}$/;"	f	class:Vector
+Vector	lawn/lawn.h	/^  Vector (int x_, int y_) : x(x_), y(y_) {}$/;"	f	class:Vector
+Vector	lawn/lawn.h	/^class Vector $/;"	c
+World_Horizontal	ant/trail.h	20;"	d
+World_Vertical	ant/trail.h	21;"	d
+__GPCONFIG_H	include/gpconfig.h	46;"	d
+__GP_H	include/gp.h	50;"	d
+__LAWN	lawn/lawn.h	38;"	d
+adfNs	include/gp.h	/^  GPAdfNodeSet* adfNs;$/;"	m	class:GPPopulation
+allocateFlag	src/select.cc	/^  short allocateFlag;$/;"	m	class:IntegerArraySel	file:
+allocateFlag	src/select.cc	/^  short allocateFlag;$/;"	m	class:IntegerArrayTourn	file:
+answ	symbreg/symbreg.cc	/^double answ[DATAPOINTS];$/;"	v
+ant	ant/ant.cc	/^Ant ant;$/;"	v
+antFile	ant/ant.cc	/^ofstream antFile;$/;"	v
+arguments	include/gp.h	/^  int arguments () { return numOfArgs; }$/;"	f	class:GPNode
+array	src/select.cc	/^  int array[selectionArraySize];$/;"	m	class:IntegerArraySel	file:
+array	src/select.cc	/^  int array[tournamentArraySize];$/;"	m	class:IntegerArrayTourn	file:
+arrayPtr	src/select.cc	/^  int* arrayPtr;$/;"	m	class:IntegerArraySel	file:
+arrayPtr	src/select.cc	/^  int* arrayPtr;$/;"	m	class:IntegerArrayTourn	file:
+avgDepth	include/gp.h	/^  double avgFitness, avgLength, avgDepth;$/;"	m	class:GPPopulation
+avgFitness	include/gp.h	/^  double avgFitness, avgLength, avgDepth;$/;"	m	class:GPPopulation
+avgLength	include/gp.h	/^  double avgFitness, avgLength, avgDepth;$/;"	m	class:GPPopulation
+bestOfPopulation	include/gp.h	/^  int bestOfPopulation, worstOfPopulation;$/;"	m	class:GPPopulation
+calcDepth	src/gp.cc	/^void GP::calcDepth ()$/;"	f	class:GP
+calcLength	src/gp.cc	/^void GP::calcLength ()$/;"	f	class:GP
+calculateStatistics	src/generate.cc	/^void GPPopulation::calculateStatistics ()$/;"	f	class:GPPopulation
+cfg	ant/ant.cc	/^GPVariables cfg;$/;"	v
+cfg	lawn/lawn.cc	/^GPVariables cfg;$/;"	v
+cfg	skeleton/skeleton.cc	/^GPVariables cfg;$/;"	v
+cfg	symbreg/symbreg.cc	/^GPVariables cfg;$/;"	v
+checkForDiversity	src/create.cc	/^int GPPopulation::checkForDiversity (GP& gp)$/;"	f	class:GPPopulation
+checkForValidCreation	ant/ant.h	/^  virtual int checkForValidCreation (GP&) { return 1; }$/;"	f	class:MyPopulation
+checkForValidCreation	lawn/lawn.h	/^  virtual int checkForValidCreation (GP&) { return 1; }$/;"	f	class:MyPopulation
+checkForValidCreation	src/create.cc	/^int GPPopulation::checkForValidCreation (GP& gpo)$/;"	f	class:GPPopulation
+checkForValidCreation	symbreg/symbreg.h	/^  virtual int checkForValidCreation (GP&) { return 1; }$/;"	f	class:MyPopulation
+choose	src/cross.cc	/^GPGene** GPGene::choose (GPGene** rootPtr)$/;"	f	class:GPGene
+chooseFunction	src/node.cc	/^GPNode& GPNodeSet::chooseFunction ()$/;"	f	class:GPNodeSet
+chooseFunctionNode	src/mutate.cc	/^GPGene** GPGene::chooseFunctionNode (GPGene** rootPtr)$/;"	f	class:GPGene
+chooseNodeWithArgs	src/node.cc	/^GPNode* GPNodeSet::chooseNodeWithArgs (int args)$/;"	f	class:GPNodeSet
+chooseTerminal	src/node.cc	/^GPNode& GPNodeSet::chooseTerminal ()$/;"	f	class:GPNodeSet
+compare	src/compare.cc	/^int GP::compare (GP& gp)$/;"	f	class:GP
+compare	src/compare.cc	/^int GPGene::compare (GPGene &g)$/;"	f	class:GPGene
+configArray	ant/ant.cc	/^struct GPConfigVarInformation configArray[]=$/;"	v	typeref:struct:GPConfigVarInformation
+configArray	lawn/lawn.cc	/^struct GPConfigVarInformation configArray[]=$/;"	v	typeref:struct:GPConfigVarInformation
+configArray	skeleton/skeleton.cc	/^struct GPConfigVarInformation configArray[]=$/;"	v	typeref:struct:GPConfigVarInformation
+configArray	symbreg/symbreg.cc	/^struct GPConfigVarInformation configArray[]=$/;"	v	typeref:struct:GPConfigVarInformation
+constantWorld	ant/ant.h	/^  unsigned char constantWorld [worldHorizontal][worldVertical];$/;"	m	class:Ant
+contSize	include/gp.h	/^  int contSize;$/;"	m	class:GPContainer
+container	include/gp.h	/^  GPObject** container;$/;"	m	class:GPContainer
+containerSize	include/gp.h	/^  int containerSize() const { return contSize; }$/;"	f	class:GPContainer
+copyString	src/node.cc	/^char *GPNode::copyString (char *str)$/;"	f	class:GPNode
+countFunctions	src/mutate.cc	/^int GPGene::countFunctions ()$/;"	f	class:GPGene
+create	src/create.cc	/^void GP::create (enum GPCreationType ctype, int allowableDepth, $/;"	f	class:GP
+create	src/create.cc	/^void GPGene::create (enum GPCreationType ctype, int allowableDepth, $/;"	f	class:GPGene
+create	src/create.cc	/^void GPPopulation::create ()$/;"	f	class:GPPopulation
+createChild	ant/ant.h	/^  virtual GPGene* createChild (GPNode& gpo) {$/;"	f	class:MyGene
+createChild	include/gp.h	/^  virtual GPGene* createChild (GPNode& gpo) {$/;"	f	class:GPGene
+createChild	lawn/lawn.h	/^  virtual GPGene* createChild (GPNode& gpo) {$/;"	f	class:MyGene
+createChild	skeleton/skeleton.cc	/^  virtual GPGene* createChild (GPNode& gpo) {$/;"	f	class:MyGene
+createChild	symbreg/symbreg.h	/^  virtual GPGene* createChild (GPNode& gpo) {$/;"	f	class:MyGene
+createGP	ant/ant.h	/^  virtual GP* createGP (int numOfGenes) { return new MyGP (numOfGenes); }$/;"	f	class:MyPopulation
+createGP	include/gp.h	/^  virtual GP* createGP (int numOfTrees) { return new GP (numOfTrees); }$/;"	f	class:GPPopulation
+createGP	lawn/lawn.h	/^  virtual GP* createGP (int numOfGenes) { return new MyGP (numOfGenes); }$/;"	f	class:MyPopulation
+createGP	skeleton/skeleton.cc	/^  virtual GP* createGP (int numOfTrees) { return new MyGP (numOfTrees); }$/;"	f	class:MyPopulation
+createGP	symbreg/symbreg.h	/^  virtual GP* createGP (int numOfGenes) { return new MyGP (numOfGenes); }$/;"	f	class:MyPopulation
+createGene	ant/ant.h	/^  virtual GPGene* createGene (GPNode& gpo) {$/;"	f	class:MyGP
+createGene	include/gp.h	/^  virtual GPGene* createGene (GPNode& gpo) {$/;"	f	class:GP
+createGene	lawn/lawn.h	/^  virtual GPGene* createGene (GPNode& gpo) {$/;"	f	class:MyGP
+createGene	skeleton/skeleton.cc	/^  virtual GPGene* createGene (GPNode& gpo) {$/;"	f	class:MyGP
+createGene	symbreg/symbreg.h	/^  virtual GPGene* createGene (GPNode& gpo) {$/;"	f	class:MyGP
+createGenerationReport	src/pop.cc	/^void GPPopulation::createGenerationReport (int printLegend, int generation, $/;"	f	class:GPPopulation
+createNodeSet	ant/ant.cc	/^void createNodeSet (GPAdfNodeSet& adfNs)$/;"	f
+createNodeSet	lawn/lawn.cc	/^void createNodeSet (GPAdfNodeSet& adfNs)$/;"	f
+createNodeSet	skeleton/skeleton.cc	/^void createNodeSet (GPAdfNodeSet& adfNs)$/;"	f
+createNodeSet	symbreg/symbreg.cc	/^void createNodeSet (GPAdfNodeSet& adfNs)$/;"	f
+createObject	include/gp.h	/^  virtual GPObject* createObject() { return new GP; }$/;"	f	class:GP
+createObject	include/gp.h	/^  virtual GPObject* createObject() { return new GPAdfNodeSet; }$/;"	f	class:GPAdfNodeSet
+createObject	include/gp.h	/^  virtual GPObject* createObject() { return new GPContainer; }$/;"	f	class:GPContainer
+createObject	include/gp.h	/^  virtual GPObject* createObject() { return new GPGene; }$/;"	f	class:GPGene
+createObject	include/gp.h	/^  virtual GPObject* createObject() { return new GPNode; }$/;"	f	class:GPNode
+createObject	include/gp.h	/^  virtual GPObject* createObject() { return new GPNodeSet; }$/;"	f	class:GPNodeSet
+createObject	include/gp.h	/^  virtual GPObject* createObject() { return new GPPopulation; }$/;"	f	class:GPPopulation
+createObject	include/gp.h	/^  virtual GPObject* createObject() { return new GPVariables; }$/;"	f	class:GPVariables
+createObject	skeleton/skeleton.cc	/^  virtual GPObject* createObject() { return new MyGP; }$/;"	f	class:MyGP
+createObject	skeleton/skeleton.cc	/^  virtual GPObject* createObject() { return new MyGene; }$/;"	f	class:MyGene
+createObject	skeleton/skeleton.cc	/^  virtual GPObject* createObject() { return new MyPopulation; }$/;"	f	class:MyPopulation
+creationAttempts	src/create.cc	/^const int creationAttempts=50;$/;"	v
+cross	src/cross.cc	/^GPContainer& GP::cross (GPContainer* parents, $/;"	f	class:GP
+deleteContainer	src/contain.cc	/^void GPContainer::deleteContainer () $/;"	f	class:GPContainer
+demeticMigration	src/generate.cc	/^void GPPopulation::demeticMigration ()$/;"	f	class:GPPopulation
+depth	include/gp.h	/^  virtual int depth () { return GPdepth; }$/;"	f	class:GP
+depth	src/gene.cc	/^int GPGene::depth (int depthSoFar)$/;"	f	class:GPGene
+direction	ant/ant.h	/^  int direction, energy;$/;"	m	class:Ant
+direction	lawn/lawn.h	/^  int direction, mown;$/;"	m	class:Mower
+divide	symbreg/symbreg.cc	/^inline double divide (double x, double y)$/;"	f
+duplicate	ant/ant.h	/^  virtual GPObject& duplicate () { return *(new MyGP(*this)); }$/;"	f	class:MyGP
+duplicate	ant/ant.h	/^  virtual GPObject& duplicate () { return *(new MyGene(*this)); }$/;"	f	class:MyGene
+duplicate	ant/ant.h	/^  virtual GPObject& duplicate () { return *(new MyPopulation(*this)); }$/;"	f	class:MyPopulation
+duplicate	include/gp.h	/^  virtual GPObject& duplicate () { return *(new GP(*this)); }$/;"	f	class:GP
+duplicate	include/gp.h	/^  virtual GPObject& duplicate () { return *(new GPAdfNodeSet(*this)); }$/;"	f	class:GPAdfNodeSet
+duplicate	include/gp.h	/^  virtual GPObject& duplicate () { return *(new GPContainer(*this)); }$/;"	f	class:GPContainer
+duplicate	include/gp.h	/^  virtual GPObject& duplicate () { return *(new GPGene(*this)); }$/;"	f	class:GPGene
+duplicate	include/gp.h	/^  virtual GPObject& duplicate () { return *(new GPNode(*this)); }$/;"	f	class:GPNode
+duplicate	include/gp.h	/^  virtual GPObject& duplicate () { return *(new GPNodeSet(*this)); }$/;"	f	class:GPNodeSet
+duplicate	include/gp.h	/^  virtual GPObject& duplicate () { return *(new GPPopulation(*this)); }$/;"	f	class:GPPopulation
+duplicate	include/gp.h	/^  virtual GPObject& duplicate () { return *(new GPVariables(*this)); }$/;"	f	class:GPVariables
+duplicate	lawn/lawn.h	/^  virtual GPObject& duplicate () { return *(new MyGP(*this)); }$/;"	f	class:MyGP
+duplicate	lawn/lawn.h	/^  virtual GPObject& duplicate () { return *(new MyGene(*this)); }$/;"	f	class:MyGene
+duplicate	lawn/lawn.h	/^  virtual GPObject& duplicate () { return *(new MyPopulation(*this)); }$/;"	f	class:MyPopulation
+duplicate	skeleton/skeleton.cc	/^  virtual GPObject& duplicate () { return *(new MyGP(*this)); }$/;"	f	class:MyGP
+duplicate	skeleton/skeleton.cc	/^  virtual GPObject& duplicate () { return *(new MyGene(*this)); }$/;"	f	class:MyGene
+duplicate	skeleton/skeleton.cc	/^  virtual GPObject& duplicate () { return *(new MyPopulation(*this)); }$/;"	f	class:MyPopulation
+duplicate	symbreg/symbreg.h	/^  virtual GPObject& duplicate () { return *(new MyGP(*this)); }$/;"	f	class:MyGP
+duplicate	symbreg/symbreg.h	/^  virtual GPObject& duplicate () { return *(new MyGene(*this)); }$/;"	f	class:MyGene
+duplicate	symbreg/symbreg.h	/^  virtual GPObject& duplicate () { return *(new MyPopulation(*this)); }$/;"	f	class:MyPopulation
+endIx	include/gp.h	/^  int startIx, endIx;$/;"	m	struct:GPPopulationRange
+energy	ant/ant.cc	/^int energy;$/;"	v
+energy	ant/ant.h	/^  int direction, energy;$/;"	m	class:Ant
+evaluate	ant/ant.cc	/^int MyGene::evaluate ()$/;"	f	class:MyGene
+evaluate	ant/ant.cc	/^void MyGP::evaluate ()$/;"	f	class:MyGP
+evaluate	lawn/lawn.cc	/^Vector MyGene::evaluate (MyGP& gp, Vector arg0=zeroVector)$/;"	f	class:MyGene
+evaluate	lawn/lawn.cc	/^void MyGP::evaluate ()$/;"	f	class:MyGP
+evaluate	skeleton/skeleton.cc	/^double MyGene::evaluate ()$/;"	f	class:MyGene
+evaluate	skeleton/skeleton.cc	/^void MyGP::evaluate ()$/;"	f	class:MyGP
+evaluate	src/eval.cc	/^double GPGene::evaluate ()$/;"	f	class:GPGene
+evaluate	src/eval.cc	/^void GP::evaluate ()$/;"	f	class:GP
+evaluate	src/eval.cc	/^void GPPopulation::evaluate ()$/;"	f	class:GPPopulation
+evaluate	symbreg/symbreg.cc	/^double MyGene::evaluate (double x, MyGP& gp, double arg0, double arg1)$/;"	f	class:MyGene
+evaluate	symbreg/symbreg.cc	/^void MyGP::evaluate ()$/;"	f	class:MyGP
+evolution	src/generate.cc	/^GPContainer* GPPopulation::evolution (GPPopulationRange& range)$/;"	f	class:GPPopulation
+findNthNode	src/gene.cc	/^GPGene** GPGene::findNthNode (GPGene** rootPtr, int findFunction,$/;"	f	class:GPGene
+firstSelectionPerDeme	include/gp.h	/^  int firstSelectionPerDeme;$/;"	m	struct:GPPopulationRange
+fitnessValid	include/gp.h	/^  int fitnessValid;$/;"	m	class:GP
+forward	ant/trail.cc	/^int Ant::forward ()$/;"	f	class:Ant
+forwardPosition	ant/trail.cc	/^position Ant::forwardPosition ()$/;"	f	class:Ant
+frog	lawn/mower.cc	/^void Mower::frog (Vector& v)$/;"	f	class:Mower
+gene	doc/gpkernel_1.html	/^function gene (e.g. a gene which has children), then one of its$/;"	f
+geneNode	include/gp.h	/^  GPNode& geneNode () { return *node; }$/;"	f	class:GPGene
+generate	src/generate.cc	/^void GPPopulation::generate (GPPopulation& newPop)$/;"	f	class:GPPopulation
+get	src/contain.cc	/^GPObject& GPContainer::get (int n)$/;"	f	class:GPContainer
+getFitness	include/gp.h	/^  double getFitness () { return stdFitness; }$/;"	f	class:GP
+getPointerAddress	src/contain.cc	/^GPObject** GPContainer::getPointerAddress (int n) const$/;"	f	class:GPContainer
+ids	src/loadsave.cc	/^static int ids[MAXIMUMCLASSNUM];$/;"	v	file:
+idum	src/gprand.cc	/^static long idum=-1;$/;"	v	file:
+invSumFitness	include/gp.h	/^  double invSumFitness;$/;"	m	class:GPPopulation
+inverse	src/select.cc	/^inline static double inverse (double x)$/;"	f	file:
+isA	include/gp.h	/^  virtual int isA () { return GPAdfNodeSetID; }$/;"	f	class:GPAdfNodeSet
+isA	include/gp.h	/^  virtual int isA () { return GPContainerID; }$/;"	f	class:GPContainer
+isA	include/gp.h	/^  virtual int isA () { return GPGeneID; }$/;"	f	class:GPGene
+isA	include/gp.h	/^  virtual int isA () { return GPID; }$/;"	f	class:GP
+isA	include/gp.h	/^  virtual int isA () { return GPID; }$/;"	f	class:GPPopulation
+isA	include/gp.h	/^  virtual int isA () { return GPNodeID; }$/;"	f	class:GPNode
+isA	include/gp.h	/^  virtual int isA () { return GPNodeSetID; }$/;"	f	class:GPNodeSet
+isA	include/gp.h	/^  virtual int isA () { return GPVariablesID; }$/;"	f	class:GPVariables
+isA	skeleton/skeleton.cc	/^  virtual int isA () { return MyGPID; }$/;"	f	class:MyGP
+isA	skeleton/skeleton.cc	/^  virtual int isA () { return MyGeneID; }$/;"	f	class:MyGene
+isA	skeleton/skeleton.cc	/^  virtual int isA () { return MyPopulationID; }$/;"	f	class:MyPopulation
+isFoodAhead	ant/trail.cc	/^int Ant::isFoodAhead ()$/;"	f	class:Ant
+isFunction	include/gp.h	/^  int isFunction () { return numOfArgs!=0; }$/;"	f	class:GPNode
+isFunction	include/gp.h	/^  virtual int isFunction () { return node->isFunction (); }$/;"	f	class:GPGene
+isTerminal	include/gp.h	/^  int isTerminal () { return numOfArgs==0; }$/;"	f	class:GPNode
+isTerminal	include/gp.h	/^  virtual int isTerminal () { return node->isTerminal (); }$/;"	f	class:GPGene
+lawn	lawn/lawn.h	/^  unsigned char lawn[LawnHorizontal][LawnVertical];$/;"	m	class:Mower
+lawnFile	lawn/lawn.cc	/^ofstream lawnFile;$/;"	v
+left	ant/trail.cc	/^void Ant::left ()$/;"	f	class:Ant
+left	lawn/mower.cc	/^void Mower::left ()$/;"	f	class:Mower
+length	include/gp.h	/^  virtual int length () { return GPlength; }$/;"	f	class:GP
+length	src/gene.cc	/^int GPGene::length ()$/;"	f	class:GPGene
+lengthFactor	ant/ant.cc	/^double lengthFactor=1\/1000.0;$/;"	v
+lengthFactor	lawn/lawn.cc	/^double lengthFactor=1\/100.0;$/;"	v
+load	src/contain.cc	/^char* GPContainer::load (istream& is)$/;"	f	class:GPContainer
+load	src/gene.cc	/^char* GPGene::load (istream& is)$/;"	f	class:GPGene
+load	src/gp.cc	/^char* GP::load (istream& is)$/;"	f	class:GP
+load	src/gpv.cc	/^char* GPVariables::load (istream& is)$/;"	f	class:GPVariables
+load	src/node.cc	/^char* GPNode::load (istream& is)$/;"	f	class:GPNode
+load	src/node.cc	/^char* GPNodeSet::load (istream& is)$/;"	f	class:GPNodeSet
+load	src/pop.cc	/^char* GPPopulation::load (istream& is)$/;"	f	class:GPPopulation
+loadSaveObjects	src/loadsave.cc	/^static GPObject* loadSaveObjects[MAXIMUMCLASSNUM];$/;"	v	file:
+main	ant/ant.cc	/^int main ()$/;"	f
+main	lawn/lawn.cc	/^int main ()$/;"	f
+main	skeleton/skeleton.cc	/^int main ()$/;"	f
+main	symbreg/symbreg.cc	/^int main ()$/;"	f
+maxFood	ant/ant.h	/^  int maxFood;$/;"	m	class:Ant
+mow	lawn/mower.cc	/^void Mower::mow ()$/;"	f	class:Mower
+mowArea	lawn/mower.cc	/^void Mower::mowArea ()$/;"	f	class:Mower
+mower	lawn/lawn.cc	/^Mower mower;$/;"	v
+mown	lawn/lawn.h	/^  double mown;$/;"	m	class:MyGP
+mown	lawn/lawn.h	/^  int direction, mown;$/;"	m	class:Mower
+mutate	src/mutate.cc	/^void GP::mutate (GPVariables& GPVar, GPAdfNodeSet& adfNs)$/;"	f	class:GP
+name	include/gpconfig.h	/^  char *name;$/;"	m	struct:GPConfigVarInformation
+newHandler	ant/ant.cc	/^void newHandler ()$/;"	f
+newHandler	lawn/lawn.cc	/^void newHandler ()$/;"	f
+newHandler	skeleton/skeleton.cc	/^void newHandler ()$/;"	f
+newHandler	symbreg/symbreg.cc	/^void newHandler ()$/;"	f
+node	include/gp.h	/^    GPNode* node;$/;"	m	union:GPGene::__anon1
+nodeValue	include/gp.h	/^    int nodeValue;$/;"	m	union:GPGene::__anon1
+nodeValue	include/gp.h	/^  int nodeValue;$/;"	m	class:GPNode
+numFunctions	include/gp.h	/^  int numFunctions, numTerminals;$/;"	m	class:GPNodeSet
+numOfArgs	include/gp.h	/^  int numOfArgs;$/;"	m	class:GPNode
+numTerminals	include/gp.h	/^  int numFunctions, numTerminals;$/;"	m	class:GPNodeSet
+operator +	lawn/lawn.h	/^inline Vector operator + (Vector v1, Vector v2)$/;"	f
+operator <<	ant/trail.cc	/^ostream& operator << (ostream &os, Ant &ant)$/;"	f
+operator <<	include/gp.h	/^inline ostream& operator << (ostream& os, GPObject& gpo)$/;"	f
+operator <<	include/gpconfig.h	/^  friend inline ostream& operator << (ostream& o, const GPConfiguration& c)$/;"	f	class:GPConfiguration
+operator <<	lawn/lawn.h	/^inline ostream& operator << (ostream &os, Vector &v)$/;"	f
+operator <<	lawn/mower.cc	/^ostream& operator << (ostream &os, Mower &mower)$/;"	f
+operator =	include/gp.h	/^  GP& operator = (GP& gpo) {$/;"	f	class:GP
+operator =	include/gp.h	/^  GPAdfNodeSet& operator = (GPAdfNodeSet& gpo) {$/;"	f	class:GPAdfNodeSet
+operator =	include/gp.h	/^  GPContainer& operator = (GPContainer& gpo) {$/;"	f	class:GPContainer
+operator =	include/gp.h	/^  GPGene& operator = (GPGene& gpo) {$/;"	f	class:GPGene
+operator =	include/gp.h	/^  GPNode& operator = (GPNode& gpo) {$/;"	f	class:GPNode
+operator =	include/gp.h	/^  GPNodeSet& operator = (GPNodeSet& gpo) {$/;"	f	class:GPNodeSet
+operator =	include/gp.h	/^  GPPopulation& operator = (GPPopulation& gpo) {$/;"	f	class:GPPopulation
+operator ==	src/compare.cc	/^int operator == (GPGene& g1, GPGene& g2)$/;"	f
+operator []	src/select.cc	/^  int& operator [] (int index) { return *(arrayPtr+index); }$/;"	f	class:IntegerArraySel
+operator []	src/select.cc	/^  int& operator [] (int index) { return *(arrayPtr+index); }$/;"	f	class:IntegerArrayTourn
+pos	ant/ant.h	/^  position pos;$/;"	m	class:Ant
+pos	lawn/lawn.h	/^  Vector pos;$/;"	m	class:Mower
+position	ant/ant.h	/^struct position {$/;"	s
+printAnt	ant/ant.cc	/^int printAnt=0;$/;"	v
+printLawn	lawn/lawn.cc	/^int printLawn=0;$/;"	v
+printMathStyle	symbreg/symbreg.cc	/^void MyGene::printMathStyle (ostream& os, int lastPrecedence)$/;"	f	class:MyGene
+printOn	include/gp.h	/^  virtual void printOn (ostream& os) { os << representation; }$/;"	f	class:GPNode
+printOn	lawn/lawn.cc	/^void MyGene::printOn (ostream& os)$/;"	f	class:MyGene
+printOn	src/config.cc	/^void GPConfiguration::printOn (ostream& o) const$/;"	f	class:GPConfiguration
+printOn	src/contain.cc	/^void GPContainer::printOn (ostream& os)$/;"	f	class:GPContainer
+printOn	src/gene.cc	/^void GPGene::printOn (ostream& os)$/;"	f	class:GPGene
+printOn	src/gp.cc	/^void GP::printOn (ostream& os)$/;"	f	class:GP
+printOn	src/gpv.cc	/^void GPVariables::printOn (ostream& os)$/;"	f	class:GPVariables
+printOn	src/node.cc	/^void GPAdfNodeSet::printOn (ostream& os)$/;"	f	class:GPAdfNodeSet
+printOn	src/node.cc	/^void GPNodeSet::printOn (ostream& os)$/;"	f	class:GPNodeSet
+printOn	src/pop.cc	/^void GPPopulation::printOn (ostream& os)$/;"	f	class:GPPopulation
+printOn	symbreg/symbreg.cc	/^void MyGP::printOn (ostream& os)$/;"	f	class:MyGP
+printOn	symbreg/symbreg.cc	/^void MyGene::printOn (ostream& os)$/;"	f	class:MyGene
+printTeXStyle	symbreg/symbreg.cc	/^void MyGene::printTeXStyle (ostream& os, int lastPrecedence)$/;"	f	class:MyGene
+printTexStyle	symbreg/symbreg.cc	/^int printTexStyle=0;$/;"	v
+probabilisticSelection	src/select.cc	/^void GPPopulation::probabilisticSelection (int *selection, int numToSelect, $/;"	f	class:GPPopulation
+put	src/contain.cc	/^void GPContainer::put (int n, GPObject& gpo)$/;"	f	class:GPContainer
+put	src/node.cc	/^void GPNodeSet::put (int, GPObject&)$/;"	f	class:GPNodeSet
+putNode	src/node.cc	/^void GPNodeSet::putNode (GPNode& gpo)$/;"	f	class:GPNodeSet
+ques	symbreg/symbreg.cc	/^double ques[DATAPOINTS];$/;"	v
+randomConstant	lawn/lawn.h	/^  Vector randomConstant;$/;"	m	class:MyGene
+readTrail	ant/trail.cc	/^void Ant::readTrail (char* fname)$/;"	f	class:Ant
+registered	src/loadsave.cc	/^static int registered=0;$/;"	v	file:
+representation	include/gp.h	/^  char* representation;$/;"	m	class:GPNode
+reserveSpace	src/contain.cc	/^void GPContainer::reserveSpace (int numObjects) $/;"	f	class:GPContainer
+reset	ant/trail.cc	/^void Ant::reset (int energy_)$/;"	f	class:Ant
+reset	lawn/mower.cc	/^void Mower::reset ()$/;"	f	class:Mower
+resolveNodeValues	src/gene.cc	/^void GPGene::resolveNodeValues (GPNodeSet& ns)$/;"	f	class:GPGene
+resolveNodeValues	src/gp.cc	/^void GP::resolveNodeValues (GPAdfNodeSet& adfNs)$/;"	f	class:GP
+right	ant/trail.cc	/^void Ant::right ()$/;"	f	class:Ant
+save	src/contain.cc	/^void GPContainer::save (ostream& os)$/;"	f	class:GPContainer
+save	src/gene.cc	/^void GPGene::save (ostream& os)$/;"	f	class:GPGene
+save	src/gp.cc	/^void GP::save (ostream& os)$/;"	f	class:GP
+save	src/gpv.cc	/^void GPVariables::save (ostream& os)$/;"	f	class:GPVariables
+save	src/node.cc	/^void GPNode::save (ostream& os)$/;"	f	class:GPNode
+save	src/node.cc	/^void GPNodeSet::save (ostream& os)$/;"	f	class:GPNodeSet
+save	src/pop.cc	/^void GPPopulation::save (ostream& os)$/;"	f	class:GPPopulation
+saveStruc	include/gpconfig.h	/^  struct GPConfigVarInformation* saveStruc;$/;"	m	class:GPConfiguration	typeref:struct:GPConfiguration::GPConfigVarInformation
+searchForNode	src/node.cc	/^GPNode* GPNodeSet::searchForNode (int value)$/;"	f	class:GPNodeSet
+select	src/select.cc	/^GPContainer* GPPopulation::select (int numToSelect, $/;"	f	class:GPPopulation
+selectIndices	src/select.cc	/^void GPPopulation::selectIndices (int *selection, int numToSelect, $/;"	f	class:GPPopulation
+selectParents	src/select.cc	/^GPContainer* GPPopulation::selectParents (GPPopulationRange& range)$/;"	f	class:GPPopulation
+selectionArraySize	src/select.cc	/^const int selectionArraySize=2;$/;"	v
+setNodeSets	src/pop.cc	/^void GPPopulation::setNodeSets (GPAdfNodeSet& adfNs_)$/;"	f	class:GPPopulation
+shrinkMutation	src/mutate.cc	/^void GP::shrinkMutation ()$/;"	f	class:GP
+startIx	include/gp.h	/^  int startIx, endIx;$/;"	m	struct:GPPopulationRange
+stdFitness	include/gp.h	/^  double stdFitness;$/;"	m	class:GP
+sumFitness	include/gp.h	/^  double sumFitness;$/;"	m	class:GPPopulation
+swapAttempts	src/mutate.cc	/^const int swapAttempts=5;$/;"	v
+swapMutation	src/mutate.cc	/^void GP::swapMutation (GPAdfNodeSet& adfNs)$/;"	f	class:GP
+totalDepth	src/pop.cc	/^long GPPopulation::totalDepth()$/;"	f	class:GPPopulation
+totalFitness	src/pop.cc	/^double GPPopulation::totalFitness()$/;"	f	class:GPPopulation
+totalLength	src/pop.cc	/^long GPPopulation::totalLength()$/;"	f	class:GPPopulation
+tournamentArraySize	src/select.cc	/^const int tournamentArraySize=20;$/;"	v
+tournamentSelection	src/select.cc	/^void GPPopulation::tournamentSelection (int *selection, int numToSelect,$/;"	f	class:GPPopulation
+tout	symbreg/symbreg.cc	/^ofstream tout;$/;"	v
+typ	include/gpconfig.h	/^  enum GPDataType typ;$/;"	m	struct:GPConfigVarInformation	typeref:enum:GPConfigVarInformation::GPDataType
+value	include/gp.h	/^  int value () { return nodeValue; }$/;"	f	class:GPNode
+valueAssigned	lawn/lawn.h	/^  int valueAssigned; $/;"	m	class:MyGene
+varPtr	include/gpconfig.h	/^  void *varPtr;$/;"	m	struct:GPConfigVarInformation
+world	ant/ant.h	/^  unsigned char world [worldHorizontal][worldVertical];$/;"	m	class:Ant
+worldHorizontal	ant/ant.h	/^const int worldHorizontal=32;$/;"	v
+worldVertical	ant/ant.h	/^const int worldVertical=32;$/;"	v
+worstOfPopulation	include/gp.h	/^  int bestOfPopulation, worstOfPopulation;$/;"	m	class:GPPopulation
+x	ant/ant.h	/^  int x, y;$/;"	m	struct:position
+x	lawn/lawn.h	/^  int x, y;$/;"	m	class:Vector
+y	ant/ant.h	/^  int x, y;$/;"	m	struct:position
+y	lawn/lawn.h	/^  int x, y;$/;"	m	class:Vector
+~GPConfiguration	src/config.cc	/^GPConfiguration::~GPConfiguration ()$/;"	f	class:GPConfiguration
+~GPContainer	src/contain.cc	/^GPContainer::~GPContainer ()$/;"	f	class:GPContainer
+~GPNode	include/gp.h	/^  virtual ~GPNode () { delete [] representation; }$/;"	f	class:GPNode
+~GPObject	include/gp.h	/^  virtual ~GPObject () {}$/;"	f	class:GPObject
+~GPVariables	include/gp.h	/^  ~GPVariables () {};$/;"	f	class:GPVariables
+~IntegerArraySel	src/select.cc	/^  ~IntegerArraySel () $/;"	f	class:IntegerArraySel
+~IntegerArrayTourn	src/select.cc	/^  ~IntegerArrayTourn () $/;"	f	class:IntegerArrayTourn

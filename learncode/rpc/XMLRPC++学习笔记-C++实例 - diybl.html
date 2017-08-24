@@ -1,0 +1,334 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0067)http://www.diybl.com/course/3_program/c++/cppsl/2008222/100465.html -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=GBK">
+
+<title>XMLRPC++学习笔记-C++实例 - diybl</title>
+<meta name="keywords" content="XMLRPC++学习笔记,C++实例,C++系列教程,C++,软件编程">
+<meta name="description" content="XMLRPC++学习笔记1   参数类型 XmlRpcValue    标量数据类型(scalar )　　参数值&lt;value&gt;可以是标量，用类型标签将值包括起来。如果没指定类型，则认为是string类型。 &amp;nb">
+<meta name="robots" content="index,follow">
+<meta name="GOOGLEBOT" content="INDEX,FOLLOW">
+<link href="./XMLRPC++学习笔记-C++实例 - diybl_files/css.css" rel="stylesheet" type="text/css">
+<link href="./XMLRPC++学习笔记-C++实例 - diybl_files/ad.css" rel="stylesheet" type="text/css">
+<link href="./XMLRPC++学习笔记-C++实例 - diybl_files/css(1).css" rel="stylesheet" type="text/css">
+<link href="./XMLRPC++学习笔记-C++实例 - diybl_files/ad(1).css" rel="stylesheet" type="text/css">
+<script type="text/javascript" language="javascript" src="./XMLRPC++学习笔记-C++实例 - diybl_files/jquery-1.2.6.min.js"></script>
+<script type="text/javascript" language="javascript" src="./XMLRPC++学习笔记-C++实例 - diybl_files/Article.js"></script>
+<script>window["_GOOG_TRANS_EXT_VER"] = "1";</script></head>
+<body>
+<div class="contant">
+  <div class="index_header">
+	    <div class="index_logo"><a href="http://www.diybl.com/" target="_blank"><img src="./XMLRPC++学习笔记-C++实例 - diybl_files/logo.gif" width="181" height="88" border="0"></a></div>
+	    <div class="ad1"><script language="javascript" src="./XMLRPC++学习笔记-C++实例 - diybl_files/ad1.js"></script></div>
+		<div class="index_header_right">
+		  <table width="100%" height="82" border="0" cellpadding="10">
+            <tbody><tr>
+              <td colspan="4" valign="middle">
+			    <form name="search" onsubmit="search(document.all.search.value);" action="http://so.diybl.com/s" method="get" target="_blank">
+                <img style="float:left; margin-top:2px;" src="./XMLRPC++学习笔记-C++实例 - diybl_files/sousu.gif" width="68" height="25">
+                <label>
+                <input type="text" class="index_header_right_text1" name="w">
+              </label>
+			  <label>
+                <input name="Submit" style="float:left; margin-left:6px; display:inline;" type="image" value="提交" src="./XMLRPC++学习笔记-C++实例 - diybl_files/sou_ok.gif">
+              </label></form></td>
+            </tr>
+            <form name="login" onsubmit="loginbbs();"></form>
+            <tr>
+              <td width="19%">用户名：</td>
+              <td width="33%"><label>
+                <input type="text" class="index_header_right_text2" name="username">
+              </label></td>
+              <td width="16%">密&nbsp;&nbsp;&nbsp;码：</td>
+              <td width="32%"><input type="password" class="index_header_right_text2" name="password"></td>
+            </tr>
+            <tr>
+              <td><label><input type="submit" value="" class="input_login"></label></td>
+              <td>&nbsp;&nbsp;<input type="buttom" onclick="self.location=&#39;http://bbs.diybl.com/register.aspx&#39;" value="" class="input_reg"></td>
+              <td><a href="http://www.diybl.com/" target="_blank">飞诺网</a></td>
+              <td><a href="javascript:window.external.addFavorite('http://www.diybl.com','飞诺网');">加入收藏</a></td>
+            </tr>
+            
+          </tbody></table>
+		</div>
+	</div>
+	<div class="index_banner">
+	    <a href="http://www.diybl.com/" class="index_banner_on" onmouseover="ChgTab(1);" target="_blank">飞诺网</a>
+			    <a href="http://www.diybl.com/list/103.shtml" target="_blank">软件编程</a>
+	    	    <a href="http://www.diybl.com/list/10301.shtml" target="_blank">C</a>
+	    	    <a href="http://www.diybl.com/list/10302.shtml" target="_blank">C++</a>
+	    	    <a href="http://www.diybl.com/list/10303.shtml" target="_blank">Java</a>
+	    	    <a href="http://www.diybl.com/list/10304.shtml" target="_blank">VB</a>
+	    	    <a href="http://www.diybl.com/list/10305.shtml" target="_blank">Delphi</a>
+	    	    <a href="http://www.diybl.com/list/10306.shtml" target="_blank">Foxpro</a>
+	    	    <a href="http://www.diybl.com/list/10307.shtml" target="_blank">汇编语言</a>
+	    	    <a href="http://www.diybl.com/list/10308.shtml" target="_blank">游戏开发</a>
+	    	    <a href="http://www.diybl.com/list/10309.shtml" target="_blank">移动开发</a>
+	    	    <a href="http://www.diybl.com/list/10310.shtml" target="_blank">软件工程师</a>
+	    	    <a href="http://www.diybl.com/list/10311.shtml" target="_blank">软工与管理</a>
+	    	    <a href="http://www.diybl.com/list/10312.shtml" target="_blank">VC</a>
+	    	    <a href="http://www.diybl.com/list/10313.shtml" target="_blank">shell编程</a>
+	    	    <a href="http://www.diybl.com/list/10314.shtml" target="_blank">C#</a>
+	    	</div>
+	<div class="index_banner2" id="index1">
+	     	    <a href="http://www.diybl.com/list/1030201.shtml" target="_blank">C++系列教程</a>
+	    	    <a href="http://www.diybl.com/list/1030202.shtml" target="_blank">C++实例</a>
+	    	    <a href="http://www.diybl.com/list/1030203.shtml" target="_blank">C++技术文档</a>
+	    	    <a href="http://www.diybl.com/list/1030204.shtml" target="_blank">C++/C语言函数</a>
+	    	    <a href="http://www.diybl.com/list/1030205.shtml" target="_blank">Mangos</a>
+	    	</div>
+	<div class="cle"></div>
+	<div class="index_banner4">
+	<img src="./XMLRPC++学习笔记-C++实例 - diybl_files/logo1.gif">
+	<p>您当前的位置：<a href="http://www.diybl.com/" target="_blank">飞诺网</a>
+            &gt;&gt;&nbsp;<a href="http://www.diybl.com/c.shtml" target="_blank">c/c++</a>
+          &gt;&gt;&nbsp;<a href="http://www.diybl.com/list/1030202.shtml" target="_blank">C++实例</a></p>
+	</div>
+   <div class="index_main">
+   	<div class="ad2"><script language="javascript" src="./XMLRPC++学习笔记-C++实例 - diybl_files/ad2.js"></script></div>
+   	<div class="ad3"><script language="javascript" src="./XMLRPC++学习笔记-C++实例 - diybl_files/ad3.js"></script></div>
+  <div class="cle"></div>
+   <div class="index_main_left">
+        <div class="index_main_left_1">
+		     <div class="index_main_left_1_top">
+			      <div class="index_main_left_1_top2"><p>XMLRPC++学习笔记</p></div>
+				  <div class="index_main_left_1_top3">
+				      <p>www.diybl.com&nbsp;&nbsp;&nbsp;&nbsp;时间&nbsp;：&nbsp;2008-02-22&nbsp;&nbsp;作者：佚名 &nbsp;&nbsp;编辑：本站 点击：&nbsp;&nbsp;<span id="articleTimes">960</span> <a href="http://www.diybl.com/course/3_program/c++/cppsl/2008222/100465.html#comment" style="color:#F55308;">[&nbsp;评论&nbsp;]</a></p>
+				  </div>
+			 </div>
+			 <div class="index_main_left_center">
+			 <div class="ad4"><script language="javascript" src="./XMLRPC++学习笔记-C++实例 - diybl_files/ad4.js"></script><script type="text/javascript"> /*300*250，创建于2010-9-9*/ var cpro_id = 'u193121';</script>
+<script type="text/javascript" src="./XMLRPC++学习笔记-C++实例 - diybl_files/c.js"></script><script type="text/javascript" charset="utf-8" src="./XMLRPC++学习笔记-C++实例 - diybl_files/ecom"></script><div style="display:none">-</div> <iframe id="cproIframe1" src="./XMLRPC++学习笔记-C++实例 - diybl_files/uijs.html" width="300" height="250" align="center,center" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" allowtransparency="true"></iframe>
+</div>
+			 <div class="ad5"><script language="javascript" src="./XMLRPC++学习笔记-C++实例 - diybl_files/ad5.js"></script><script type="text/javascript"> /*开发频道-右：300*250，创建于2010-9-9*/ var cpro_id = 'u193131';</script>
+<script type="text/javascript" src="./XMLRPC++学习笔记-C++实例 - diybl_files/c.js"></script><script type="text/javascript" charset="utf-8" src="./XMLRPC++学习笔记-C++实例 - diybl_files/ecom(1)"></script><div style="display:none">-</div> <iframe id="cproIframe2" src="./XMLRPC++学习笔记-C++实例 - diybl_files/uijs(1).html" width="300" height="250" align="center,center" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" allowtransparency="true"></iframe>
+</div>
+			 <div class="ad6"><script language="javascript" src="./XMLRPC++学习笔记-C++实例 - diybl_files/ad6.js"></script></div>
+			 		1&nbsp;&nbsp; 参数类型 XmlRpcValue<br>&nbsp;&nbsp;&nbsp; 标量数据类型(scalar )<br>　　参数值&lt;value&gt;可以是标量，用类型标签将值包括起来。如果没指定类型，则认为是string类型。<br>&nbsp;&nbsp; &lt;i4&gt;或者 &lt;int&gt;表示 4字节带符号整数值&nbsp;&nbsp;&nbsp; <br>&nbsp;&nbsp; &lt;boolean&gt;表示 0 (false) or 1 (true)&nbsp;&nbsp;&nbsp; <br>&nbsp;&nbsp; &lt;string&gt;表示 &nbsp;&nbsp;&nbsp; 字符串&nbsp;&nbsp;&nbsp; <br>&nbsp;&nbsp; &lt;double&gt;表示 &nbsp;&nbsp;&nbsp; 双精度带符号浮点值&nbsp;&nbsp;&nbsp; <br>&nbsp;&nbsp; &lt;dateTime.iso8601&gt;表示 日期/时间<br>&nbsp;&nbsp; &lt;base64&gt;表示 base64编码的二进制数据<br><br>&nbsp;结构数据类型(&lt;struct&gt;)<br>　　参数值也可以是&lt;struct&gt;类型一个&lt;struct&gt;可含有几个&lt;member&gt;项，每个&lt; member&gt;含有一个&lt;name&gt;项和一个&lt;value&gt;项。&lt;member&gt;的&lt; value&gt;值可以为任何类型，可为标量类型、&lt;array&gt;甚至&lt;struct&gt;(即可以递归).<br><br><br>　　数组数据类型(&lt;array&gt;)<br>　　参数值也可以是&lt;array&gt;类型一个&lt;array&gt;含有单一的 &lt;data&gt; 元素，&lt;data&gt;元素可以含有任意数量的&lt;value&gt;, 这里的&lt;value&gt;没有name.每个&lt;value&gt;的数据类型可各不相同，如下例所示。<br>　　&lt;data&gt;的&lt;value&gt;值可以为任何类型，可为标量类型、 &lt;struct&gt;甚至&lt;array&gt;(即可以递归).<br><br>（例子可参见：http://hedong.3322.org/archives/000470.html）<br><br>XMLRPC＋＋代码中与此对应的是类 XmlRpc::XmlRpcValue<br>类型定义如下：<br>enum Type {<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; TypeInvalid,// 非法类型<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; TypeBoolean,// 0 (false) or 1 (true)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; TypeInt,// 4字节带符号整数值<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; TypeDouble,// 双精度带符号浮点值&nbsp;&nbsp;&nbsp; <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; TypeString,// 字符串&nbsp;&nbsp;&nbsp; <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; TypeDateTime,// 日期/时间<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; TypeBase64,// base64编码的二进制数据<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; TypeArray, // 数组数据类型<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; TypeStruct // 结构数据类型<br>&nbsp;&nbsp;&nbsp;&nbsp; };<br>&nbsp;&nbsp;&nbsp;&nbsp; typedef std::vector&lt;char&gt; BinaryData; // 二进制数据<br>&nbsp;&nbsp;&nbsp;&nbsp; typedef std::vector&lt;XmlRpcValue&gt; ValueArray; // 数组<br>&nbsp;&nbsp;&nbsp;&nbsp; typedef std::map&lt;std::string, XmlRpcValue&gt; ValueStruct;// 结构<br><br>一个&nbsp; XmlRpcValue 对象只能有一个值，通过一个联合来定义，如下：<br>union {<br>&nbsp;&nbsp; bool&nbsp;&nbsp; asBool<br>&nbsp;&nbsp; int&nbsp;&nbsp; asInt<br>&nbsp;&nbsp; double&nbsp;&nbsp; asDouble<br>&nbsp;&nbsp; tm *&nbsp;&nbsp; asTime<br>&nbsp;&nbsp; std::string *&nbsp;&nbsp; asString<br>&nbsp;&nbsp; BinaryData *&nbsp;&nbsp; asBinary<br>&nbsp;&nbsp; ValueArray *&nbsp;&nbsp; asArray<br>&nbsp;&nbsp; ValueStruct *&nbsp;&nbsp; asStruct<br>} _value;<br><br>类XmlRpcValue提供的方法包括如下几类：<br>a 从xml中获得数据，如boolFromXml，intFromXml，doubleFromXml等<br>b 将数据转换成xml格式，如boolToXml，intToXml，doubleToXml等（继承自 XmlRpcSource）：<br>c 类型检查，如assertArray，assertStruct等<br>d 操作符重载，如赋值＝，＝＝，！＝等，若为数组，则可使用 [] 提取指定元素<br>e 其他 <br><br>XMLRPC 执行远程调用时，其输入参数与执行结果均封装在&nbsp; XmlRpcValue 对象中。<br>执行顺序如下：<br>客户端 将需执行的方法，以及方法参数（XmlRpcValue）以XML格式（通过HTTP协议）传输到服务器端，服务器解析XML，获得以XmlRpcValue封装的参数，在服务器端调用方法，获得以 XmlRpcValue封装的执行结果，将其以XML格式传输至客户端，客户端解析，获得执行结果（XmlRpcValue）。<br>也就是说，所有的数据都是 通过 XmlRpcValue 格式 进行 交互。<br>参数：<br>客户端&nbsp; 参数 －&gt; XmlRpcValue params－&gt; XML －&gt; HTTP协议传输 －&gt; XML －&gt;XmlRpcValue params－&gt;服务器端&nbsp; 参数<br>执行结果：<br>服务器端 执行结果 －&gt; XmlRpcValue result－&gt; XML －&gt; HTTP协议传输 －&gt; XML －&gt;XmlRpcValue result－&gt;客户端&nbsp; 执行结果<br><br>2&nbsp; 服务器支持的调用方法的基类 XmlRpc::XmlRpcServerMethod<br>&nbsp;&nbsp;&nbsp; 所有服务器支持的方法必须继承自 XmlRpcServerMethod<br>&nbsp;&nbsp; 包含两个字段： <br>&nbsp; std::string &nbsp;&nbsp;&nbsp; _name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 方法名称<br>&nbsp; XmlRpcServer * &nbsp;&nbsp;&nbsp; _server 服务器<br>&nbsp;&nbsp; <br>&nbsp;&nbsp; 构造函数为XmlRpcServerMethod(std::string const&amp; name, XmlRpcServer* server)，其中有一句：<br>&nbsp;&nbsp;&nbsp; if (_server) _server-&gt;addMethod(this);<br>&nbsp;&nbsp; 这句是方法向服务器注册本身。&nbsp;&nbsp; <br>&nbsp; <br>&nbsp;&nbsp;&nbsp; 执行的关键则在于其一个纯虚函数：<br>&nbsp; virtual void &nbsp;&nbsp;&nbsp; execute (XmlRpcValue &amp;params, XmlRpcValue &amp;result)=0<br>&nbsp;&nbsp;&nbsp; 调用方法的实现过程 就在这个函数内实现。<br>&nbsp;&nbsp;&nbsp; 输入参数为 params,从客户端读取而获得；执行结果 放入 result，执行完毕后返回给客户端。<br>&nbsp;<br>&nbsp;&nbsp;&nbsp; 例子：<br>&nbsp;<br><br><img align="top" alt="" src="./XMLRPC++学习笔记-C++实例 - diybl_files/None.gif"><span style="color: rgb(0, 0, 0);">#include&nbsp;</span><span style="color: rgb(0, 0, 0);">"</span><span style="color: rgb(0, 0, 0);">XmlRpc.h</span><span style="color: rgb(0, 0, 0);">"</span><span style="color: rgb(0, 0, 0);"><br><img align="top" alt="" src="./XMLRPC++学习笔记-C++实例 - diybl_files/None.gif"></span><span style="color: rgb(0, 0, 255);">using</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(0, 0, 255);">namespace</span><span style="color: rgb(0, 0, 0);">&nbsp;XmlRpc;<br><img align="top" alt="" src="./XMLRPC++学习笔记-C++实例 - diybl_files/None.gif"><br><img align="top" alt="" src="./XMLRPC++学习笔记-C++实例 - diybl_files/None.gif"></span><span style="color: rgb(0, 128, 0);">//</span><span style="color: rgb(0, 128, 0);">&nbsp;The&nbsp;server</span><span style="color: rgb(0, 128, 0);"><br><img align="top" alt="" src="./XMLRPC++学习笔记-C++实例 - diybl_files/None.gif"></span><span style="color: rgb(0, 0, 0);">XmlRpcServer&nbsp;s;<br><img align="top" alt="" src="./XMLRPC++学习笔记-C++实例 - diybl_files/None.gif"><br><img align="top" alt="" src="./XMLRPC++学习笔记-C++实例 - diybl_files/None.gif"></span><span style="color: rgb(0, 128, 0);">//</span><span style="color: rgb(0, 128, 0);">&nbsp;The&nbsp;Hello&nbsp;method.&nbsp;No&nbsp;arguments,&nbsp;result&nbsp;is&nbsp;"Hello".</span><span style="color: rgb(0, 128, 0);"><br><img align="top" alt="" src="./XMLRPC++学习笔记-C++实例 - diybl_files/None.gif"></span><span style="color: rgb(0, 0, 255);">class</span><span style="color: rgb(0, 0, 0);">&nbsp;Hello&nbsp;:&nbsp;</span><span style="color: rgb(0, 0, 255);">public</span><span style="color: rgb(0, 0, 0);">&nbsp;XmlRpcServerMethod<br><img align="top" alt="" id="_170_330_Open_Image" src="./XMLRPC++学习笔记-C++实例 - diybl_files/ExpandedBlockStart.gif" onclick="this.style.display=&#39;&#39;none&#39;&#39;; document.getElementById(&#39;&#39;_170_330_Open_Text&#39;&#39;).style.display=&#39;&#39;none&#39;&#39;; document.getElementById(&#39;&#39;_170_330_Closed_Image&#39;&#39;).style.display=&#39;&#39;inline&#39;&#39;; document.getElementById(&#39;&#39;_170_330_Closed_Text&#39;&#39;).style.display=&#39;&#39;inline&#39;&#39;;"><img align="top" alt="" id="_170_330_Closed_Image" src="./XMLRPC++学习笔记-C++实例 - diybl_files/ContractedBlock.gif" style="display: none;" onclick="this.style.display=&#39;&#39;none&#39;&#39;; document.getElementById(&#39;&#39;_170_330_Closed_Text&#39;&#39;).style.display=&#39;&#39;none&#39;&#39;; document.getElementById(&#39;&#39;_170_330_Open_Image&#39;&#39;).style.display=&#39;&#39;inline&#39;&#39;; document.getElementById(&#39;&#39;_170_330_Open_Text&#39;&#39;).style.display=&#39;&#39;inline&#39;&#39;;"></span><span id="_170_330_Closed_Text" style="border: 1px solid rgb(128, 128, 128); background-color: rgb(255, 255, 255); display: none;">...</span><span id="_170_330_Open_Text"><span style="color: rgb(0, 0, 0);">{<br><img align="top" alt="" src="./XMLRPC++学习笔记-C++实例 - diybl_files/InBlock.gif"></span><span style="color: rgb(0, 0, 255);">public</span><span style="color: rgb(0, 0, 0);">:<br><img align="top" alt="" id="_238_239_Open_Image" src="./XMLRPC++学习笔记-C++实例 - diybl_files/ExpandedSubBlockStart.gif" onclick="this.style.display=&#39;&#39;none&#39;&#39;; document.getElementById(&#39;&#39;_238_239_Open_Text&#39;&#39;).style.display=&#39;&#39;none&#39;&#39;; document.getElementById(&#39;&#39;_238_239_Closed_Image&#39;&#39;).style.display=&#39;&#39;inline&#39;&#39;; document.getElementById(&#39;&#39;_238_239_Closed_Text&#39;&#39;).style.display=&#39;&#39;inline&#39;&#39;;"><img align="top" alt="" id="_238_239_Closed_Image" src="./XMLRPC++学习笔记-C++实例 - diybl_files/ContractedSubBlock.gif" style="display: none;" onclick="this.style.display=&#39;&#39;none&#39;&#39;; document.getElementById(&#39;&#39;_238_239_Closed_Text&#39;&#39;).style.display=&#39;&#39;none&#39;&#39;; document.getElementById(&#39;&#39;_238_239_Open_Image&#39;&#39;).style.display=&#39;&#39;inline&#39;&#39;; document.getElementById(&#39;&#39;_238_239_Open_Text&#39;&#39;).style.display=&#39;&#39;inline&#39;&#39;;">&nbsp;&nbsp;Hello(XmlRpcServer</span><span style="color: rgb(0, 0, 0);">*</span><span style="color: rgb(0, 0, 0);">&nbsp;s)&nbsp;:&nbsp;XmlRpcServerMethod(</span><span style="color: rgb(0, 0, 0);">"</span><span style="color: rgb(0, 0, 0);">Hello</span><span style="color: rgb(0, 0, 0);">"</span><span style="color: rgb(0, 0, 0);">,&nbsp;s)&nbsp;</span><span id="_238_239_Closed_Text" style="border: 1px solid rgb(128, 128, 128); background-color: rgb(255, 255, 255); display: none;">...</span><span id="_238_239_Open_Text"><span style="color: rgb(0, 0, 0);">{}</span></span><span style="color: rgb(0, 0, 0);"><br><img align="top" alt="" src="./XMLRPC++学习笔记-C++实例 - diybl_files/InBlock.gif"><br><img align="top" alt="" src="./XMLRPC++学习笔记-C++实例 - diybl_files/InBlock.gif">&nbsp;&nbsp;</span><span style="color: rgb(0, 0, 255);">void</span><span style="color: rgb(0, 0, 0);">&nbsp;execute(XmlRpcValue</span><span style="color: rgb(0, 0, 0);">&amp;</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(0, 0, 255);">params</span><span style="color: rgb(0, 0, 0);">,&nbsp;XmlRpcValue</span><span style="color: rgb(0, 0, 0);">&amp;</span><span style="color: rgb(0, 0, 0);">&nbsp;result)<br><img align="top" alt="" id="_301_327_Open_Image" src="./XMLRPC++学习笔记-C++实例 - diybl_files/ExpandedSubBlockStart.gif" onclick="this.style.display=&#39;&#39;none&#39;&#39;; document.getElementById(&#39;&#39;_301_327_Open_Text&#39;&#39;).style.display=&#39;&#39;none&#39;&#39;; document.getElementById(&#39;&#39;_301_327_Closed_Image&#39;&#39;).style.display=&#39;&#39;inline&#39;&#39;; document.getElementById(&#39;&#39;_301_327_Closed_Text&#39;&#39;).style.display=&#39;&#39;inline&#39;&#39;;"><img align="top" alt="" id="_301_327_Closed_Image" src="./XMLRPC++学习笔记-C++实例 - diybl_files/ContractedSubBlock.gif" style="display: none;" onclick="this.style.display=&#39;&#39;none&#39;&#39;; document.getElementById(&#39;&#39;_301_327_Closed_Text&#39;&#39;).style.display=&#39;&#39;none&#39;&#39;; document.getElementById(&#39;&#39;_301_327_Open_Image&#39;&#39;).style.display=&#39;&#39;inline&#39;&#39;; document.getElementById(&#39;&#39;_301_327_Open_Text&#39;&#39;).style.display=&#39;&#39;inline&#39;&#39;;">&nbsp;&nbsp;</span><span id="_301_327_Closed_Text" style="border: 1px solid rgb(128, 128, 128); background-color: rgb(255, 255, 255); display: none;">...</span><span id="_301_327_Open_Text"><span style="color: rgb(0, 0, 0);">{<br><img align="top" alt="" src="./XMLRPC++学习笔记-C++实例 - diybl_files/InBlock.gif">&nbsp;&nbsp;&nbsp;&nbsp;result&nbsp;</span><span style="color: rgb(0, 0, 0);">=</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(0, 0, 0);">"</span><span style="color: rgb(0, 0, 0);">Hello</span><span style="color: rgb(0, 0, 0);">"</span><span style="color: rgb(0, 0, 0);">;<br><img align="top" alt="" src="./XMLRPC++学习笔记-C++实例 - diybl_files/ExpandedSubBlockEnd.gif">&nbsp;&nbsp;}</span></span><span style="color: rgb(0, 0, 0);"><br><img align="top" alt="" src="./XMLRPC++学习笔记-C++实例 - diybl_files/InBlock.gif"><br><img align="top" alt="" src="./XMLRPC++学习笔记-C++实例 - diybl_files/ExpandedBlockEnd.gif">}</span></span><span style="color: rgb(0, 0, 0);">&nbsp;hello(</span><span style="color: rgb(0, 0, 0);">&amp;</span><span style="color: rgb(0, 0, 0);">s);&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(0, 128, 0);">//</span><span style="color: rgb(0, 128, 0);">&nbsp;This&nbsp;constructor&nbsp;registers&nbsp;the&nbsp;method&nbsp;with&nbsp;the&nbsp;server<br><img align="top" alt="" src="./XMLRPC++学习笔记-C++实例 - diybl_files/None.gif"></span><br>&nbsp;<br>3&nbsp; RPC处理的端点 RpcSource：An RPC source represents a file descriptor to monitor<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 这个类是服务器与客户端的基类。可以这样理解，一个 RpcSource 就表示一个&nbsp; Socket 连接。<br>&nbsp;&nbsp; RpcSource 包括三个私有成员：<br>&nbsp;&nbsp;&nbsp; int _fd;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; socket file descriptor to monitor，socket连接<br>&nbsp;&nbsp;&nbsp; bool _deleteOnClose;&nbsp;&nbsp; 当连接关闭时，是否删除本身<br>&nbsp;&nbsp;&nbsp; bool _keepOpen;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In the client, keep connections open if you intend to make multiple calls.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 关键函数：<br>&nbsp;&nbsp;&nbsp; virtual unsigned handleEvent(unsigned eventType) = 0;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>&nbsp; <br>4&nbsp; RPC客户端 XmlRpc::XmlRpcClient（继承自 XmlRpcSource）：发送请求至服务器端，并读取分析服务器的 响应<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 客户端有六个状态分别为：NO_CONNECTION, CONNECTING, WRITE_REQUEST, READ_HEADER, READ_RESPONSE, IDLE<br>&nbsp; <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 构造函数XmlRpcClient(const char* host, int port, const char* uri=0);<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 参数 host表示服务器端地址，port表示端口号，uri是http请求头的可选串；&nbsp; 构造函数将客户状态设置为：NO_CONNECTION<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 关键函数：<br>&nbsp;&nbsp;&nbsp; bool XmlRpcClient::execute(const char* method, XmlRpcValue const&amp; params, XmlRpcValue&amp; result)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 在服务器端执行以method名称指定的方法；方法参数 params，执行结果 result<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; （调用其他函数&nbsp; setupConnection&nbsp; generateRequest&nbsp; XmlRpcDispatch.work parseResponse 实现功能 ）&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>&nbsp;<br>&nbsp;&nbsp;&nbsp; unsigned XmlRpcClient::handleEvent(unsigned eventType)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 处理服务器的响应。该方法在 XmlRpcDispatch 被调用。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; （调用其他函数&nbsp; writeRequest&nbsp; readHeader&nbsp; readResponse 实现功能 ）&nbsp;&nbsp;&nbsp; <br><br>&nbsp;&nbsp;&nbsp; setupConnection，writeRequest，readHeader，readResponse等函数中依次修改 客户的状态。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>5&nbsp; RPC服务器XmlRpc::XmlRpcServer（继承自 XmlRpcSource）：处理客户请求<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 该类只监听客户的连接请求，而不处理其调用函数的请求。函数&nbsp; bindAndListen 将服务器绑定至指定的端口并准备开始监听。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 函数 void XmlRpcServer::work(double msTime) 在指定的时间msTime内处理用户请求<br>&nbsp;&nbsp; work 调用&nbsp; XmlRpcDispatch.work 开始工作，XmlRpcDispatch.work 调用 XmlRpcServer.handleEvent 接受用户请求。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 真正接受用户请求的代码在 acceptConnection 中，被 handleEvent 调用。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 每有一个用户连接请求到来，都会执行 acceptConnection函数 accpet之后的代码，创建一个新的 XmlRpcServerConnection。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 每一个 XmlRpcServerConnection 都为一个单独的客户进行服务：接受请求，在服务器端执行代码（XmlRpcDispatch.work），并产生响应。<br>&nbsp; <br>&nbsp; XmlRpcServer对象维护所支持的调用方法列表，以&lt;方法名，方法对象＊&gt;格式，其定义如下：<br>&nbsp; typedef std::map&lt; std::string, XmlRpcServerMethod* &gt; MethodMap;即方法名于方法对象的映射<br>&nbsp; MethodMap _methods;<br>&nbsp;&nbsp;&nbsp;&nbsp; <br>&nbsp; XmlRpcServer对象维护事件分发器对象&nbsp; XmlRpcDispatch _disp;<br>&nbsp;&nbsp;&nbsp;&nbsp; 各方法真正执行在 _disp.work() 被调用执行。<br>&nbsp; <br>6 RPC服务器 连接类 XmlRpcServerConnection（继承自 XmlRpcSource）：每一个客户均与一个 XmlRpcServerConnection 对象对应，并为其服务<br>&nbsp;&nbsp;&nbsp;&nbsp; 该类有四个状态分别为： READ_HEADER, READ_REQUEST, WRITE_RESPONSE <br>&nbsp;&nbsp;&nbsp;&nbsp; <br>&nbsp; unsigned&nbsp; XmlRpcServerConnection::handleEvent(unsigned /*eventType*/)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 接受客户请求，并在服务器端执行请求的方法，并将执行结果返回<br>&nbsp; <br>&nbsp;7 XmlRpc::XmlRpcDispatch<br>&nbsp;&nbsp;&nbsp;&nbsp; 这个类理解有些模糊。感觉像把所有的事情集中起来，然后放在一起处理。<br>&nbsp;&nbsp;&nbsp; 该类维护一个当前被监视的对象列表 typedef std::list&lt; MonitoredSource &gt; SourceList; <br>&nbsp;&nbsp;&nbsp; 每一个被监视的对象定义为：<br>&nbsp; struct MonitoredSource {<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; XmlRpcSource* _src;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; unsigned _mask;<br>&nbsp;&nbsp;&nbsp; };<br>&nbsp; <br>&nbsp; 其核心这个方法：<br><br><br><img align="top" alt="" src="./XMLRPC++学习笔记-C++实例 - diybl_files/None.gif"><span style="color: rgb(0, 0, 255);">void</span><span style="color: rgb(0, 0, 0);">&nbsp;XmlRpcDispatch::work(</span><span style="color: rgb(0, 0, 255);">double</span><span style="color: rgb(0, 0, 0);">&nbsp;timeout)<br><img align="top" alt="" id="_43_623_Open_Image" src="./XMLRPC++学习笔记-C++实例 - diybl_files/ExpandedBlockStart.gif" onclick="this.style.display=&#39;&#39;none&#39;&#39;; document.getElementById(&#39;&#39;_43_623_Open_Text&#39;&#39;).style.display=&#39;&#39;none&#39;&#39;; document.getElementById(&#39;&#39;_43_623_Closed_Image&#39;&#39;).style.display=&#39;&#39;inline&#39;&#39;; document.getElementById(&#39;&#39;_43_623_Closed_Text&#39;&#39;).style.display=&#39;&#39;inline&#39;&#39;;"><img align="top" alt="" id="_43_623_Closed_Image" src="./XMLRPC++学习笔记-C++实例 - diybl_files/ContractedBlock.gif" style="display: none;" onclick="this.style.display=&#39;&#39;none&#39;&#39;; document.getElementById(&#39;&#39;_43_623_Closed_Text&#39;&#39;).style.display=&#39;&#39;none&#39;&#39;; document.getElementById(&#39;&#39;_43_623_Open_Image&#39;&#39;).style.display=&#39;&#39;inline&#39;&#39;; document.getElementById(&#39;&#39;_43_623_Open_Text&#39;&#39;).style.display=&#39;&#39;inline&#39;&#39;;">&nbsp;</span><span id="_43_623_Closed_Text" style="border: 1px solid rgb(128, 128, 128); background-color: rgb(255, 255, 255); display: none;">...</span><span id="_43_623_Open_Text"><span style="color: rgb(0, 0, 0);">{<br><img align="top" alt="" src="./XMLRPC++学习笔记-C++实例 - diybl_files/InBlock.gif">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;……<br><img align="top" alt="" src="./XMLRPC++学习笔记-C++实例 - diybl_files/InBlock.gif">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(0, 128, 0);">//</span><span style="color: rgb(0, 128, 0);">顺序遍历所有源，并处理每个源的方法handleEvent</span><span style="color: rgb(0, 128, 0);"><br><img align="top" alt="" src="./XMLRPC++学习笔记-C++实例 - diybl_files/InBlock.gif"></span><span style="color: rgb(0, 0, 0);">&nbsp;&nbsp;</span><span style="color: rgb(0, 0, 255);">for</span><span style="color: rgb(0, 0, 0);">&nbsp;(it</span><span style="color: rgb(0, 0, 0);">=</span><span style="color: rgb(0, 0, 0);">_sources.begin();&nbsp;it&nbsp;</span><span style="color: rgb(0, 0, 0);">!=</span><span style="color: rgb(0, 0, 0);">&nbsp;_sources.end();&nbsp;)<br><img align="top" alt="" id="_145_623_Open_Image" src="./XMLRPC++学习笔记-C++实例 - diybl_files/ExpandedSubBlockStart.gif" onclick="this.style.display=&#39;&#39;none&#39;&#39;; document.getElementById(&#39;&#39;_145_623_Open_Text&#39;&#39;).style.display=&#39;&#39;none&#39;&#39;; document.getElementById(&#39;&#39;_145_623_Closed_Image&#39;&#39;).style.display=&#39;&#39;inline&#39;&#39;; document.getElementById(&#39;&#39;_145_623_Closed_Text&#39;&#39;).style.display=&#39;&#39;inline&#39;&#39;;"><img align="top" alt="" id="_145_623_Closed_Image" src="./XMLRPC++学习笔记-C++实例 - diybl_files/ContractedSubBlock.gif" style="display: none;" onclick="this.style.display=&#39;&#39;none&#39;&#39;; document.getElementById(&#39;&#39;_145_623_Closed_Text&#39;&#39;).style.display=&#39;&#39;none&#39;&#39;; document.getElementById(&#39;&#39;_145_623_Open_Image&#39;&#39;).style.display=&#39;&#39;inline&#39;&#39;; document.getElementById(&#39;&#39;_145_623_Open_Text&#39;&#39;).style.display=&#39;&#39;inline&#39;&#39;;">&nbsp;&nbsp;&nbsp;&nbsp;</span><span id="_145_623_Closed_Text" style="border: 1px solid rgb(128, 128, 128); background-color: rgb(255, 255, 255); display: none;">...</span><span id="_145_623_Open_Text"><span style="color: rgb(0, 0, 0);">{<br><img align="top" alt="" src="./XMLRPC++学习笔记-C++实例 - diybl_files/InBlock.gif">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SourceList::iterator&nbsp;thisIt&nbsp;</span><span style="color: rgb(0, 0, 0);">=</span><span style="color: rgb(0, 0, 0);">&nbsp;it</span><span style="color: rgb(0, 0, 0);">++</span><span style="color: rgb(0, 0, 0);">;<br><img align="top" alt="" src="./XMLRPC++学习笔记-C++实例 - diybl_files/InBlock.gif">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;XmlRpcSource</span><span style="color: rgb(0, 0, 0);">*</span><span style="color: rgb(0, 0, 0);">&nbsp;src&nbsp;</span><span style="color: rgb(0, 0, 0);">=</span><span style="color: rgb(0, 0, 0);">&nbsp;thisIt</span><span style="color: rgb(0, 0, 0);">-&gt;</span><span style="color: rgb(0, 0, 0);">getSource();<br><img align="top" alt="" src="./XMLRPC++学习笔记-C++实例 - diybl_files/InBlock.gif">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(0, 0, 255);">int</span><span style="color: rgb(0, 0, 0);">&nbsp;fd&nbsp;</span><span style="color: rgb(0, 0, 0);">=</span><span style="color: rgb(0, 0, 0);">&nbsp;src</span><span style="color: rgb(0, 0, 0);">-&gt;</span><span style="color: rgb(0, 0, 0);">getfd();<br><img align="top" alt="" src="./XMLRPC++学习笔记-C++实例 - diybl_files/InBlock.gif">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned&nbsp;newMask&nbsp;</span><span style="color: rgb(0, 0, 0);">=</span><span style="color: rgb(0, 0, 0);">&nbsp;(unsigned)&nbsp;</span><span style="color: rgb(0, 0, 0);">-</span><span style="color: rgb(0, 0, 0);">1</span><span style="color: rgb(0, 0, 0);">;<br><img align="top" alt="" id="_328_623_Open_Image" src="./XMLRPC++学习笔记-C++实例 - diybl_files/ExpandedSubBlockStart.gif" onclick="this.style.display=&#39;&#39;none&#39;&#39;; document.getElementById(&#39;&#39;_328_623_Open_Text&#39;&#39;).style.display=&#39;&#39;none&#39;&#39;; document.getElementById(&#39;&#39;_328_623_Closed_Image&#39;&#39;).style.display=&#39;&#39;inline&#39;&#39;; document.getElementById(&#39;&#39;_328_623_Closed_Text&#39;&#39;).style.display=&#39;&#39;inline&#39;&#39;;"><img align="top" alt="" id="_328_623_Closed_Image" src="./XMLRPC++学习笔记-C++实例 - diybl_files/ContractedSubBlock.gif" style="display: none;" onclick="this.style.display=&#39;&#39;none&#39;&#39;; document.getElementById(&#39;&#39;_328_623_Closed_Text&#39;&#39;).style.display=&#39;&#39;none&#39;&#39;; document.getElementById(&#39;&#39;_328_623_Open_Image&#39;&#39;).style.display=&#39;&#39;inline&#39;&#39;; document.getElementById(&#39;&#39;_328_623_Open_Text&#39;&#39;).style.display=&#39;&#39;inline&#39;&#39;;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(0, 0, 255);">if</span><span style="color: rgb(0, 0, 0);">&nbsp;(fd&nbsp;</span><span style="color: rgb(0, 0, 0);">&lt;=</span><span style="color: rgb(0, 0, 0);">&nbsp;maxFd)&nbsp;</span><span id="_328_623_Closed_Text" style="border: 1px solid rgb(128, 128, 128); background-color: rgb(255, 255, 255); display: none;">...</span><span id="_328_623_Open_Text"><span style="color: rgb(0, 0, 0);">{<br><img align="top" alt="" src="./XMLRPC++学习笔记-C++实例 - diybl_files/InBlock.gif">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(0, 0, 255);">if</span><span style="color: rgb(0, 0, 0);">&nbsp;(FD_ISSET(fd,&nbsp;</span><span style="color: rgb(0, 0, 0);">&amp;</span><span style="color: rgb(0, 0, 0);">inFd))<br><img align="top" alt="" src="./XMLRPC++学习笔记-C++实例 - diybl_files/InBlock.gif">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;newMask&nbsp;</span><span style="color: rgb(0, 0, 0);">&amp;=</span><span style="color: rgb(0, 0, 0);">&nbsp;src</span><span style="color: rgb(0, 0, 0);">-&gt;</span><span style="color: rgb(0, 0, 0);">handleEvent(ReadableEvent);<br><img align="top" alt="" src="./XMLRPC++学习笔记-C++实例 - diybl_files/InBlock.gif">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(0, 0, 255);">if</span><span style="color: rgb(0, 0, 0);">&nbsp;(FD_ISSET(fd,&nbsp;</span><span style="color: rgb(0, 0, 0);">&amp;</span><span style="color: rgb(0, 0, 0);">outFd))<br><img align="top" alt="" src="./XMLRPC++学习笔记-C++实例 - diybl_files/InBlock.gif">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;newMask&nbsp;</span><span style="color: rgb(0, 0, 0);">&amp;=</span><span style="color: rgb(0, 0, 0);">&nbsp;src</span><span style="color: rgb(0, 0, 0);">-&gt;</span><span style="color: rgb(0, 0, 0);">handleEvent(WritableEvent);<br><img align="top" alt="" src="./XMLRPC++学习笔记-C++实例 - diybl_files/InBlock.gif">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(0, 0, 255);">if</span><span style="color: rgb(0, 0, 0);">&nbsp;(FD_ISSET(fd,&nbsp;</span><span style="color: rgb(0, 0, 0);">&amp;</span><span style="color: rgb(0, 0, 0);">excFd))<br><img align="top" alt="" src="./XMLRPC++学习笔记-C++实例 - diybl_files/InBlock.gif">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;newMask&nbsp;</span><span style="color: rgb(0, 0, 0);">&amp;=</span><span style="color: rgb(0, 0, 0);">&nbsp;src</span><span style="color: rgb(0, 0, 0);">-&gt;</span><span style="color: rgb(0, 0, 0);">handleEvent(Exception);<br><img align="top" alt="" src="./XMLRPC++学习笔记-C++实例 - diybl_files/InBlock.gif">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;｝<br><img align="top" alt="" src="./XMLRPC++学习笔记-C++实例 - diybl_files/InBlock.gif">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;……<br><img align="top" alt="" src="./XMLRPC++学习笔记-C++实例 - diybl_files/InBlock.gif">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;｝</span></span></span></span><br><br>参考 ：http://xmlrpcpp.sourceforge.net/<br><br><p id="TBPingURL"></p>
+			 <div align="center" class="pager"></div>
+			 <div class="ad7"><script language="javascript" src="./XMLRPC++学习笔记-C++实例 - diybl_files/ad7.js"></script><br><a href="http://bbs.diybl.com/dview50t172086.html" target="_blank"><span style="font-size: 16px;font-weight: bold;line-height:25px;color:red;">提供虚拟机（intel vt）技术支持</span></a>
+</div>
+			 <div class="ad8"><script language="javascript" src="./XMLRPC++学习笔记-C++实例 - diybl_files/ad8.js"></script><script type="text/javascript"> /*开发频道-下部：336*280，创建于2010-9-9*/ var cpro_id = 'u193138';</script>
+<script type="text/javascript" src="./XMLRPC++学习笔记-C++实例 - diybl_files/c.js"></script><script type="text/javascript" charset="utf-8" src="./XMLRPC++学习笔记-C++实例 - diybl_files/ecom(2)"></script><div style="display:none">-</div> <iframe id="cproIframe3" src="./XMLRPC++学习笔记-C++实例 - diybl_files/uijs(2).html" width="336" height="280" align="center,center" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" allowtransparency="true"></iframe>
+</div>
+			 <div class="index_main_err">如果图片或页面不能正常显示请<a href="javascript:void(0)" onclick="ReportError()" class="redlink"><font color="#990000"><strong>点击这里</strong></font></a></div>
+			 </div>
+			 <div class="index_main_left_foot">
+			      <div class="index_main_left_foot1">
+				  <p><a href="http://corp.diybl.com/contact.htm#tougao" rel="nofollow" target="_blank">【文章投稿】</a><a href="javascript:window.external.addFavorite(self.location,document.title);">【收藏此页】</a><a href="http://bbs.diybl.com/" target="_blank">【飞诺社区】</a><a href="http://www.diybl.com/course/3_program/c++/cppsl/2008222/100465.html#comment">【发表评论】</a><a href="javascript:window.close()">【关闭】</a></p>
+				  <a href="http://www.diybl.com/course/3_program/c++/cppsl/2008222/100465.html#comment"><img src="./XMLRPC++学习笔记-C++实例 - diybl_files/ping.gif" width="149" height="34" border="0"></a>
+				  </div>
+				  <div class="index_main_left_foot2">
+				  				  <p>上一篇：<a href="http://www.diybl.com/course/3_program/c++/cppsl/2008222/100464.html">Win32下的录音编程</a></p>
+				                    				  <p>下一篇：<a href="http://www.diybl.com/course/3_program/c++/cppsl/2008222/100466.html">MFC类的关系</a></p>
+				  				  </div>
+			 </div> 
+		</div>
+		<div class="ad9"><script language="javascript" src="./XMLRPC++学习笔记-C++实例 - diybl_files/ad9.js"></script></div>
+		<div class="index_main_left_3">C++实例推荐文章</div>
+		<div class="index_main_left_4">
+		  <ul>
+		  		  		  <li><a href="http://www.diybl.com/course/3_program/c++/cppsl/20081010/149901.html" target="_blank">几道华为经典C语言面试题</a></li>
+		  		  <li><a href="http://www.diybl.com/course/3_program/c++/cppsl/200899/140309.html" target="_blank">        【转载】C++各大明库介绍</a></li>
+		  		  <li><a href="http://www.diybl.com/course/3_program/c++/cppsl/2008831/139222.html" target="_blank">踏入C++中的雷区——C++内存管理详解(I)</a></li>
+		  		  <li><a href="http://www.diybl.com/course/3_program/c++/cppsl/20081117/151289.html" target="_blank">用FreeImage读纹理图</a></li>
+		  		  <li><a href="http://www.diybl.com/course/3_program/c++/cppsl/20071128/87815.html" target="_blank">linux下数学函数的使用－asin篇</a></li>
+		  		  <li><a href="http://www.diybl.com/course/3_program/c++/cppsl/2008419/110631.html" target="_blank">wxWidgets搭配slickedit和code::blocks进行跨平台GUI开发</a></li>
+		  		  <li><a href="http://www.diybl.com/course/3_program/c++/cppsl/20071226/93539.html" target="_blank">一种简单注册码加密的例子分析</a></li>
+		  		  <li><a href="http://www.diybl.com/course/3_program/c++/cppsl/200899/140283.html" target="_blank">        WFMO_Reactor的与众不同</a></li>
+		  		  </ul>
+		  <ul>
+		  		  		  <li><a href="http://www.diybl.com/course/3_program/c++/cppsl/2008626/128475.html" target="_blank">函数指针的应用</a></li>
+		  		  <li><a href="http://www.diybl.com/course/3_program/c++/cppsl/2008920/143965.html" target="_blank">for循环中的0</a></li>
+		  		  <li><a href="http://www.diybl.com/course/3_program/c++/cppsl/20071119/87078.html" target="_blank">C/C++ 面试笔试题一</a></li>
+		  		  <li><a href="http://www.diybl.com/course/3_program/c++/cppsl/2008827/138012.html" target="_blank">symbian学习笔记（八）</a></li>
+		  		  <li><a href="http://www.diybl.com/course/3_program/c++/cppsl/200863/121060.html" target="_blank">如何得到网卡编号(MAC地址)方法 </a></li>
+		  		  <li><a href="http://www.diybl.com/course/3_program/c++/cppsl/200899/140845.html" target="_blank">        Reactor定时器的精度取决于实现</a></li>
+		  		  <li><a href="http://www.diybl.com/course/3_program/c++/cppsl/200899/140532.html" target="_blank">        AIX5.3环境下C/C++实现WebService客户端的方法(gSOAP)</a></li>
+		  		  <li><a href="http://www.diybl.com/course/3_program/c++/cppsl/200832/102438.html" target="_blank">引用与指针的比较</a></li>
+		  		  </ul>
+		</div>
+		<div class="index_main_left_5">
+		      <div class="index_main_left_5_top"><p><a name="comment"></a>文章评论</p></div>
+			  <div id="divComment" class="index_main_left_5_main">暂无数据！</div>
+		</div>
+		<div class="index_main_left_6">
+		    <div class="index_main_left_6_left">
+			     <div class="index_main_left_6_left_top">请您留言</div>
+				 <div class="index_main_left_6_left_ceneter">
+				  <form>
+				   <table width="84%" height="216" border="0" cellpadding="10">
+                     <tbody><tr>
+                       <td width="19%" height="29">昵称：</td>
+                       <td width="81%"><label>
+                         <input type="text" class="index_main_left_6_left_ceneter_text" style="width:150px;" name="tbName" id="tbName" onclick="this.focus();this.select()" maxlength="20">
+                       </label></td>
+                     </tr>
+                     <tr>
+                       <td>验证码：</td>
+                       <td>
+                       <span style="float:left;"><input name="tbCode" id="tbCode" class="index_main_left_6_left_ceneter_text" type="text" size="6"></span><span id="spanCode" style="float:left; clear:right;"><img id="Img2" onclick="this.src=this.src" style="display:none;"></span>
+                     </td></tr>
+                     <tr>
+                       <td height="26" colspan="2"><a href="http://bbs.diybl.com/register.aspx" style="color:#FF0000">注册会员</a> <a href="http://bbs.diybl.com/login.aspx">会员登录</a></td>
+                     </tr>
+                     <tr>
+                       <td height="100" colspan="2"><label>
+                         <a name="comment"></a><textarea name="tbContent" id="tbContent" class="index_main_left_6_left_ceneter_textarea" rows="5"></textarea>
+                       </label></td>
+                     </tr>
+                     <tr>
+                       <td colspan="2"><label>
+                         <input id="btnCommit" name="btnCommit" type="image" value="提交" src="./XMLRPC++学习笔记-C++实例 - diybl_files/fabiao.gif">
+                       </label></td>
+                     </tr>
+                   </tbody></table>
+				   </form>
+				 </div>
+			</div>
+			<div class="index_main_left_6_right">
+			   <div class="index_main_left_6_right_top">也许你对以下文章感兴趣</div>
+			   <div class="index_main_left_6_right_center">
+			     <ul>
+				  		          				  <li><a href="http://www.diybl.com/course/3_program/c++/cppsl/20071128/87826.html" target="_blank">后缀树与后缀数组zz</a></li>
+				  				  <li><a href="http://www.diybl.com/course/3_program/c++/cppsl/2008121/96864.html" target="_blank">1000!的位数</a></li>
+				  				  <li><a href="http://www.diybl.com/course/3_program/c++/cppsl/200899/140850.html" target="_blank">        关于类型转换</a></li>
+				  				  <li><a href="http://www.diybl.com/course/3_program/c++/cppsl/2008824/137253.html" target="_blank">        最小生成树</a></li>
+				  				  <li><a href="http://www.diybl.com/course/3_program/c++/cppsl/2008614/125358.html" target="_blank">字符指针--找问题</a></li>
+				  				  <li><a href="http://www.diybl.com/course/3_program/c++/cppsl/200899/140674.html" target="_blank">        ACE_Dev_Poll_Reactor的处理优先级严重偏向定时器</a></li>
+				  				  <li><a href="http://www.diybl.com/course/3_program/c++/cppsl/200899/141271.html" target="_blank">GNU C 扩展之__attribute__ 机制简介</a></li>
+				  				  <li><a href="http://www.diybl.com/course/3_program/c++/cppsl/200817/95959.html" target="_blank">C_2:连续正整数(百度之星)</a></li>
+				  				  </ul>
+			   </div>
+			</div>
+		</div>
+   </div>
+   <div class="index_main_right">
+   <div class="index_main_right2" style="margin-top:0px">
+		   <div class="index_main_right2_top">频道地图</div>
+		   <div class="index_main_right2_center">
+		      <div class="index_main_right2_center_list">
+			     <p><a href="http://www.diybl.com/list/10302.shtml" target="_blank">C++</a></p>
+				 <ul>
+				     				     <li><a href="http://www.diybl.com/list/1030201.shtml" target="_blank">C++系列教程</a></li>
+					 				     <li><a href="http://www.diybl.com/list/1030202.shtml" target="_blank">C++实例</a></li>
+					 				     <li><a href="http://www.diybl.com/list/1030203.shtml" target="_blank">C++技术文档</a></li>
+					 				     <li><a href="http://www.diybl.com/list/1030204.shtml" target="_blank">C++/C语言函数</a></li>
+					 				     <li><a href="http://www.diybl.com/list/1030205.shtml" target="_blank">Mangos</a></li>
+					 				 </ul>
+			  </div>
+			  			   <div class="index_main_right2_center_list">
+			     <p><a href="http://www.diybl.com/list/10301.shtml" target="_blank">C</a></p>
+			   </div>
+			  			   <div class="index_main_right2_center_list">
+			     <p><a href="http://www.diybl.com/list/10302.shtml" target="_blank">C++</a></p>
+			   </div>
+			  			   <div class="index_main_right2_center_list">
+			     <p><a href="http://www.diybl.com/list/10303.shtml" target="_blank">Java</a></p>
+			   </div>
+			  			   <div class="index_main_right2_center_list">
+			     <p><a href="http://www.diybl.com/list/10304.shtml" target="_blank">VB</a></p>
+			   </div>
+			  			   <div class="index_main_right2_center_list">
+			     <p><a href="http://www.diybl.com/list/10305.shtml" target="_blank">Delphi</a></p>
+			   </div>
+			  			   <div class="index_main_right2_center_list">
+			     <p><a href="http://www.diybl.com/list/10306.shtml" target="_blank">Foxpro</a></p>
+			   </div>
+			  			   <div class="index_main_right2_center_list">
+			     <p><a href="http://www.diybl.com/list/10307.shtml" target="_blank">汇编语言</a></p>
+			   </div>
+			  			   <div class="index_main_right2_center_list">
+			     <p><a href="http://www.diybl.com/list/10308.shtml" target="_blank">游戏开发</a></p>
+			   </div>
+			  			   <div class="index_main_right2_center_list">
+			     <p><a href="http://www.diybl.com/list/10309.shtml" target="_blank">移动开发</a></p>
+			   </div>
+			  			   <div class="index_main_right2_center_list">
+			     <p><a href="http://www.diybl.com/list/10310.shtml" target="_blank">软件工程师</a></p>
+			   </div>
+			  			   <div class="index_main_right2_center_list">
+			     <p><a href="http://www.diybl.com/list/10311.shtml" target="_blank">软工与管理</a></p>
+			   </div>
+			  			   <div class="index_main_right2_center_list">
+			     <p><a href="http://www.diybl.com/list/10312.shtml" target="_blank">VC</a></p>
+			   </div>
+			  			   <div class="index_main_right2_center_list">
+			     <p><a href="http://www.diybl.com/list/10313.shtml" target="_blank">shell编程</a></p>
+			   </div>
+			  			   <div class="index_main_right2_center_list">
+			     <p><a href="http://www.diybl.com/list/10314.shtml" target="_blank">C#</a></p>
+			   </div>
+			  		   </div>
+		</div>
+		<div class="index_main_right1" style="margin-top:5px;">
+		     <div class="index_main_right1_top1">C++实例相关文章</div>
+		        <ul style="background:#F3F4F6">
+				  				  				  <li><p><a href="http://www.diybl.com/course/3_program/c++/cppsl/2007918/71964.html" target="_blank">SDL显示中文字体</a></p></li>
+				  				  <li><p><a href="http://www.diybl.com/course/3_program/c++/cppsl/2007918/71980.html" target="_blank">VC中的一些常用方法（20条）</a></p></li>
+				  				  <li><p><a href="http://www.diybl.com/course/3_program/c++/cppsl/2007918/71976.html" target="_blank">C++ 的粗略理解</a></p></li>
+				  				  <li><p><a href="http://www.diybl.com/course/3_program/c++/cppsl/2007918/71965.html" target="_blank">boost v1.34.0与stlport编译</a></p></li>
+				  				  <li><p><a href="http://www.diybl.com/course/3_program/c++/cppsl/2007918/71985.html" target="_blank">similar,radial</a></p></li>
+				  				  <li><p><a href="http://www.diybl.com/course/3_program/c++/cppsl/2007918/71972.html" target="_blank">[转]初识Visual Leak Detector</a></p></li>
+				  				  <li><p><a href="http://www.diybl.com/course/3_program/c++/cppsl/2007918/71963.html" target="_blank">[转]binary和text方式打开文件的区别</a></p></li>
+				  				  <li><p><a href="http://www.diybl.com/course/3_program/c++/cppsl/2007918/71956.html" target="_blank">Qt第一天——安装与基本配置</a></p></li>
+				  				  <li><p><a href="http://www.diybl.com/course/3_program/c++/cppsl/2007918/71994.html" target="_blank">进程间的通讯实现（IPC）的11种方法</a></p></li>
+				  				  <li><p><a href="http://www.diybl.com/course/3_program/c++/cppsl/2007918/71982.html" target="_blank">Windows控键SDK开发实例</a></p></li>
+				  				  <li><p><a href="http://www.diybl.com/course/3_program/c++/cppsl/2007918/71960.html" target="_blank">诛仙游戏内存偏移与内存CALL例子</a></p></li>
+				  				  <li><p><a href="http://www.diybl.com/course/3_program/c++/cppsl/2007918/71958.html" target="_blank">程序中的数据在内存中的布局 </a></p></li>
+				  				  <li><p><a href="http://www.diybl.com/course/3_program/c++/cppsl/2008227/101900.html" target="_blank">嵌入式程序员应该掌握的知识</a></p></li>
+				  				  <li><p><a href="http://www.diybl.com/course/3_program/c++/cppsl/2008222/100466.html" target="_blank">MFC类的关系</a></p></li>
+				  				  <li><p><a href="http://www.diybl.com/course/3_program/c++/cppsl/2008227/101888.html" target="_blank">获取优盘序列号的代码</a></p></li>
+				  				  <li><p><a href="http://www.diybl.com/course/3_program/c++/cppsl/2008227/101892.html" target="_blank">标准模板库(STL)介绍（上）</a></p></li>
+				  				  <li><p><a href="http://www.diybl.com/course/3_program/c++/cppsl/2008227/101884.html" target="_blank">C++关键字</a></p></li>
+				  				  <li><p><a href="http://www.diybl.com/course/3_program/c++/cppsl/2008222/100473.html" target="_blank">系统理解Win32 API和MFC</a></p></li>
+				  				  <li><p><a href="http://www.diybl.com/course/3_program/c++/cppsl/2008222/100467.html" target="_blank">API 层实现语音录制</a></p></li>
+				  				  <li><p><a href="http://www.diybl.com/course/3_program/c++/cppsl/2008227/101876.html" target="_blank">PC通过ARM9(WINCE)实现远程摄像(速度经过大大优化)</a></p></li>
+				  				  <li><p><a href="http://www.diybl.com/course/3_program/c++/cppsl/2008222/100471.html" target="_blank">Getting the Preferred Audio Device Number</a></p></li>
+				  				  <li><p><a href="http://www.diybl.com/course/3_program/c++/cppsl/2008222/100481.html" target="_blank">acm题目及我的程序（2）——Knight Moves (骑士跳跃)  ——任意两点最少跳跃步数（算法1）</a></p></li>
+				  				  <li><p><a href="http://www.diybl.com/course/3_program/c++/cppsl/2008227/101873.html" target="_blank">一个查看导入表的工具</a></p></li>
+				  				  <li><p><a href="http://www.diybl.com/course/3_program/c++/cppsl/2008227/101894.html" target="_blank">模态属性与非模态属性页</a></p></li>
+				  				</ul>
+		</div>
+		<div class="index_main_right1" style="margin-top:5px;">
+		     <div class="index_main_right1_top1">C++实例热门文章</div>
+		        <ul style="background:#F3F4F6">
+				  				  				  <li><p><a href="http://www.diybl.com/course/3_program/c++/cppsl/20090212/155317.html" target="_blank">C++中vector类型简介</a></p></li>
+				  				  <li><p><a href="http://www.diybl.com/course/3_program/c++/cppsl/2008311/104206.html" target="_blank">C语言文件操作函数大全</a></p></li>
+				  				  <li><p><a href="http://www.diybl.com/course/3_program/c++/cppsl/2008319/105092.html" target="_blank">C++多线程编程入门</a></p></li>
+				  				  <li><p><a href="http://www.diybl.com/course/3_program/c++/cppsl/2007128/91083.html" target="_blank">C++ Virtual详解</a></p></li>
+				  				  <li><p><a href="http://www.diybl.com/course/3_program/c++/cppsl/200864/121412.html" target="_blank">MFC中ListControl控件的使用</a></p></li>
+				  				  <li><p><a href="http://www.diybl.com/course/3_program/c++/cppsl/2008227/101920.html" target="_blank">UTF-8, Unicode, GB2312格式串转换之C语言版 </a></p></li>
+				  				  <li><p><a href="http://www.diybl.com/course/3_program/c++/cppsl/200899/141291.html" target="_blank">ntohs, ntohl, htons,htonl的比较和详解</a></p></li>
+				  				  <li><p><a href="http://www.diybl.com/course/3_program/c++/cppsl/2008316/104782.html" target="_blank">经典算法（2）——0/1背包问题（动态规划法）</a></p></li>
+				  				  <li><p><a href="http://www.diybl.com/course/3_program/c++/cppsl/2008419/110646.html" target="_blank">缺少streams.h的解决方法和DirectShow开发环境的搭建</a></p></li>
+				  				  <li><p><a href="http://www.diybl.com/course/3_program/c++/cppsl/2008227/101922.html" target="_blank">C++笔试题</a></p></li>
+				  			    </ul>
+		</div>
+   </div>
+	 </div>
+<div align="center" id="foot">
+	 <ul><li><a href="http://en.diybl.com/" rel="nofollow" target="_blank">English</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://corp.diybl.com/about.htm" rel="nofollow" target="_blank">关于我们</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://corp.diybl.com/jrfn.htm" rel="nofollow" target="_blank">诚聘英才</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://corp.diybl.com/contact.htm" rel="nofollow" target="_blank">联系我们</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://corp.diybl.com/fnls.htm" rel="nofollow" target="_blank">网站大事</a> | <a href="http://corp.diybl.com/link.htm" rel="nofollow" target="_blank">友情链接</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://corp.diybl.com/ggfw.htm" rel="nofollow" target="_blank">广告服务</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.diybl.com/map.html" target="_blank">网站地图</a> </li></ul>
+<ul><li>Copyright&#169;2008-2011 <a href="http://www.diybl.com/" target="_blank">飞诺网[diybl.Com]</a> 版权所有 </li></ul>
+    <div id="foot_1"><dl><dt><img border="0" align="absmiddle" src="./XMLRPC++学习笔记-C++实例 - diybl_files/jyxwzbaxx.gif"> 
+<img width="44" height="42" border="0" align="absmiddle" src="./XMLRPC++学习笔记-C++实例 - diybl_files/wmlogo.gif"> 
+<img width="44" height="44" border="0" align="absmiddle" src="./XMLRPC++学习笔记-C++实例 - diybl_files/home_b.gif"> 
+<b><object width="54" height="62" border="0" align="absmiddle" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0">
+<param name="movie" value="http://image.yesky.com/TLimages/index/gangting.swf">
+<param name="quality" value="high">
+<embed width="54" height="62" align="absmiddle" src="http://image.yesky.com/TLimages/index/gangting.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash"><param name="wmode" value="opaque"></object></b>
+</dt>
+  <dd><a href="http://www.diybl.com/" target="_blank">飞诺网</a> 鲁ICP备10012328号<br>
+    IT技术从现在起飞</dd><span class="discat"><a href="http://www.diybl.com/list/1030202-2EBCFD5847AFF94B.shtml">C++实例</a></span></dl> 
+<div class="clear"></div>
+</div>
+</div>
+</div>
+<input id="ajaxUrl" type="hidden" value="/Ajax/Comment.ashx">
+<input id="articleID" type="hidden" value="100465">
+<input id="catalogID" type="hidden" value="1030202">
+<div class="ad11"><script language="javascript" src="./XMLRPC++学习笔记-C++实例 - diybl_files/ad11.js"></script><script>var foja_mm_flag=true;</script><script>var foja_mm_pos=1;</script><script>var foja_mm_style='style_1-1';</script><script>var foja_mm_info=1;</script><script src="./XMLRPC++学习笔记-C++实例 - diybl_files/miner.jsp"></script><div id="flash4TIXA_div" style="DISPLAY: block; Z-INDEX: 2147483647; LEFT: 0px;  WIDTH: 354px; BORDER: 0px solid red; position: absolute; TOP: 0px; HEIGHT: 262px"></div><script id="tixa_rm_jsp" type="text/javascript" src="./XMLRPC++学习笔记-C++实例 - diybl_files/rmda_p.jsp"></script></div>
+<script type="text/javascript" language="javascript" src="./XMLRPC++学习笔记-C++实例 - diybl_files/Article_bot.js"></script><script src="./XMLRPC++学习笔记-C++实例 - diybl_files/c.php" language="JavaScript" charset="gb2312"></script><img src="./XMLRPC++学习笔记-C++实例 - diybl_files/stat.htm" border="0" width="0" height="0">
+
+
+
+</body></html>

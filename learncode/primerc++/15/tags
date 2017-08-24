@@ -1,0 +1,166 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AndQuery	Query.h	/^    AndQuery(Query left, Query right): $/;"	f	class:AndQuery
+AndQuery	Query.h	/^class AndQuery: public BinaryQuery {$/;"	c
+BASKET_H	Basket.h	31;"	d
+BASKET_H	Basket2.h	31;"	d
+Base	scope.cc	/^    Base(): mem(0) { }$/;"	f	struct:Base
+Base	scope.cc	/^struct Base {$/;"	s	file:
+Basket	Basket.h	/^    Basket(): items(compare) { }  \/\/ initialze the comparator $/;"	f	class:Basket
+Basket	Basket.h	/^class Basket {$/;"	c
+Basket	Basket2.h	/^    Basket(): items(compare) { }  \/\/ initialze the comparator$/;"	f	class:Basket
+Basket	Basket2.h	/^class Basket {$/;"	c
+BinaryQuery	Query.h	/^    BinaryQuery(Query left, Query right, std::string op): $/;"	f	class:BinaryQuery
+BinaryQuery	Query.h	/^class BinaryQuery: public Query_base {$/;"	c
+Bulk_item	Basket.h	/^    Bulk_item(): min_qty(0), discount(0.0) { }$/;"	f	class:Bulk_item
+Bulk_item	Basket.h	/^    Bulk_item(const std::string& book, double sales_price, $/;"	f	class:Bulk_item
+Bulk_item	Basket.h	/^class Bulk_item : public Item_base {$/;"	c
+Bulk_item	Basket2.h	/^    Bulk_item(const std::string& book = "", $/;"	f	class:Bulk_item
+Bulk_item	Basket2.h	/^class Bulk_item : public Disc_item {$/;"	c
+Comp	Basket.h	/^    typedef bool (*Comp)(const Sales_item&, const Sales_item&);$/;"	t	class:Basket
+Comp	Basket2.h	/^    typedef bool (*Comp)(const Sales_item&, const Sales_item&);$/;"	t	class:Basket
+Derived	scope.cc	/^    Derived(int i): mem(i) { }     \/\/ initializes Derived::mem$/;"	f	struct:Derived
+Derived	scope.cc	/^struct Derived : Base {$/;"	s	file:
+Disc_item	Basket2.h	/^    Disc_item(const std::string& book = "", $/;"	f	class:Disc_item
+Disc_item	Basket2.h	/^class Disc_item : public Item_base {$/;"	c
+Item_base	Basket.h	/^    Item_base(const std::string &book = "", $/;"	f	class:Item_base
+Item_base	Basket.h	/^class Item_base {$/;"	c
+Item_base	Basket2.h	/^    Item_base(const std::string &book = "", $/;"	f	class:Item_base
+Item_base	Basket2.h	/^class Item_base {$/;"	c
+LOCFLAGS	makefile	/^LOCFLAGS = -I..\/10$/;"	m
+Lim_item	Basket.h	/^    Lim_item(const std::string& book = "", $/;"	f	class:Lim_item
+Lim_item	Basket.h	/^class Lim_item : public Item_base {$/;"	c
+Lim_item	Basket2.h	/^    Lim_item(const std::string& book = "", $/;"	f	class:Lim_item
+Lim_item	Basket2.h	/^class Lim_item : public Disc_item {$/;"	c
+NotQuery	Query.h	/^    NotQuery(Query q): query(q) { }$/;"	f	class:NotQuery
+NotQuery	Query.h	/^class NotQuery: public Query_base {$/;"	c
+OBJECTS	makefile	/^OBJECTS = Basket_main.exe scope.exe V2_Basket_main.exe \\$/;"	m
+OrQuery	Query.h	/^    OrQuery(Query left, Query right): $/;"	f	class:OrQuery
+OrQuery	Query.h	/^class OrQuery: public BinaryQuery {$/;"	c
+QUERY_H	Query.h	31;"	d
+Query	Query.h	/^    Query(Query_base *query): q(query), $/;"	f	class:Query
+Query	Query.h	/^    Query(const Query &c): q(c.q), use(c.use) { ++*use; }$/;"	f	class:Query
+Query	Query.h	/^Query::Query(const std::string &s): q(new WordQuery(s)),$/;"	f	class:Query
+Query	Query.h	/^class Query {$/;"	c
+Query_base	Query.h	/^class Query_base {$/;"	c
+Sales_item	Basket.h	/^    Sales_item(): p(0), use(new std::size_t(1)) { }$/;"	f	class:Sales_item
+Sales_item	Basket.h	/^    Sales_item(const Sales_item &i): $/;"	f	class:Sales_item
+Sales_item	Basket.h	/^Sales_item::Sales_item(const Item_base &item):$/;"	f	class:Sales_item
+Sales_item	Basket.h	/^class Sales_item {$/;"	c
+Sales_item	Basket2.h	/^    Sales_item(): p(0), use(new std::size_t(1)) { }$/;"	f	class:Sales_item
+Sales_item	Basket2.h	/^    Sales_item(const Sales_item &i): p(i.p), use(i.use) $/;"	f	class:Sales_item
+Sales_item	Basket2.h	/^Sales_item::Sales_item(const Item_base &item):$/;"	f	class:Sales_item
+Sales_item	Basket2.h	/^class Sales_item {$/;"	c
+WordQuery	Query.h	/^    WordQuery(const std::string &s): query_word(s) { }$/;"	f	class:WordQuery
+WordQuery	Query.h	/^class WordQuery: public Query_base {$/;"	c
+add_item	Basket.h	/^    void add_item(const Sales_item &item) $/;"	f	class:Basket
+add_item	Basket2.h	/^    void add_item(const Sales_item &item) $/;"	f	class:Basket
+book	Basket.h	/^    std::string book() const { return isbn; }$/;"	f	class:Item_base
+book	Basket2.h	/^    std::string book() const { return isbn; }$/;"	f	class:Item_base
+build_textfile	get_print.cc	/^TextQuery build_textfile(const string &filename)$/;"	f
+clone	Basket.h	/^    Bulk_item* clone() const $/;"	f	class:Bulk_item
+clone	Basket.h	/^    Lim_item* clone() const { return new Lim_item(*this); }$/;"	f	class:Lim_item
+clone	Basket.h	/^    virtual Item_base* clone() const $/;"	f	class:Item_base
+clone	Basket2.h	/^    Bulk_item* clone() const $/;"	f	class:Bulk_item
+clone	Basket2.h	/^    Lim_item* clone() const { return new Lim_item(*this); }$/;"	f	class:Lim_item
+clone	Basket2.h	/^    virtual Item_base* clone() const $/;"	f	class:Item_base
+compare	Basket.h	/^compare(const Sales_item &lhs, const Sales_item &rhs) $/;"	f
+compare	Basket2.h	/^compare(const Sales_item &lhs, const Sales_item &rhs) $/;"	f
+const_iter	Basket.h	/^    typedef set_type::const_iterator const_iter;$/;"	t	class:Basket
+const_iter	Basket2.h	/^    typedef std::multiset<Sales_item, Comp>::const_iterator const_iter;$/;"	t	class:Basket
+decr_use	Basket.h	/^    void decr_use() $/;"	f	class:Sales_item
+decr_use	Basket2.h	/^    void decr_use() $/;"	f	class:Sales_item
+decr_use	Query.h	/^    void decr_use() $/;"	f	class:Query
+discount	Basket.h	/^    double discount;       \/\/ fractional discount to apply$/;"	m	class:Bulk_item
+discount	Basket.h	/^    double discount;       \/\/ fractional discount to apply$/;"	m	class:Lim_item
+discount	Basket2.h	/^    double discount;       \/\/ fractional discount to apply$/;"	m	class:Disc_item
+discount_policy	Basket.h	/^    std::pair<size_t, double> discount_policy() const$/;"	f	class:Bulk_item
+discount_policy	Basket.h	/^    std::pair<size_t, double> discount_policy() const$/;"	f	class:Lim_item
+discount_policy	Basket2.h	/^    std::pair<size_t, double> discount_policy() const$/;"	f	class:Bulk_item
+discount_policy	Basket2.h	/^    std::pair<size_t, double> discount_policy() const$/;"	f	class:Disc_item
+discount_policy	Basket2.h	/^    std::pair<size_t, double> discount_policy() const$/;"	f	class:Lim_item
+display	Basket.cc	/^void Basket::display(ostream &os) const$/;"	f	class:Basket
+display	Query.h	/^    std::ostream &display(std::ostream &os) const$/;"	f	class:Query
+display	Query.h	/^    std::ostream& display (std::ostream &os) const $/;"	f	class:WordQuery
+display	Query.h	/^    std::ostream& display(std::ostream &os) const$/;"	f	class:BinaryQuery
+display	Query.h	/^    std::ostream& display(std::ostream &os) const$/;"	f	class:NotQuery
+display	V2_Basket.cc	/^void Basket::display(ostream &os) const$/;"	f	class:Basket
+eval	Query.cc	/^AndQuery::eval(const TextQuery& file) const$/;"	f	class:AndQuery
+eval	Query.cc	/^NotQuery::eval(const TextQuery& file) const$/;"	f	class:NotQuery
+eval	Query.cc	/^OrQuery::eval(const TextQuery& file) const$/;"	f	class:OrQuery
+eval	Query.h	/^      eval(const TextQuery &t) const { return q->eval(t); }$/;"	f	class:Query
+eval	Query.h	/^    std::set<line_no> eval(const TextQuery &t) const$/;"	f	class:WordQuery
+get_base_mem	scope.cc	/^    int get_base_mem() { return Base::mem; }$/;"	f	struct:Derived
+get_mem	scope.cc	/^    int get_mem() { return mem; }  \/\/ returns Derived::mem$/;"	f	struct:Derived
+get_word	get_print.cc	/^bool get_word(string &s1)$/;"	f
+get_words	get_print.cc	/^bool get_words(string &s1, string &s2)$/;"	f
+isbn	Basket.h	/^    std::string isbn;   \/\/ identifier for the item$/;"	m	class:Item_base
+isbn	Basket2.h	/^    std::string isbn;   \/\/ identifier for the item$/;"	m	class:Item_base
+items	Basket.h	/^    std::multiset<Sales_item, Comp> items;$/;"	m	class:Basket
+items	Basket2.h	/^    std::multiset<Sales_item, Comp> items;$/;"	m	class:Basket
+lhs	Query.h	/^    const Query lhs, rhs;   \/\/ right- and left-hand operands$/;"	m	class:BinaryQuery
+line_no	Query.h	/^    typedef TextQuery::line_no line_no;$/;"	t	class:Query_base
+main	Basket_main.cc	/^int main()$/;"	f
+main	V2_Basket_main.cc	/^int main()$/;"	f
+main	bsk2.cc	/^int main()$/;"	f
+main	main1.cc	/^int main(int, char **argv)$/;"	f
+main	main2.cc	/^int main(int, char **argv)$/;"	f
+main	main3.cc	/^int main(int, char **argv)$/;"	f
+main	main4.cc	/^int main(int, char **argv)$/;"	f
+main	main5.cc	/^int main(int, char **argv)$/;"	f
+main	querymain.cc	/^int main(int, char **argv)$/;"	f
+main	scope.cc	/^int main()$/;"	f
+max_qty	Basket.h	/^    std::size_t max_qty;   \/\/ maximum number sold at discount$/;"	m	class:Lim_item
+mem	scope.cc	/^    int mem;   \/\/ hides mem in the base$/;"	m	struct:Derived	file:
+mem	scope.cc	/^    int mem;$/;"	m	struct:Base	file:
+min_qty	Basket.h	/^    std::size_t min_qty;   \/\/ minimum purchase for discount to apply$/;"	m	class:Bulk_item
+net_price	Basket.cc	/^double Bulk_item::net_price(size_t cnt) const$/;"	f	class:Bulk_item
+net_price	Basket.cc	/^double Lim_item::net_price(size_t cnt) const$/;"	f	class:Lim_item
+net_price	Basket.h	/^    virtual double net_price(std::size_t n) const $/;"	f	class:Item_base
+net_price	Basket2.h	/^    virtual double net_price(std::size_t n) const $/;"	f	class:Item_base
+net_price	V2_Basket.cc	/^double Bulk_item::net_price(size_t cnt) const$/;"	f	class:Bulk_item
+net_price	V2_Basket.cc	/^double Lim_item::net_price(size_t cnt) const$/;"	f	class:Lim_item
+oper	Query.h	/^    const std::string oper; \/\/ name of the operator$/;"	m	class:BinaryQuery
+operator &	Query.h	/^inline Query operator&(const Query &lhs, const Query &rhs)$/;"	f
+operator *	Basket.h	/^    const Item_base &operator*() const { if (p) return *p; $/;"	f	class:Sales_item
+operator *	Basket2.h	/^    const Item_base &operator*() const { return *p; }$/;"	f	class:Sales_item
+operator ->	Basket.h	/^    const Item_base *operator->() const { if (p) return p; $/;"	f	class:Sales_item
+operator ->	Basket2.h	/^    const Item_base *operator->() const { return p; }$/;"	f	class:Sales_item
+operator <<	Query.h	/^operator<<(std::ostream &os, const Query &q)$/;"	f
+operator =	Basket.cc	/^Sales_item::operator=(const Sales_item &rhs)$/;"	f	class:Sales_item
+operator =	Query.h	/^inline Query& Query::operator=(const Query &rhs)$/;"	f	class:Query
+operator =	V2_Basket.cc	/^Sales_item::operator=(const Sales_item &rhs)$/;"	f	class:Sales_item
+operator |	Query.h	/^inline Query operator|(const Query &lhs, const Query &rhs)$/;"	f
+operator ~	Query.h	/^inline Query operator~(const Query &oper)$/;"	f
+p	Basket.h	/^    Item_base *p;         \/\/ pointer to shared item$/;"	m	class:Sales_item
+p	Basket2.h	/^    Item_base *p;         \/\/ pointer to shared item$/;"	m	class:Sales_item
+price	Basket.h	/^    double price;       \/\/ normal, undiscounted price$/;"	m	class:Item_base
+price	Basket2.h	/^    double price;       \/\/ normal, undiscounted price$/;"	m	class:Item_base
+print_results	get_print.cc	/^void print_results(const set<TextQuery::line_no>& locs, const TextQuery &file)$/;"	f
+print_total	Basket.cc	/^void print_total(ostream &os, $/;"	f
+print_total	V2_Basket.cc	/^void print_total(ostream &os, $/;"	f
+q	Query.h	/^    Query_base *q;$/;"	m	class:Query
+quantity	Basket2.h	/^    std::size_t quantity;  \/\/ purchase size for discount to apply$/;"	m	class:Disc_item
+query	Query.h	/^    const Query query;$/;"	m	class:NotQuery
+query_word	Query.h	/^    std::string query_word;   \/\/ word for which to search $/;"	m	class:WordQuery
+rhs	Query.h	/^    const Query lhs, rhs;   \/\/ right- and left-hand operands$/;"	m	class:BinaryQuery
+set_type	Basket.h	/^    typedef std::multiset<Sales_item, Comp> set_type;$/;"	t	class:Basket
+size	Basket.h	/^    size_type size(const Sales_item &i) const$/;"	f	class:Basket
+size	Basket2.h	/^    size_type size(const Sales_item &i) const$/;"	f	class:Basket
+size_type	Basket.h	/^    typedef set_type::size_type size_type;$/;"	t	class:Basket
+size_type	Basket2.h	/^    typedef std::multiset<Sales_item, Comp>::size_type size_type;$/;"	t	class:Basket
+total	Basket.cc	/^double Basket::total() const$/;"	f	class:Basket
+total	V2_Basket.cc	/^double Basket::total() const$/;"	f	class:Basket
+use	Basket.h	/^    std::size_t *use;     \/\/ pointer to shared use count$/;"	m	class:Sales_item
+use	Basket2.h	/^    std::size_t *use;     \/\/ pointer to shared use count$/;"	m	class:Sales_item
+use	Query.h	/^    std::size_t *use;$/;"	m	class:Query
+~Item_base	Basket.h	/^    virtual ~Item_base() { } $/;"	f	class:Item_base
+~Item_base	Basket2.h	/^    virtual ~Item_base() { } $/;"	f	class:Item_base
+~Query	Query.h	/^    ~Query() { decr_use(); }$/;"	f	class:Query
+~Query_base	Query.h	/^    virtual ~Query_base() { }$/;"	f	class:Query_base
+~Sales_item	Basket.h	/^    ~Sales_item() { decr_use(); }$/;"	f	class:Sales_item
+~Sales_item	Basket2.h	/^    ~Sales_item() { decr_use(); }$/;"	f	class:Sales_item

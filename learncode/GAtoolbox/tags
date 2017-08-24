@@ -1,0 +1,462 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AM	random.hpp	19;"	d
+AverageFitness	globalSetup.hpp	/^  AverageFitness,		\/\/ 2$/;"	e	enum:StoppingCriterias
+AverageObjective	globalSetup.hpp	/^  AverageObjective,		\/\/ 2$/;"	e	enum:StoppingCriterias
+BLANK_STR	userDefinables.cpp	17;"	d	file:
+BestFitness	globalSetup.hpp	/^  BestFitness,			\/\/ 2$/;"	e	enum:StoppingCriterias
+CC	Makefile	/^CC = g++ $/;"	m
+CFLAGS	Makefile	/^CFLAGS = -c -O2$/;"	m
+COMBINEDGUYS	globalSetup.hpp	24;"	d
+CONTRACT	globalSetup.hpp	33;"	d
+ChangeInAvgFitness	globalSetup.hpp	/^  ChangeInAvgFitness,		\/\/ 2$/;"	e	enum:StoppingCriterias
+ChangeInAvgObjective	globalSetup.hpp	/^  ChangeInAvgObjective,	        \/\/ 2$/;"	e	enum:StoppingCriterias
+ChangeInBestFitness	globalSetup.hpp	/^  ChangeInBestFitness,	        \/\/ 2$/;"	e	enum:StoppingCriterias
+ChangeInBestObjective	globalSetup.hpp	/^  ChangeInBestObjective,	\/\/ 2$/;"	e	enum:StoppingCriterias
+ChangeInFitnessVar	globalSetup.hpp	/^  ChangeInFitnessVar,		\/\/ 2$/;"	e	enum:StoppingCriterias
+ChangeInNoOfFronts	globalSetup.hpp	/^  ChangeInNoOfFronts		\/\/ 3$/;"	e	enum:StoppingCriterias
+Chromosome	chromosome.cpp	/^Chromosome::Chromosome(const Chromosome &chrom) {$/;"	f	class:Chromosome
+Chromosome	chromosome.cpp	/^Chromosome::Chromosome(void) {$/;"	f	class:Chromosome
+Chromosome	chromosome.hpp	/^class Chromosome$/;"	c
+ConstraintMethod	globalSetup.hpp	/^enum ConstraintMethod {NoConstraints, Penalty, Tournament};$/;"	g
+Crossover	crossover.hpp	/^class Crossover {$/;"	c
+DBFLAGS	Makefile	/^DBFLAGS = -O2$/;"	m
+DeterministicCrowding	globalSetup.hpp	/^enum NichingType {NoNiching, Sharing, RTS, DeterministicCrowding};$/;"	e	enum:NichingType
+EPS1	random.hpp	29;"	d
+EXPAND	globalSetup.hpp	32;"	d
+FITNESS	globalSetup.hpp	30;"	d
+FitnessVariance	globalSetup.hpp	/^  FitnessVariance,		\/\/ 1$/;"	e	enum:StoppingCriterias
+GA	ga.cpp	/^GA::GA(void)$/;"	f	class:GA
+GA	ga.hpp	/^class GA $/;"	c
+GAType	globalSetup.hpp	/^enum GAType {SGA, NSGA};$/;"	g
+GUYS	globalSetup.hpp	22;"	d
+Genewise	globalSetup.hpp	/^enum MutationType {Selective, Genewise, Polynomial};$/;"	e	enum:MutationType
+GlobalSetup	globalSetup.hpp	/^class GlobalSetup {$/;"	c
+IA1	random.hpp	21;"	d
+IA2	random.hpp	22;"	d
+IDOMJ	globalSetup.hpp	19;"	d
+IM1	random.hpp	17;"	d
+IM2	random.hpp	18;"	d
+IMM1	random.hpp	20;"	d
+INFTY	globalSetup.hpp	18;"	d
+INONDOMJ	globalSetup.hpp	21;"	d
+IQ1	random.hpp	23;"	d
+IQ2	random.hpp	24;"	d
+IR1	random.hpp	25;"	d
+IR2	random.hpp	26;"	d
+Individual	individual.cpp	/^Individual::Individual(const Individual &sourceInd ) {$/;"	f	class:Individual
+Individual	individual.cpp	/^Individual::Individual(const Individual *sourceInd )$/;"	f	class:Individual
+Individual	individual.cpp	/^Individual::Individual(void) {$/;"	f	class:Individual
+Individual	individual.hpp	/^class Individual$/;"	c
+Integer	globalSetup.hpp	/^enum VariableType {Integer, Real};$/;"	e	enum:VariableType
+JDOMI	globalSetup.hpp	20;"	d
+Linear	globalSetup.hpp	/^enum PenaltyFunction{Linear, Quadratic};$/;"	e	enum:PenaltyFunction
+LocalSearch	localsearch.cpp	/^LocalSearch::LocalSearch(){$/;"	f	class:LocalSearch
+LocalSearch	localsearch.hpp	/^class LocalSearch $/;"	c
+LocalSearchMethod	globalSetup.hpp	/^enum LocalSearchMethod {NoLocalSearch, SimplexSearch};$/;"	g
+Maximization	globalSetup.hpp	/^enum OptimType {Minimization, Maximization};$/;"	e	enum:OptimType
+Minimization	globalSetup.hpp	/^enum OptimType {Minimization, Maximization};$/;"	e	enum:OptimType
+MutationType	globalSetup.hpp	/^enum MutationType {Selective, Genewise, Polynomial};$/;"	g
+NDIV	random.hpp	28;"	d
+NEWGUYS	globalSetup.hpp	23;"	d
+NO	globalSetup.hpp	25;"	d
+NSGA	globalSetup.hpp	/^enum GAType {SGA, NSGA};$/;"	e	enum:GAType
+NTAB	random.hpp	27;"	d
+NichingType	globalSetup.hpp	/^enum NichingType {NoNiching, Sharing, RTS, DeterministicCrowding};$/;"	g
+NoConstraints	globalSetup.hpp	/^enum ConstraintMethod {NoConstraints, Penalty, Tournament};$/;"	e	enum:ConstraintMethod
+NoLocalSearch	globalSetup.hpp	/^enum LocalSearchMethod {NoLocalSearch, SimplexSearch};$/;"	e	enum:LocalSearchMethod
+NoNiching	globalSetup.hpp	/^enum NichingType {NoNiching, Sharing, RTS, DeterministicCrowding};$/;"	e	enum:NichingType
+NoOfEvaluations	globalSetup.hpp	/^  NoOfEvaluations,		\/\/ 1$/;"	e	enum:StoppingCriterias
+NoOfFronts	globalSetup.hpp	/^  NoOfFronts,			\/\/ 3$/;"	e	enum:StoppingCriterias
+NoOfGuysInFirstFront	globalSetup.hpp	/^  NoOfGuysInFirstFront,	        \/\/ 3$/;"	e	enum:StoppingCriterias
+NoScaling	globalSetup.hpp	/^enum ScalingMethod {NoScaling,Ranking, SigmaScaling};$/;"	e	enum:ScalingMethod
+NsgaIndividual	individual.cpp	/^NsgaIndividual::NsgaIndividual(const Individual &sourceInd):Individual(sourceInd) {$/;"	f	class:NsgaIndividual
+NsgaIndividual	individual.cpp	/^NsgaIndividual::NsgaIndividual(const Individual *sourceInd):Individual(*sourceInd){$/;"	f	class:NsgaIndividual
+NsgaIndividual	individual.cpp	/^NsgaIndividual::NsgaIndividual(const NsgaIndividual &sourceInd):Individual(sourceInd) {$/;"	f	class:NsgaIndividual
+NsgaIndividual	individual.cpp	/^NsgaIndividual::NsgaIndividual(const NsgaIndividual *sourceInd):Individual(*sourceInd){$/;"	f	class:NsgaIndividual
+NsgaIndividual	individual.cpp	/^NsgaIndividual::NsgaIndividual(void) {$/;"	f	class:NsgaIndividual
+NsgaIndividual	individual.hpp	/^class NsgaIndividual: public Individual {$/;"	c
+NsgaPopulation	nsgapopulation.cpp	/^NsgaPopulation::NsgaPopulation(void) $/;"	f	class:NsgaPopulation
+NsgaPopulation	population.hpp	/^class NsgaPopulation : public Population {$/;"	c
+OBJECTIVE	globalSetup.hpp	29;"	d
+OBJS	Makefile	/^OBJS = random.o chromosome.o individual.o globalSetup.o ga.o population.o nsgapopulation.o\\$/;"	m
+OFF	globalSetup.hpp	27;"	d
+ON	globalSetup.hpp	28;"	d
+OnePoint	globalSetup.hpp	/^enum XOverType {OnePoint, TwoPoint, Uniform, SBX};$/;"	e	enum:XOverType
+OneTwoPointCrossover	crossover.cpp	/^OneTwoPointCrossover::OneTwoPointCrossover(int numPoints):noOfPoints(numPoints) {}$/;"	f	class:OneTwoPointCrossover
+OneTwoPointCrossover	crossover.hpp	/^class OneTwoPointCrossover : public Crossover {$/;"	c
+OptimType	globalSetup.hpp	/^enum OptimType {Minimization, Maximization};$/;"	g
+Penalty	globalSetup.hpp	/^enum ConstraintMethod {NoConstraints, Penalty, Tournament};$/;"	e	enum:ConstraintMethod
+PenaltyFunction	globalSetup.hpp	/^enum PenaltyFunction{Linear, Quadratic};$/;"	g
+Polynomial	globalSetup.hpp	/^enum MutationType {Selective, Genewise, Polynomial};$/;"	e	enum:MutationType
+Population	population.cpp	/^Population::Population() {$/;"	f	class:Population
+Population	population.hpp	/^class Population$/;"	c
+Quadratic	globalSetup.hpp	/^enum PenaltyFunction{Linear, Quadratic};$/;"	e	enum:PenaltyFunction
+RECONSTRUCT	globalSetup.hpp	34;"	d
+REFLECT	globalSetup.hpp	31;"	d
+RNMX	random.hpp	30;"	d
+RTS	globalSetup.hpp	/^enum NichingType {NoNiching, Sharing, RTS, DeterministicCrowding};$/;"	e	enum:NichingType
+Random	random.cpp	/^Random::Random() $/;"	f	class:Random
+Random	random.cpp	/^Random::Random(const long seedValue) $/;"	f	class:Random
+Random	random.hpp	/^class Random $/;"	c
+Ranking	globalSetup.hpp	/^enum ScalingMethod {NoScaling,Ranking, SigmaScaling};$/;"	e	enum:ScalingMethod
+Real	globalSetup.hpp	/^enum VariableType {Integer, Real};$/;"	e	enum:VariableType
+RouletteWheel	globalSetup.hpp	/^enum SelectionType {TournamentWOR, SUS, Truncation, RouletteWheel, TournamentWR};$/;"	e	enum:SelectionType
+RouletteWheelSelection	selection.cpp	/^RouletteWheelSelection::RouletteWheelSelection (const Population *pop) :$/;"	f	class:RouletteWheelSelection
+RouletteWheelSelection	selection.hpp	/^class RouletteWheelSelection: public Selection {$/;"	c
+SBX	globalSetup.hpp	/^enum XOverType {OnePoint, TwoPoint, Uniform, SBX};$/;"	e	enum:XOverType
+SGA	globalSetup.hpp	/^enum GAType {SGA, NSGA};$/;"	e	enum:GAType
+SUS	globalSetup.hpp	/^enum SelectionType {TournamentWOR, SUS, Truncation, RouletteWheel, TournamentWR};$/;"	e	enum:SelectionType
+SWAP	globalSetup.hpp	16;"	d
+ScalingMethod	globalSetup.hpp	/^enum ScalingMethod {NoScaling,Ranking, SigmaScaling};$/;"	g
+Selection	selection.cpp	/^Selection::Selection (const Population *Pop) $/;"	f	class:Selection
+Selection	selection.hpp	/^class Selection {$/;"	c
+SelectionType	globalSetup.hpp	/^enum SelectionType {TournamentWOR, SUS, Truncation, RouletteWheel, TournamentWR};$/;"	g
+Selective	globalSetup.hpp	/^enum MutationType {Selective, Genewise, Polynomial};$/;"	e	enum:MutationType
+Sharing	globalSetup.hpp	/^enum NichingType {NoNiching, Sharing, RTS, DeterministicCrowding};$/;"	e	enum:NichingType
+SigmaScaling	globalSetup.hpp	/^enum ScalingMethod {NoScaling,Ranking, SigmaScaling};$/;"	e	enum:ScalingMethod
+Simplex	localsearch.cpp	/^Simplex::Simplex() $/;"	f	class:Simplex
+Simplex	localsearch.hpp	/^class Simplex: public LocalSearch $/;"	c
+SimplexSearch	globalSetup.hpp	/^enum LocalSearchMethod {NoLocalSearch, SimplexSearch};$/;"	e	enum:LocalSearchMethod
+SimulatedBinaryCrossover	crossover.cpp	/^SimulatedBinaryCrossover::SimulatedBinaryCrossover(double geneProb):genewiseProbability(geneProb) {}$/;"	f	class:SimulatedBinaryCrossover
+SimulatedBinaryCrossover	crossover.cpp	/^SimulatedBinaryCrossover::SimulatedBinaryCrossover(void):genewiseProbability(0.5) {}$/;"	f	class:SimulatedBinaryCrossover
+SimulatedBinaryCrossover	crossover.hpp	/^class SimulatedBinaryCrossover: public Crossover {$/;"	c
+StochasticUniversalSelection	selection.cpp	/^StochasticUniversalSelection::StochasticUniversalSelection (const Population *pop) :$/;"	f	class:StochasticUniversalSelection
+StochasticUniversalSelection	selection.hpp	/^class StochasticUniversalSelection: public Selection {$/;"	c
+StoppingCriterias	globalSetup.hpp	/^enum StoppingCriterias {$/;"	g
+Tournament	globalSetup.hpp	/^enum ConstraintMethod {NoConstraints, Penalty, Tournament};$/;"	e	enum:ConstraintMethod
+TournamentSelection	selection.cpp	/^TournamentSelection::TournamentSelection (const int size, const Population *pop) :$/;"	f	class:TournamentSelection
+TournamentSelection	selection.hpp	/^class TournamentSelection: public Selection {$/;"	c
+TournamentSelectionWithReplacement	selection.cpp	/^TournamentSelectionWithReplacement::TournamentSelectionWithReplacement (const int size, const Population *pop) :$/;"	f	class:TournamentSelectionWithReplacement
+TournamentSelectionWithReplacement	selection.hpp	/^class TournamentSelectionWithReplacement: public Selection {$/;"	c
+TournamentWOR	globalSetup.hpp	/^enum SelectionType {TournamentWOR, SUS, Truncation, RouletteWheel, TournamentWR};$/;"	e	enum:SelectionType
+TournamentWR	globalSetup.hpp	/^enum SelectionType {TournamentWOR, SUS, Truncation, RouletteWheel, TournamentWR};$/;"	e	enum:SelectionType
+Truncation	globalSetup.hpp	/^enum SelectionType {TournamentWOR, SUS, Truncation, RouletteWheel, TournamentWR};$/;"	e	enum:SelectionType
+TruncationSelection	selection.cpp	/^TruncationSelection::TruncationSelection(const int selP, const Population *pop) :$/;"	f	class:TruncationSelection
+TruncationSelection	selection.hpp	/^class TruncationSelection: public Selection {$/;"	c
+TwoPoint	globalSetup.hpp	/^enum XOverType {OnePoint, TwoPoint, Uniform, SBX};$/;"	e	enum:XOverType
+Uniform	globalSetup.hpp	/^enum XOverType {OnePoint, TwoPoint, Uniform, SBX};$/;"	e	enum:XOverType
+UniformCrossover	crossover.cpp	/^UniformCrossover::UniformCrossover(double geneProb):genewiseProbability(geneProb) {}$/;"	f	class:UniformCrossover
+UniformCrossover	crossover.cpp	/^UniformCrossover::UniformCrossover(void):genewiseProbability(0.5) {}$/;"	f	class:UniformCrossover
+UniformCrossover	crossover.hpp	/^class UniformCrossover: public Crossover {$/;"	c
+VariableType	globalSetup.hpp	/^enum VariableType {Integer, Real};$/;"	g
+XOverType	globalSetup.hpp	/^enum XOverType {OnePoint, TwoPoint, Uniform, SBX};$/;"	g
+YES	globalSetup.hpp	26;"	d
+ZERO	globalSetup.hpp	17;"	d
+_CHROMOSOME_H	chromosome.hpp	11;"	d
+_CROSSOVER_H	crossover.hpp	11;"	d
+_GA_H	ga.hpp	11;"	d
+_GLOBALSETUP_H	globalSetup.hpp	11;"	d
+_INDIVIDUAL_H	individual.hpp	11;"	d
+_LOCALSEARCH_H	localsearch.hpp	11;"	d
+_POPULATION_H	population.hpp	11;"	d
+_SELECTION_H	selection.hpp	11;"	d
+_random_hpp	random.hpp	11;"	d
+avgFitChange	population.hpp	/^  double     *avgFitChange;$/;"	m	class:Population
+avgObjChange	population.hpp	/^  double     *avgObjChange;$/;"	m	class:Population
+avgfit	population.hpp	/^  double     *avgfit;              \/\/ average fitness    $/;"	m	class:Population
+avgobj	population.hpp	/^  double     *avgobj;              \/\/ average objective    $/;"	m	class:Population
+best	localsearch.hpp	/^  int best, worst, nextWorst;$/;"	m	class:Simplex
+bestFitChange	population.hpp	/^  double     *bestFitChange;$/;"	m	class:Population
+bestInd	population.hpp	/^  Individual *bestInd;            \/\/ individual in the population$/;"	m	class:Population
+bestObjChange	population.hpp	/^  double     *bestObjChange;$/;"	m	class:Population
+bestobj	population.hpp	/^  double     *bestobj;              \/\/ maximum objective$/;"	m	class:Population
+betterIndividual	selection.cpp	/^int Selection::betterIndividual(Individual *guy1, Individual *guy2) $/;"	f	class:Selection
+boundedIntegerRandom	random.cpp	/^int Random::boundedIntegerRandom(int minimum, int maximum)$/;"	f	class:Random
+boundedRandom	random.cpp	/^double Random::boundedRandom(double minimum, double maximum)$/;"	f	class:Random
+chrom	individual.hpp	/^  Chromosome chrom;$/;"	m	class:Individual
+combinedGuys	population.hpp	/^  NsgaIndividual **combinedGuys;$/;"	m	class:NsgaPopulation
+computeCrowdingDistance	nsgapopulation.cpp	/^void NsgaPopulation::computeCrowdingDistance(int whichGuys)$/;"	f	class:NsgaPopulation
+computeFitnessStatistics	nsgapopulation.cpp	/^void NsgaPopulation::computeFitnessStatistics(int whichGuys) $/;"	f	class:NsgaPopulation
+computeFitnessStatistics	population.cpp	/^void Population::computeFitnessStatistics(void)$/;"	f	class:Population
+computeObjStatistics	nsgapopulation.cpp	/^void NsgaPopulation::computeObjStatistics(int whichGuys) $/;"	f	class:NsgaPopulation
+computeObjStatistics	population.cpp	/^void Population::computeObjStatistics(void)$/;"	f	class:Population
+constrPenaltyComp	individual.cpp	/^bool constrPenaltyComp(const Individual *guy1, const Individual *guy2) $/;"	f
+constrTournComp	individual.cpp	/^bool constrTournComp (const Individual *guy1, const Individual *guy2, int compareWhat) $/;"	f
+constraintMethod	globalSetup.hpp	/^  ConstraintMethod constraintMethod;$/;"	m	class:GlobalSetup
+crossover	crossover.cpp	/^void OneTwoPointCrossover::crossover(Individual *parent1, Individual *parent2)$/;"	f	class:OneTwoPointCrossover
+crossover	crossover.cpp	/^void SimulatedBinaryCrossover::crossover(Individual *parent1, Individual *parent2)$/;"	f	class:SimulatedBinaryCrossover
+crossover	crossover.cpp	/^void UniformCrossover::crossover(Individual *parent1, Individual *parent2)$/;"	f	class:UniformCrossover
+crossover	population.hpp	/^  Crossover *crossover;           \/\/ Pointer to xover function$/;"	m	class:Population
+crowdingComp	individual.cpp	/^bool crowdingComp (const NsgaIndividual *guy1, const NsgaIndividual *guy2) {$/;"	f
+crowdingDistance	individual.hpp	/^  double crowdingDistance;$/;"	m	class:NsgaIndividual
+deterministicCrowding	crossover.cpp	/^void Crossover::deterministicCrowding(Individual *parent1, Individual *parent2, Individual *child1, Individual *child2) {$/;"	f	class:Crossover
+doCrossover	population.cpp	/^void Population::doCrossover(void)$/;"	f	class:Population
+doEvaluate	population.cpp	/^int Population::doEvaluate(void)$/;"	f	class:Population
+doLocalSearch	population.cpp	/^int Population::doLocalSearch(void)$/;"	f	class:Population
+doMutate	population.cpp	/^void Population::doMutate(void)$/;"	f	class:Population
+doNonDominatedSort	nsgapopulation.cpp	/^void NsgaPopulation::doNonDominatedSort(int whichGuys)$/;"	f	class:NsgaPopulation
+doRTS	population.cpp	/^void Population::doRTS(void)$/;"	f	class:Population
+doSelect	population.cpp	/^void Population::doSelect(void) { selection->select(mpool); }$/;"	f	class:Population
+dominates	individual.cpp	/^int dominates (const NsgaIndividual *guy1, const NsgaIndividual *guy2)$/;"	f
+evaluateAgain	globalSetup.hpp	/^  bool evaluateAgain;$/;"	m	class:GlobalSetup
+evaluateFitness	individual.cpp	/^void Individual::evaluateFitness(void) {$/;"	f	class:Individual
+finalNoOfConstraints	globalSetup.hpp	/^  int finalNoOfConstraints;$/;"	m	class:GlobalSetup
+finalNoOfObjectives	globalSetup.hpp	/^  int finalNoOfObjectives;$/;"	m	class:GlobalSetup
+findGoodBadUgly	localsearch.cpp	/^void Simplex::findGoodBadUgly()$/;"	f	class:Simplex
+fitVarChange	population.hpp	/^  double     *fitVarChange;$/;"	m	class:Population
+fitness	individual.hpp	/^  double *fitness;$/;"	m	class:Individual
+flip	random.cpp	/^bool Random::flip( double probability )$/;"	f	class:Random
+flood	ga.hpp	/^  void flood(int locus) {population->flood(locus);}$/;"	f	class:GA
+flood	individual.hpp	/^  inline void flood(int index) {$/;"	f	class:Individual
+flood	population.cpp	/^void Population::flood(int locus)$/;"	f	class:Population
+freeze	ga.hpp	/^  void freeze(int locus) {population->freeze(locus);}$/;"	f	class:GA
+freeze	individual.hpp	/^  inline void freeze(int index, double value) { chrom.setValue(index, value); }$/;"	f	class:Individual
+freeze	population.cpp	/^void Population::freeze(int locus)$/;"	f	class:Population
+freezeMask	population.hpp	/^  int *freezeMask;$/;"	m	class:Population
+gaOutput	ga.hpp	/^  void gaOutput(std::ostream &out) {out << *population;}$/;"	f	class:GA
+gaType	globalSetup.hpp	/^  GAType gaType;$/;"	m	class:GlobalSetup
+genID	ga.hpp	/^  int genID;$/;"	m	class:GA
+genNumWindow	globalSetup.hpp	/^  int	genNumWindow;			\/\/ 5$/;"	m	class:GlobalSetup
+generate	ga.cpp	/^bool GA::generate()$/;"	f	class:GA
+genes	chromosome.hpp	/^    double *genes;$/;"	m	class:Chromosome
+genewiseProbability	crossover.hpp	/^  double genewiseProbability;$/;"	m	class:SimulatedBinaryCrossover
+genewiseProbability	crossover.hpp	/^  double genewiseProbability;$/;"	m	class:UniformCrossover
+getAvgFit	population.hpp	/^  inline double getAvgFit(int index) const { return avgfit[index]; }$/;"	f	class:NsgaPopulation
+getAvgFit	population.hpp	/^  inline double getAvgFit(void) const { return *avgfit; }$/;"	f	class:Population
+getAvgFitChange	population.hpp	/^  inline double getAvgFitChange(void) const { return *avgFitChange; }$/;"	f	class:Population
+getAvgObj	population.hpp	/^  inline double getAvgObj(int index) const { return avgobj[index]; }$/;"	f	class:NsgaPopulation
+getAvgObj	population.hpp	/^  inline double getAvgObj(void) const { return *avgobj; }$/;"	f	class:Population
+getAvgObjChange	population.hpp	/^  inline double getAvgObjChange(void) const { return *avgObjChange; }$/;"	f	class:Population
+getBestFitChange	population.hpp	/^  inline double getBestFitChange(void) const { return *bestFitChange; } $/;"	f	class:Population
+getBestGuy	ga.hpp	/^  Individual getBestGuy() {return *(population->bestInd);}$/;"	f	class:GA
+getBestIndividual	population.hpp	/^  Individual *getBestIndividual(void) {return bestInd; }$/;"	f	class:Population
+getBestObjChange	population.hpp	/^  inline double getBestObjChange(void) const { return *bestObjChange; }$/;"	f	class:Population
+getCombinedGuys	population.hpp	/^  inline NsgaIndividual** getCombinedGuys(void) { return combinedGuys; }$/;"	f	class:NsgaPopulation
+getCrowdingDistance	individual.hpp	/^  inline double getCrowdingDistance (void) const { return crowdingDistance; }$/;"	f	class:NsgaIndividual
+getCrowdingDistance	population.hpp	/^  double getCrowdingDistance(int index) {return combinedGuys[index]->getCrowdingDistance();}$/;"	f	class:NsgaPopulation
+getFitVar	population.hpp	/^  inline double getFitVar(int index) const { return varfit[index]; }$/;"	f	class:NsgaPopulation
+getFitVar	population.hpp	/^  inline double getFitVar(void) const { return *varfit; }$/;"	f	class:Population
+getFitVarChange	population.hpp	/^  inline double getFitVarChange(void) const { return *fitVarChange; }$/;"	f	class:Population
+getFitness	individual.hpp	/^  inline double getFitness() const {return *fitness; }$/;"	f	class:Individual
+getFitness	individual.hpp	/^  inline double getFitness(int ii) const {return fitness[ii];}$/;"	f	class:NsgaIndividual
+getFitness	population.hpp	/^  inline double getFitness(const int index) const {return guys[index]->getFitness();}$/;"	f	class:Population
+getFreezeMask	population.hpp	/^  inline int*	getFreezeMask(void) { return freezeMask; }$/;"	f	class:Population
+getGenID	ga.hpp	/^  inline int getGenID (void) const {return genID;}$/;"	f	class:GA
+getMPool	population.hpp	/^  inline int*   getMPool(void) { return mpool; }$/;"	f	class:Population
+getMaxFit	population.hpp	/^  inline double getMaxFit(int index) const { return maxfit[index]; }$/;"	f	class:NsgaPopulation
+getMaxFit	population.hpp	/^  inline double getMaxFit(void) const { return *maxfit; }$/;"	f	class:Population
+getMaxObj	population.hpp	/^  inline double getMaxObj(int index) const { return bestobj[index]; }$/;"	f	class:NsgaPopulation
+getMaxObj	population.hpp	/^  inline double getMaxObj(void) const { return *bestobj; }$/;"	f	class:Population
+getMinFit	population.hpp	/^  inline double getMinFit(int index) const { return minfit[index]; }$/;"	f	class:NsgaPopulation
+getMinFit	population.hpp	/^  inline double getMinFit(void) const { return *minfit; }$/;"	f	class:Population
+getMinObj	population.hpp	/^  inline double getMinObj(int index) const { return worstobj[index]; }$/;"	f	class:NsgaPopulation
+getMinObj	population.hpp	/^  inline double getMinObj(void) const { return *worstobj; }$/;"	f	class:Population
+getNoOfFeasible	population.hpp	/^  inline int    getNoOfFeasible(void) const { return noOfFeasible; }$/;"	f	class:Population
+getNoOfFrontChange	population.hpp	/^  inline int getNoOfFrontChange(void) const { return numFrontChange; }$/;"	f	class:NsgaPopulation
+getNoOfFronts	population.hpp	/^  inline int getNoOfFronts(void) const { return numFronts; }$/;"	f	class:NsgaPopulation
+getNoOfGlobalEvals	ga.hpp	/^  inline long getNoOfGlobalEvals(void) const {return noOfGlobalEvals;}$/;"	f	class:GA
+getNoOfIndsBestFront	population.hpp	/^  inline int getNoOfIndsBestFront(void) const { return numIndsFront[0]; }$/;"	f	class:NsgaPopulation
+getNoOfIndsFront	population.hpp	/^  inline int* getNoOfIndsFront(void) { return numIndsFront; }$/;"	f	class:NsgaPopulation
+getNoOfLocalEvals	ga.hpp	/^  inline long getNoOfLocalEvals(void) const {return noOfLocalEvals;}$/;"	f	class:GA
+getNoOfViolations	individual.hpp	/^  inline int getNoOfViolations() const { return noOfViolations; }$/;"	f	class:Individual
+getObjective	individual.hpp	/^  inline double getObjective() const { return *objFunction; }$/;"	f	class:Individual
+getObjective	individual.hpp	/^  inline double getObjective(int ii) const {return objFunction[ii];}$/;"	f	class:NsgaIndividual
+getParetoFront	population.hpp	/^  inline int** getParetoFront(void) { return paretoFront; }$/;"	f	class:NsgaPopulation
+getPenalty	individual.hpp	/^  inline double getPenalty() const { return penalty; }$/;"	f	class:Individual
+getPopulation	ga.hpp	/^  Population *getPopulation(void) {return population;}$/;"	f	class:GA
+getRank	individual.hpp	/^  inline int getRank(void) const { return rank; }$/;"	f	class:NsgaIndividual
+getSeed	random.hpp	/^  long getSeed() const { return seed; }$/;"	f	class:Random
+getSuccessiveNoChangeInAvgFitness	ga.hpp	/^  inline int getSuccessiveNoChangeInAvgFitness(void) const {return successiveNoChangeInAvgFitness;}$/;"	f	class:GA
+getSuccessiveNoChangeInAvgObjective	ga.hpp	/^  inline int getSuccessiveNoChangeInAvgObjective(void) const {return successiveNoChangeInAvgObjective;}$/;"	f	class:GA
+getSuccessiveNoChangeInBestFitness	ga.hpp	/^  inline int getSuccessiveNoChangeInBestFitness(void) const {return successiveNoChangeInBestFitness;}$/;"	f	class:GA
+getSuccessiveNoChangeInBestObjective	ga.hpp	/^  inline int getSuccessiveNoChangeInBestObjective(void) const {return successiveNoChangeInBestObjective;}$/;"	f	class:GA
+getSuccessiveNoChangeInFitnessVar	ga.hpp	/^  inline int getSuccessiveNoChangeInFitnessVar(void) const {return successiveNoChangeInFitnessVar;}$/;"	f	class:GA
+getSuccessiveNoChangeInNoOfFronts	ga.hpp	/^  inline int getSuccessiveNoChangeInNoOfFronts(void) const {return successiveNoChangeInNoOfFronts;}$/;"	f	class:GA
+getSum	localsearch.hpp	/^  inline void getSum(void) $/;"	f	class:Simplex
+getViolation	individual.hpp	/^  inline double *getViolation() { return violation; }$/;"	f	class:Individual
+getViolation	individual.hpp	/^  inline double getViolation(int ii) const {return violation[ii];}$/;"	f	class:Individual
+getViolation	individual.hpp	/^  inline double getViolation(int ii) const {return violation[ii];}$/;"	f	class:NsgaIndividual
+globalEvaluate	userDefinables.cpp	/^void globalEvaluate(double *x, double *objArray, double *constraintViolation,$/;"	f
+gset	random.hpp	/^  double gset;$/;"	m	class:Random
+guys	population.hpp	/^  Individual **guys;              \/\/ The chromosomes$/;"	m	class:Population
+individualComp	individual.cpp	/^bool individualComp(const Individual *guy1, const Individual *guy2) $/;"	f
+initialLocalPenaltyParameter	globalSetup.hpp	/^  double initialLocalPenaltyParameter;$/;"	m	class:GlobalSetup
+isBetter	individual.cpp	/^bool isBetter(const Individual *guy1, const Individual *guy2)$/;"	f
+iset	random.hpp	/^  int iset;$/;"	m	class:Random
+lamarckianProbability	globalSetup.hpp	/^  double lamarckianProbability, localSearchProbability;$/;"	m	class:GlobalSetup
+linearConstraintCombinationWeights	globalSetup.hpp	/^  double **linearConstraintCombinationWeights;$/;"	m	class:GlobalSetup
+linearObjectiveCombinationWeights	globalSetup.hpp	/^  double **linearObjectiveCombinationWeights;$/;"	m	class:GlobalSetup
+loadIndividual	individual.cpp	/^void Individual::loadIndividual(double *varValues, double *objValues, double *constViolValues, double penaltyValue) {$/;"	f	class:Individual
+loadPopulation	globalSetup.hpp	/^  bool loadPopulation;$/;"	m	class:GlobalSetup
+loadPopulationFromFile	population.cpp	/^void Population::loadPopulationFromFile(void)$/;"	f	class:Population
+localFreezeMask	localsearch.hpp	/^  int *localFreezeMask;$/;"	m	class:LocalSearch
+localGuys	localsearch.hpp	/^  Individual **localGuys;$/;"	m	class:Simplex
+localSearch	population.hpp	/^  LocalSearch *localSearch;$/;"	m	class:Population
+localSearchMethod	globalSetup.hpp	/^  LocalSearchMethod localSearchMethod;$/;"	m	class:GlobalSetup
+localSearchProbability	globalSetup.hpp	/^  double lamarckianProbability, localSearchProbability;$/;"	m	class:GlobalSetup
+localSearcher	localsearch.cpp	/^int Simplex::localSearcher(Individual *theGuy, Individual *localHero, int *freezeMask)$/;"	f	class:Simplex
+localUpdateParameter	globalSetup.hpp	/^  double localUpdateParameter;$/;"	m	class:GlobalSetup
+main	testFun.cpp	/^int main()$/;"	f
+main	userDefinables.cpp	/^int main(int argc, char *argv[]) {$/;"	f
+makeSeed	random.cpp	/^long Random::makeSeed()$/;"	f	class:Random
+mapObjectiveToFitness	nsgapopulation.cpp	/^void NsgaPopulation::mapObjectiveToFitness(int whichGuys) $/;"	f	class:NsgaPopulation
+mapObjectiveToFitness	population.cpp	/^void Population::mapObjectiveToFitness(void)$/;"	f	class:Population
+maxGenerations	globalSetup.hpp	/^  int maxGenerations;$/;"	m	class:GlobalSetup
+maxLocalEvaluations	globalSetup.hpp	/^  int maxLocalEvaluations;$/;"	m	class:GlobalSetup
+maxLocalEvaluations	localsearch.hpp	/^  int maxLocalEvaluations;$/;"	m	class:LocalSearch
+maxLocalTolerance	globalSetup.hpp	/^  double maxLocalTolerance;$/;"	m	class:GlobalSetup
+maxLocalTolerance	localsearch.hpp	/^  double maxLocalTolerance;$/;"	m	class:LocalSearch
+maxfit	population.hpp	/^  double     *maxfit;              \/\/ maximum fitness$/;"	m	class:Population
+minfit	population.hpp	/^  double     *minfit;              \/\/ minimum fitness$/;"	m	class:Population
+mpool	population.hpp	/^  int        *mpool;              \/\/ mating pool$/;"	m	class:Population
+mutate	individual.cpp	/^void Individual::mutate(int *freezeMask) $/;"	f	class:Individual
+mutate	individual.hpp	/^  inline void mutate(int index) {chrom.mutatePolynomial(index);}$/;"	f	class:Individual
+mutateMinMax	chromosome.cpp	/^void Chromosome::mutateMinMax (const int *freezeMask) {$/;"	f	class:Chromosome
+mutateNormal	chromosome.cpp	/^void Chromosome::mutateNormal(const int *freezeMask) {$/;"	f	class:Chromosome
+mutatePolynomial	chromosome.cpp	/^void Chromosome::mutatePolynomial(const int *freezeMask) {$/;"	f	class:Chromosome
+mutatePolynomial	chromosome.cpp	/^void Chromosome::mutatePolynomial(const int index) {$/;"	f	class:Chromosome
+mutationParameters	globalSetup.hpp	/^  void *nichingParameters, *mutationParameters;$/;"	m	class:GlobalSetup
+mutationProbability	globalSetup.hpp	/^  double xOverProbability, mutationProbability;$/;"	m	class:GlobalSetup
+mutationType	globalSetup.hpp	/^  MutationType mutationType;$/;"	m	class:GlobalSetup
+myRandom	userDefinables.cpp	/^Random myRandom;$/;"	v
+newGuys	population.hpp	/^  Individual **newGuys;           \/\/ Individuals after crossover and mutation$/;"	m	class:Population
+nextWorst	localsearch.hpp	/^  int best, worst, nextWorst;$/;"	m	class:Simplex
+nichingParameters	globalSetup.hpp	/^  void *nichingParameters, *mutationParameters;$/;"	m	class:GlobalSetup
+nichingType	globalSetup.hpp	/^  NichingType nichingType;$/;"	m	class:GlobalSetup
+noOfDecisionVariables	globalSetup.hpp	/^  int noOfDecisionVariables; $/;"	m	class:GlobalSetup
+noOfFeasible	population.hpp	/^  int	     noOfFeasible;  	  \/\/ number of feasible individuals$/;"	m	class:Population
+noOfGlobalEvals	ga.hpp	/^  long noOfGlobalEvals;$/;"	m	class:GA
+noOfLinearConstraintCombinations	globalSetup.hpp	/^  int noOfLinearConstraintCombinations;$/;"	m	class:GlobalSetup
+noOfLinearObjectiveCombinations	globalSetup.hpp	/^  int noOfLinearObjectiveCombinations;$/;"	m	class:GlobalSetup
+noOfLocalEvals	ga.hpp	/^  long noOfLocalEvals;$/;"	m	class:GA
+noOfPoints	crossover.hpp	/^  int noOfPoints;$/;"	m	class:OneTwoPointCrossover
+noOfRawConstraints	globalSetup.hpp	/^  int noOfRawConstraints; $/;"	m	class:GlobalSetup
+noOfRawObjectives	globalSetup.hpp	/^  int noOfRawObjectives;$/;"	m	class:GlobalSetup
+noOfStoppingCriterias	globalSetup.hpp	/^  int	noOfStoppingCriterias;$/;"	m	class:GlobalSetup
+noOfVariables	localsearch.hpp	/^  int noOfVariables;$/;"	m	class:Simplex
+noOfViolations	individual.hpp	/^  int noOfViolations;$/;"	m	class:Individual
+normalRandom	random.cpp	/^double Random::normalRandom (double standardDeviation)$/;"	f	class:Random
+nsgaGenerate	ga.cpp	/^bool GA::nsgaGenerate()$/;"	f	class:GA
+numFrontChange	population.hpp	/^  int numFrontChange;$/;"	m	class:NsgaPopulation
+numFronts	population.hpp	/^  int numFronts;$/;"	m	class:NsgaPopulation
+numIndsFront	population.hpp	/^  int *numIndsFront;$/;"	m	class:NsgaPopulation
+objFunction	individual.hpp	/^  double *objFunction;$/;"	m	class:Individual
+operator <<	chromosome.cpp	/^std::ostream &operator<< (std::ostream &out, Chromosome &chrom) {$/;"	f
+operator <<	individual.cpp	/^std::ostream &operator << (std::ostream &out, Individual &x) {$/;"	f
+operator <<	population.cpp	/^std::ostream &operator<< (std::ostream &out, const Population &pop )$/;"	f
+operator =	chromosome.cpp	/^Chromosome &Chromosome::operator= (const Chromosome &sourceChrom) $/;"	f	class:Chromosome
+operator =	individual.cpp	/^Individual & Individual::operator= (const Individual &sourceInd) {$/;"	f	class:Individual
+operator =	individual.cpp	/^NsgaIndividual & NsgaIndividual::operator= (const Individual &sourceInd){$/;"	f	class:NsgaIndividual
+operator =	individual.cpp	/^NsgaIndividual & NsgaIndividual::operator= (const NsgaIndividual &sourceInd) {$/;"	f	class:NsgaIndividual
+operator []	chromosome.hpp	/^  inline double &operator[](const int &locus) const { return genes[locus]; }$/;"	f	class:Chromosome
+operator []	individual.hpp	/^  inline double &operator[] (const int index) {return chrom[index];}$/;"	f	class:Individual
+operator []	population.hpp	/^  Individual *operator[]( int index ) const {$/;"	f	class:Population
+otherStoppingCriteria	globalSetup.hpp	/^  StoppingCriterias *otherStoppingCriteria;$/;"	m	class:GlobalSetup
+paretoFront	population.hpp	/^  int **paretoFront;$/;"	m	class:NsgaPopulation
+penalty	individual.hpp	/^  double penalty;$/;"	m	class:Individual
+penaltyFunction	globalSetup.hpp	/^  PenaltyFunction penaltyFunction;$/;"	m	class:GlobalSetup
+penaltyWeights	globalSetup.hpp	/^  double *penaltyWeights;$/;"	m	class:GlobalSetup
+pop	selection.hpp	/^  const Population *pop;$/;"	m	class:Selection
+population	ga.hpp	/^  Population *population;$/;"	m	class:GA
+populationFileName	globalSetup.hpp	/^  char *populationFileName;$/;"	m	class:GlobalSetup
+populationSize	globalSetup.hpp	/^  int populationSize;$/;"	m	class:GlobalSetup
+quickSort	nsgapopulation.cpp	/^void NsgaPopulation::quickSort(NsgaIndividual **theGuys, int *output, $/;"	f	class:NsgaPopulation
+random01	random.cpp	/^double Random::random01()$/;"	f	class:Random
+rank	individual.hpp	/^  int rank;$/;"	m	class:NsgaIndividual
+rankingQuickSort	population.cpp	/^void Population::rankingQuickSort(int *output, int left, int right)$/;"	f	class:Population
+readOneLine	userDefinables.cpp	/^static char* readOneLine(char *pcBuf, int iMaxSize, FILE *fStream)$/;"	f	file:
+regQSort	nsgapopulation.cpp	/^void NsgaPopulation::regQSort(double *crowdDist, int *output, int left, int right)$/;"	f	class:NsgaPopulation
+reinitialize	ga.cpp	/^void GA::reinitialize(void)$/;"	f	class:GA
+replacePopulation	population.cpp	/^void Population::replacePopulation(void)$/;"	f	class:Population
+replaceProportion	globalSetup.hpp	/^  double replaceProportion;		\/\/ 0.9$/;"	m	class:GlobalSetup
+saveEvalSolutions	globalSetup.hpp	/^  char *saveEvalSolutions;$/;"	m	class:GlobalSetup
+savePopulation	globalSetup.hpp	/^  bool savePopulation;$/;"	m	class:GlobalSetup
+scaleFitness	population.cpp	/^void Population::scaleFitness(void)$/;"	f	class:Population
+scalingMethod	globalSetup.hpp	/^  ScalingMethod scalingMethod;$/;"	m	class:GlobalSetup
+scalingParameters	globalSetup.hpp	/^  void	*scalingParameters;$/;"	m	class:GlobalSetup
+seed	random.hpp	/^  long seed;$/;"	m	class:Random
+select	selection.cpp	/^void RouletteWheelSelection::select(int *matingPool)$/;"	f	class:RouletteWheelSelection
+select	selection.cpp	/^void StochasticUniversalSelection::select(int *matingPool)$/;"	f	class:StochasticUniversalSelection
+select	selection.cpp	/^void TournamentSelection::select(int *matingPool)$/;"	f	class:TournamentSelection
+select	selection.cpp	/^void TournamentSelectionWithReplacement::select(int *matingPool)$/;"	f	class:TournamentSelectionWithReplacement
+select	selection.cpp	/^void TruncationSelection::select(int *matingPool)$/;"	f	class:TruncationSelection
+selection	population.hpp	/^  Selection *selection;           \/\/ Pointer to selection function$/;"	m	class:Population
+selectionParameters	globalSetup.hpp	/^  void *selectionParameters, *xOverParameters;$/;"	m	class:GlobalSetup
+selectionPressure	selection.hpp	/^  int selectionPressure;$/;"	m	class:TruncationSelection
+selectionQuickSort	selection.cpp	/^void Selection::selectionQuickSort(const Population *pop, int *output, $/;"	f	class:Selection
+selectionType	globalSetup.hpp	/^  SelectionType selectionType;$/;"	m	class:GlobalSetup
+setAvgFit	population.hpp	/^  inline void setAvgFit(double dValue) { *avgfit = dValue; }$/;"	f	class:Population
+setAvgFit	population.hpp	/^  inline void setAvgFit(int index, double dValue) { avgfit[index] = dValue; }$/;"	f	class:NsgaPopulation
+setAvgFitChange	population.hpp	/^  inline void setAvgFitChange(double dValue) { *avgFitChange = dValue; }$/;"	f	class:Population
+setAvgObj	population.hpp	/^  inline void setAvgObj(double dValue) { *avgobj = dValue; }$/;"	f	class:Population
+setAvgObj	population.hpp	/^  inline void setAvgObj(int index, double dValue) { avgobj[index] = dValue; }$/;"	f	class:NsgaPopulation
+setAvgObjChange	population.hpp	/^  inline void setAvgObjChange(double dValue) { *avgObjChange = dValue; }$/;"	f	class:Population
+setBestFitChange	population.hpp	/^  inline void setBestFitChange(double dValue) { *bestFitChange = dValue; } $/;"	f	class:Population
+setBestObjChange	population.hpp	/^  inline void setBestObjChange(double dValue) { *bestObjChange = dValue; }$/;"	f	class:Population
+setCrowdingDistance	individual.hpp	/^  inline void setCrowdingDistance(double distance) { crowdingDistance = distance; }$/;"	f	class:NsgaIndividual
+setFitVar	population.hpp	/^  inline void setFitVar(double dValue) { *varfit = dValue; }$/;"	f	class:Population
+setFitVar	population.hpp	/^  inline void setFitVar(int index, double dValue) { varfit[index] = dValue; }$/;"	f	class:NsgaPopulation
+setFitVarChange	population.hpp	/^  inline void setFitVarChange(double dValue) { *fitVarChange = dValue; }$/;"	f	class:Population
+setFitness	individual.hpp	/^  inline void setFitness(double newFitness) {if (globalSetup->gaType==SGA) *fitness = newFitness; else exit(0);}$/;"	f	class:Individual
+setFitness	individual.hpp	/^  inline void setFitness(int index, double newFitness) {$/;"	f	class:NsgaIndividual
+setGenID	ga.hpp	/^  inline void setGenID (int iValue) {genID = iValue;}$/;"	f	class:GA
+setMaxFit	population.hpp	/^  inline void setMaxFit(double dValue) { *maxfit = dValue; }$/;"	f	class:Population
+setMaxFit	population.hpp	/^  inline void setMaxFit(int index, double dValue) { maxfit[index] = dValue; }$/;"	f	class:NsgaPopulation
+setMaxObj	population.hpp	/^  inline void setMaxObj(double dValue) { *bestobj = dValue; }$/;"	f	class:Population
+setMaxObj	population.hpp	/^  inline void setMaxObj(int index, double dValue) { bestobj[index] = dValue; }$/;"	f	class:NsgaPopulation
+setMinFit	population.hpp	/^  inline void setMinFit(double dValue) { *minfit = dValue; }$/;"	f	class:Population
+setMinFit	population.hpp	/^  inline void setMinFit(int index, double dValue) { minfit[index] = dValue; }$/;"	f	class:NsgaPopulation
+setMinObj	population.hpp	/^  inline void setMinObj(double dValue) { *worstobj = dValue; }$/;"	f	class:Population
+setMinObj	population.hpp	/^  inline void setMinObj(int index, double dValue) { worstobj[index] = dValue; }$/;"	f	class:NsgaPopulation
+setNoOfFeasible	population.hpp	/^  inline void setNoOfFeasible(int iValue) { noOfFeasible = iValue; }$/;"	f	class:Population
+setNoOfFrontChange	population.hpp	/^  inline void setNoOfFrontChange(int iValue) { numFrontChange = iValue; }$/;"	f	class:NsgaPopulation
+setNoOfFronts	population.hpp	/^  inline void setNoOfFronts(int iValue) { numFronts = iValue; }$/;"	f	class:NsgaPopulation
+setNoOfGlobalEvals	ga.hpp	/^  inline void setNoOfGlobalEvals(long lValue) {noOfGlobalEvals = lValue;}$/;"	f	class:GA
+setNoOfLocalEvals	ga.hpp	/^  inline void setNoOfLocalEvals(long lValue) {noOfLocalEvals = lValue;}$/;"	f	class:GA
+setNoOfViolations	individual.hpp	/^  inline void setNoOfViolations(int iValue) { noOfViolations = iValue; }$/;"	f	class:Individual
+setObjective	individual.hpp	/^  inline void setObjective(double newObjective) {if (globalSetup->gaType==SGA) *objFunction = newObjective; else exit(0);}$/;"	f	class:Individual
+setObjective	individual.hpp	/^  inline void setObjective(int index, double newObjective) {$/;"	f	class:NsgaIndividual
+setPenalty	individual.hpp	/^  inline void setPenalty(double dValue) { penalty = dValue; }$/;"	f	class:Individual
+setRank	individual.hpp	/^  inline void setRank(int frontRank) { rank = frontRank; }$/;"	f	class:NsgaIndividual
+setSeed	random.hpp	/^  void setSeed(long seedValue) {seed = seedValue;}$/;"	f	class:Random
+setSuccessiveNoChangeInAvgFitness	ga.hpp	/^  inline void setSuccessiveNoChangeInAvgFitness(int iValue) {successiveNoChangeInAvgFitness = iValue;}$/;"	f	class:GA
+setSuccessiveNoChangeInAvgObjective	ga.hpp	/^  inline void setSuccessiveNoChangeInAvgObjective(int iValue) {successiveNoChangeInAvgObjective = iValue;}$/;"	f	class:GA
+setSuccessiveNoChangeInBestFitness	ga.hpp	/^  inline void setSuccessiveNoChangeInBestFitness(int iValue) {successiveNoChangeInBestFitness = iValue;}$/;"	f	class:GA
+setSuccessiveNoChangeInBestObjective	ga.hpp	/^  inline void setSuccessiveNoChangeInBestObjective(int iValue) {successiveNoChangeInBestObjective = iValue;}$/;"	f	class:GA
+setSuccessiveNoChangeInFitnessVar	ga.hpp	/^  inline void setSuccessiveNoChangeInFitnessVar(int iValue) {successiveNoChangeInFitnessVar = iValue;}$/;"	f	class:GA
+setSuccessiveNoChangeInNoOfFronts	ga.hpp	/^  inline void setSuccessiveNoChangeInNoOfFronts(int iValue) {successiveNoChangeInNoOfFronts = iValue;}$/;"	f	class:GA
+setValue	chromosome.hpp	/^  inline void setValue(const int &locus, const double &value) { genes[locus] = value; }$/;"	f	class:Chromosome
+setValue	individual.hpp	/^  inline void setValue(int index, double value) { chrom.setValue(index, value);}$/;"	f	class:Individual
+setViolation	individual.hpp	/^  inline void setViolation(int index, double newViolation) {violation[index] = newViolation;}$/;"	f	class:Individual
+shareFitness	population.cpp	/^void Population::shareFitness()$/;"	f	class:Population
+shuffleArray	random.cpp	/^void Random::shuffleArray(int *theArray, int arrayLength)$/;"	f	class:Random
+simplexOperator	localsearch.cpp	/^double Simplex::simplexOperator(double thisOperation, Individual *trialGuy)$/;"	f	class:Simplex
+simplexPoints	localsearch.hpp	/^  int simplexPoints;$/;"	m	class:Simplex
+stoppingCriteria	ga.cpp	/^bool GA::stoppingCriteria(void) $/;"	f	class:GA
+stoppingParameter	globalSetup.hpp	/^  double *stoppingParameter;$/;"	m	class:GlobalSetup
+successiveNoChangeInAvgFitness	ga.hpp	/^  int successiveNoChangeInAvgFitness;$/;"	m	class:GA
+successiveNoChangeInAvgObjective	ga.hpp	/^  int successiveNoChangeInAvgObjective;$/;"	m	class:GA
+successiveNoChangeInBestFitness	ga.hpp	/^  int successiveNoChangeInBestFitness;$/;"	m	class:GA
+successiveNoChangeInBestObjective	ga.hpp	/^  int successiveNoChangeInBestObjective;$/;"	m	class:GA
+successiveNoChangeInFitnessVar	ga.hpp	/^  int successiveNoChangeInFitnessVar;$/;"	m	class:GA
+successiveNoChangeInNoOfFronts	ga.hpp	/^  int successiveNoChangeInNoOfFronts;$/;"	m	class:GA
+swap	nsgapopulation.cpp	/^void NsgaPopulation::swap(int& ii, int& jj)$/;"	f	class:NsgaPopulation
+swap	population.cpp	/^void Population::swap(int& ii, int& jj)$/;"	f	class:Population
+swap	selection.cpp	/^void Selection::swap(int& ii, int& jj)$/;"	f	class:Selection
+tournamentSize	selection.hpp	/^  int tournamentSize;$/;"	m	class:TournamentSelection
+tournamentSize	selection.hpp	/^  int tournamentSize;$/;"	m	class:TournamentSelectionWithReplacement
+typeOfOptimizations	globalSetup.hpp	/^  OptimType *typeOfOptimizations;$/;"	m	class:GlobalSetup
+varfit	population.hpp	/^  double     *varfit;$/;"	m	class:Population
+variableRanges	globalSetup.hpp	/^  double **variableRanges;$/;"	m	class:GlobalSetup
+variableTypes	globalSetup.hpp	/^  VariableType *variableTypes;$/;"	m	class:GlobalSetup
+violation	individual.hpp	/^  double *violation;$/;"	m	class:Individual
+worst	localsearch.hpp	/^  int best, worst, nextWorst;$/;"	m	class:Simplex
+worstobj	population.hpp	/^  double     *worstobj;              \/\/ minimum objective$/;"	m	class:Population
+xOverParameters	globalSetup.hpp	/^  void *selectionParameters, *xOverParameters;$/;"	m	class:GlobalSetup
+xOverProbability	globalSetup.hpp	/^  double xOverProbability, mutationProbability;$/;"	m	class:GlobalSetup
+xOverType	globalSetup.hpp	/^  XOverType xOverType;$/;"	m	class:GlobalSetup
+xSum	localsearch.hpp	/^  double *xSum;$/;"	m	class:Simplex
+~Chromosome	chromosome.cpp	/^Chromosome::~Chromosome(void) {$/;"	f	class:Chromosome
+~GA	ga.cpp	/^GA::~GA(void)$/;"	f	class:GA
+~GlobalSetup	globalSetup.cpp	/^GlobalSetup::~GlobalSetup() {$/;"	f	class:GlobalSetup
+~Individual	individual.cpp	/^Individual::~Individual(void) {$/;"	f	class:Individual
+~NsgaIndividual	individual.cpp	/^NsgaIndividual::~NsgaIndividual(void) {$/;"	f	class:NsgaIndividual
+~NsgaPopulation	nsgapopulation.cpp	/^NsgaPopulation::~NsgaPopulation(void) $/;"	f	class:NsgaPopulation
+~Population	population.cpp	/^Population::~Population()$/;"	f	class:Population
+~Random	random.cpp	/^Random::~Random()$/;"	f	class:Random
+~Simplex	localsearch.cpp	/^Simplex::~Simplex() $/;"	f	class:Simplex

@@ -1,0 +1,42 @@
+--------------------Configuration: Spider - Win32 Debug--------------------
+Begining build with project "C:\MySpider\Spider.dsp", at root.
+Active configuration is Win32 (x86) Application (based on Win32 (x86) Application)
+
+Project's tools are:
+			"32-bit C/C++ Compiler for 80x86" with flags "/nologo /MDd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /Fp"Debug/Spider.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c "
+			"OLE Type Library Maker" with flags "/nologo /D "_DEBUG" /mktyplib203 /o NUL /win32 "
+			"Win32 Resource Compiler" with flags "/l 0x409 /fo"Debug/Spider.res" /d "_DEBUG" /d "_AFXDLL" "
+			"Browser Database Maker" with flags "/nologo /o"Debug/Spider.bsc" "
+			"COFF Linker for 80x86" with flags "wininet.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Spider.pdb" /debug /machine:I386 /out:"Debug/Spider.exe" /pdbtype:sept "
+			"Custom Build" with flags ""
+			"<Component 0xa>" with flags ""
+
+Creating temp file "C:\WINDOWS\TEMP\RSP3242.TMP" with contents </nologo /MDd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /Fp"Debug/Spider.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"C:\MySpider\ChildFrm.cpp"
+"C:\MySpider\Spider.cpp"
+"C:\MySpider\SpiderView.cpp"
+>
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP3242.TMP" 
+Creating temp file "C:\WINDOWS\TEMP\RSP3243.TMP" with contents <wininet.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Spider.pdb" /debug /machine:I386 /out:"Debug/Spider.exe" /pdbtype:sept 
+.\Debug\ChildFrm.obj
+.\Debug\MainFrm.obj
+.\Debug\Spider.obj
+.\Debug\SpiderDoc.obj
+.\Debug\SpiderList.obj
+.\Debug\SpiderView.obj
+.\Debug\StdAfx.obj
+.\Debug\Thread.obj
+.\Debug\UrlDlg.obj
+.\Debug\utily.obj
+.\Debug\Spider.res>
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP3243.TMP" 
+Compiling...
+ChildFrm.cpp
+Spider.cpp
+SpiderView.cpp
+Generating Code...
+Linking...
+
+
+
+Spider.exe - 0 error(s), 0 warning(s)

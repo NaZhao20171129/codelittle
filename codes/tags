@@ -1,0 +1,580 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BAD_REQUEST	15/15-4http_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+BAD_REQUEST	8/8-3httpparser.cpp	/^enum HTTP_CODE { NO_REQUEST, GET_REQUEST, BAD_REQUEST, FORBIDDEN_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:HTTP_CODE	file:
+BAD_REQUEST	8/t.cpp	/^enum HTTP_CODE { NO_REQUEST, GET_REQUEST, BAD_REQUEST, FORBIDDEN_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:HTTP_CODE	file:
+BUFFER_EMPTY	springsnail/fdwrapper.h	/^enum RET_CODE { OK = 0, NOTHING = 1, IOERR = -1, CLOSED = -2, BUFFER_FULL = -3, BUFFER_EMPTY = -4, TRY_AGAIN };$/;"	e	enum:RET_CODE
+BUFFER_FULL	springsnail/fdwrapper.h	/^enum RET_CODE { OK = 0, NOTHING = 1, IOERR = -1, CLOSED = -2, BUFFER_FULL = -3, BUFFER_EMPTY = -4, TRY_AGAIN };$/;"	e	enum:RET_CODE
+BUFFER_SIZE	11/11-2lst_timer.h	6;"	d
+BUFFER_SIZE	11/11-5tw_timer.h	8;"	d
+BUFFER_SIZE	11/11-6time_heap.h	9;"	d
+BUFFER_SIZE	13/13-4shm_talk_server.cpp	19;"	d	file:
+BUFFER_SIZE	15/15-2pool_cgi.cpp	19;"	d	file:
+BUFFER_SIZE	5/5-10set_send_buffer.cpp	9;"	d	file:
+BUFFER_SIZE	5/5-11set_recv_buffer.cpp	11;"	d	file:
+BUFFER_SIZE	6/6-2testwritev.cpp	14;"	d	file:
+BUFFER_SIZE	8/8-3httpparser.cpp	12;"	d	file:
+BUFFER_SIZE	8/t.cpp	12;"	d	file:
+BUFFER_SIZE	9/9-3mtlt.cpp	16;"	d	file:
+BUFFER_SIZE	9/9-4oneshot.cpp	16;"	d	file:
+BUFFER_SIZE	9/9-5unblockconnect.cpp	15;"	d	file:
+BUFFER_SIZE	9/9-6mytalk_client.cpp	14;"	d	file:
+BUFFER_SIZE	9/9-7mytalk_server.cpp	16;"	d	file:
+BUF_SIZE	10/10-3sigurg.cpp	13;"	d	file:
+BUF_SIZE	5/5-7oobrecv.cpp	11;"	d	file:
+BUF_SIZE	springsnail/conn.h	/^    static const int BUF_SIZE = 2048;$/;"	m	class:conn
+CHECK_STATE	15/15-4http_conn.h	/^    enum CHECK_STATE { CHECK_STATE_REQUESTLINE = 0, CHECK_STATE_HEADER, CHECK_STATE_CONTENT };$/;"	g	class:http_conn
+CHECK_STATE	8/8-3httpparser.cpp	/^enum CHECK_STATE { CHECK_STATE_REQUESTLINE = 0, CHECK_STATE_HEADER, CHECK_STATE_CONTENT };$/;"	g	file:
+CHECK_STATE	8/t.cpp	/^enum CHECK_STATE { CHECK_STATE_REQUESTLINE = 0, CHECK_STATE_HEADER, CHECK_STATE_CONTENT };$/;"	g	file:
+CHECK_STATE_CONTENT	15/15-4http_conn.h	/^    enum CHECK_STATE { CHECK_STATE_REQUESTLINE = 0, CHECK_STATE_HEADER, CHECK_STATE_CONTENT };$/;"	e	enum:http_conn::CHECK_STATE
+CHECK_STATE_CONTENT	8/8-3httpparser.cpp	/^enum CHECK_STATE { CHECK_STATE_REQUESTLINE = 0, CHECK_STATE_HEADER, CHECK_STATE_CONTENT };$/;"	e	enum:CHECK_STATE	file:
+CHECK_STATE_CONTENT	8/t.cpp	/^enum CHECK_STATE { CHECK_STATE_REQUESTLINE = 0, CHECK_STATE_HEADER, CHECK_STATE_CONTENT };$/;"	e	enum:CHECK_STATE	file:
+CHECK_STATE_HEADER	15/15-4http_conn.h	/^    enum CHECK_STATE { CHECK_STATE_REQUESTLINE = 0, CHECK_STATE_HEADER, CHECK_STATE_CONTENT };$/;"	e	enum:http_conn::CHECK_STATE
+CHECK_STATE_HEADER	8/8-3httpparser.cpp	/^enum CHECK_STATE { CHECK_STATE_REQUESTLINE = 0, CHECK_STATE_HEADER, CHECK_STATE_CONTENT };$/;"	e	enum:CHECK_STATE	file:
+CHECK_STATE_HEADER	8/t.cpp	/^enum CHECK_STATE { CHECK_STATE_REQUESTLINE = 0, CHECK_STATE_HEADER, CHECK_STATE_CONTENT };$/;"	e	enum:CHECK_STATE	file:
+CHECK_STATE_REQUESTLINE	15/15-4http_conn.h	/^    enum CHECK_STATE { CHECK_STATE_REQUESTLINE = 0, CHECK_STATE_HEADER, CHECK_STATE_CONTENT };$/;"	e	enum:http_conn::CHECK_STATE
+CHECK_STATE_REQUESTLINE	8/8-3httpparser.cpp	/^enum CHECK_STATE { CHECK_STATE_REQUESTLINE = 0, CHECK_STATE_HEADER, CHECK_STATE_CONTENT };$/;"	e	enum:CHECK_STATE	file:
+CHECK_STATE_REQUESTLINE	8/t.cpp	/^enum CHECK_STATE { CHECK_STATE_REQUESTLINE = 0, CHECK_STATE_HEADER, CHECK_STATE_CONTENT };$/;"	e	enum:CHECK_STATE	file:
+CLOSED	springsnail/fdwrapper.h	/^enum RET_CODE { OK = 0, NOTHING = 1, IOERR = -1, CLOSED = -2, BUFFER_FULL = -3, BUFFER_EMPTY = -4, TRY_AGAIN };$/;"	e	enum:RET_CODE
+CLOSED_CONNECTION	15/15-4http_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+CLOSED_CONNECTION	8/8-3httpparser.cpp	/^enum HTTP_CODE { NO_REQUEST, GET_REQUEST, BAD_REQUEST, FORBIDDEN_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:HTTP_CODE	file:
+CLOSED_CONNECTION	8/t.cpp	/^enum HTTP_CODE { NO_REQUEST, GET_REQUEST, BAD_REQUEST, FORBIDDEN_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:HTTP_CODE	file:
+CONNECT	15/15-4http_conn.h	/^    enum METHOD { GET = 0, POST, HEAD, PUT, DELETE, TRACE, OPTIONS, CONNECT, PATCH };$/;"	e	enum:http_conn::METHOD
+CONN_H	springsnail/conn.h	2;"	d
+CONTROL_LEN	13/13-5passfd.cpp	/^static const int CONTROL_LEN = CMSG_LEN( sizeof(int) );$/;"	v	file:
+DELETE	15/15-4http_conn.h	/^    enum METHOD { GET = 0, POST, HEAD, PUT, DELETE, TRACE, OPTIONS, CONNECT, PATCH };$/;"	e	enum:http_conn::METHOD
+EPOLL_WAIT_TIME	springsnail/processpool.h	/^static int EPOLL_WAIT_TIME = 5000;$/;"	v
+ERROR	springsnail/fdwrapper.h	/^enum OP_TYPE { READ = 0, WRITE, ERROR };$/;"	e	enum:OP_TYPE
+FDWRAPPER_H	springsnail/fdwrapper.cpp	2;"	d	file:
+FDWRAPPER_H	springsnail/fdwrapper.h	2;"	d
+FD_LIMIT	11/11-3nonactive_conn.cpp	17;"	d	file:
+FD_LIMIT	13/13-4shm_talk_server.cpp	20;"	d	file:
+FD_LIMIT	9/9-7mytalk_server.cpp	17;"	d	file:
+FILENAME_LEN	15/15-4http_conn.h	/^    static const int FILENAME_LEN = 200;$/;"	m	class:http_conn
+FILE_REQUEST	15/15-4http_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+FORBIDDEN_REQUEST	15/15-4http_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+FORBIDDEN_REQUEST	8/8-3httpparser.cpp	/^enum HTTP_CODE { NO_REQUEST, GET_REQUEST, BAD_REQUEST, FORBIDDEN_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:HTTP_CODE	file:
+FORBIDDEN_REQUEST	8/t.cpp	/^enum HTTP_CODE { NO_REQUEST, GET_REQUEST, BAD_REQUEST, FORBIDDEN_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:HTTP_CODE	file:
+GET	15/15-4http_conn.h	/^    enum METHOD { GET = 0, POST, HEAD, PUT, DELETE, TRACE, OPTIONS, CONNECT, PATCH };$/;"	e	enum:http_conn::METHOD
+GET_REQUEST	15/15-4http_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+GET_REQUEST	8/8-3httpparser.cpp	/^enum HTTP_CODE { NO_REQUEST, GET_REQUEST, BAD_REQUEST, FORBIDDEN_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:HTTP_CODE	file:
+GET_REQUEST	8/t.cpp	/^enum HTTP_CODE { NO_REQUEST, GET_REQUEST, BAD_REQUEST, FORBIDDEN_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:HTTP_CODE	file:
+HEAD	15/15-4http_conn.h	/^    enum METHOD { GET = 0, POST, HEAD, PUT, DELETE, TRACE, OPTIONS, CONNECT, PATCH };$/;"	e	enum:http_conn::METHOD
+HTTPCONNECTION_H	15/15-4http_conn.h	2;"	d
+HTTP_CODE	15/15-4http_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	g	class:http_conn
+HTTP_CODE	8/8-3httpparser.cpp	/^enum HTTP_CODE { NO_REQUEST, GET_REQUEST, BAD_REQUEST, FORBIDDEN_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	g	file:
+HTTP_CODE	8/t.cpp	/^enum HTTP_CODE { NO_REQUEST, GET_REQUEST, BAD_REQUEST, FORBIDDEN_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	g	file:
+INTERNAL_ERROR	15/15-4http_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+INTERNAL_ERROR	8/8-3httpparser.cpp	/^enum HTTP_CODE { NO_REQUEST, GET_REQUEST, BAD_REQUEST, FORBIDDEN_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:HTTP_CODE	file:
+INTERNAL_ERROR	8/t.cpp	/^enum HTTP_CODE { NO_REQUEST, GET_REQUEST, BAD_REQUEST, FORBIDDEN_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:HTTP_CODE	file:
+IOERR	springsnail/fdwrapper.h	/^enum RET_CODE { OK = 0, NOTHING = 1, IOERR = -1, CLOSED = -2, BUFFER_FULL = -3, BUFFER_EMPTY = -4, TRY_AGAIN };$/;"	e	enum:RET_CODE
+LINE_BAD	15/15-4http_conn.h	/^    enum LINE_STATUS { LINE_OK = 0, LINE_BAD, LINE_OPEN };$/;"	e	enum:http_conn::LINE_STATUS
+LINE_BAD	8/8-3httpparser.cpp	/^enum LINE_STATUS { LINE_OK = 0, LINE_BAD, LINE_OPEN };$/;"	e	enum:LINE_STATUS	file:
+LINE_BAD	8/t.cpp	/^enum LINE_STATUS { LINE_OK = 0, LINE_BAD, LINE_OPEN };$/;"	e	enum:LINE_STATUS	file:
+LINE_OK	15/15-4http_conn.h	/^    enum LINE_STATUS { LINE_OK = 0, LINE_BAD, LINE_OPEN };$/;"	e	enum:http_conn::LINE_STATUS
+LINE_OK	8/8-3httpparser.cpp	/^enum LINE_STATUS { LINE_OK = 0, LINE_BAD, LINE_OPEN };$/;"	e	enum:LINE_STATUS	file:
+LINE_OK	8/t.cpp	/^enum LINE_STATUS { LINE_OK = 0, LINE_BAD, LINE_OPEN };$/;"	e	enum:LINE_STATUS	file:
+LINE_OPEN	15/15-4http_conn.h	/^    enum LINE_STATUS { LINE_OK = 0, LINE_BAD, LINE_OPEN };$/;"	e	enum:http_conn::LINE_STATUS
+LINE_OPEN	8/8-3httpparser.cpp	/^enum LINE_STATUS { LINE_OK = 0, LINE_BAD, LINE_OPEN };$/;"	e	enum:LINE_STATUS	file:
+LINE_OPEN	8/t.cpp	/^enum LINE_STATUS { LINE_OK = 0, LINE_BAD, LINE_OPEN };$/;"	e	enum:LINE_STATUS	file:
+LINE_STATUS	15/15-4http_conn.h	/^    enum LINE_STATUS { LINE_OK = 0, LINE_BAD, LINE_OPEN };$/;"	g	class:http_conn
+LINE_STATUS	8/8-3httpparser.cpp	/^enum LINE_STATUS { LINE_OK = 0, LINE_BAD, LINE_OPEN };$/;"	g	file:
+LINE_STATUS	8/t.cpp	/^enum LINE_STATUS { LINE_OK = 0, LINE_BAD, LINE_OPEN };$/;"	g	file:
+LOCKER_H	14/14-2locker.h	2;"	d
+LOG_BUFFER_SIZE	springsnail/log.cpp	/^static int LOG_BUFFER_SIZE = 2048;$/;"	v	file:
+LOG_H	springsnail/log.h	2;"	d
+LST_TIMER	11/11-2lst_timer.h	2;"	d
+MAX_EVENT_NUMBER	10/10-1unievent.cpp	16;"	d	file:
+MAX_EVENT_NUMBER	11/11-3nonactive_conn.cpp	18;"	d	file:
+MAX_EVENT_NUMBER	13/13-4shm_talk_server.cpp	21;"	d	file:
+MAX_EVENT_NUMBER	15/15-1processpool.h	/^    static const int MAX_EVENT_NUMBER = 10000;$/;"	m	class:processpool
+MAX_EVENT_NUMBER	15/15-2pool_cgi.cpp	20;"	d	file:
+MAX_EVENT_NUMBER	15/15-6main.cpp	18;"	d	file:
+MAX_EVENT_NUMBER	9/9-3mtlt.cpp	15;"	d	file:
+MAX_EVENT_NUMBER	9/9-4oneshot.cpp	15;"	d	file:
+MAX_EVENT_NUMBER	9/9-8multi_port.cpp	15;"	d	file:
+MAX_EVENT_NUMBER	springsnail/processpool.h	/^    static const int MAX_EVENT_NUMBER = 10000;$/;"	m	class:processpool
+MAX_FD	15/15-6main.cpp	17;"	d	file:
+MAX_PROCESS_NUMBER	15/15-1processpool.h	/^    static const int MAX_PROCESS_NUMBER = 16;$/;"	m	class:processpool
+MAX_PROCESS_NUMBER	springsnail/processpool.h	/^    static const int MAX_PROCESS_NUMBER = 16;$/;"	m	class:processpool
+METHOD	15/15-4http_conn.h	/^    enum METHOD { GET = 0, POST, HEAD, PUT, DELETE, TRACE, OPTIONS, CONNECT, PATCH };$/;"	g	class:http_conn
+N	11/11-5tw_timer.h	/^    static const int N = 60;$/;"	m	class:time_wheel
+NOTHING	springsnail/fdwrapper.h	/^enum RET_CODE { OK = 0, NOTHING = 1, IOERR = -1, CLOSED = -2, BUFFER_FULL = -3, BUFFER_EMPTY = -4, TRY_AGAIN };$/;"	e	enum:RET_CODE
+NO_REQUEST	15/15-4http_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+NO_REQUEST	8/8-3httpparser.cpp	/^enum HTTP_CODE { NO_REQUEST, GET_REQUEST, BAD_REQUEST, FORBIDDEN_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:HTTP_CODE	file:
+NO_REQUEST	8/t.cpp	/^enum HTTP_CODE { NO_REQUEST, GET_REQUEST, BAD_REQUEST, FORBIDDEN_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:HTTP_CODE	file:
+NO_RESOURCE	15/15-4http_conn.h	/^    enum HTTP_CODE { NO_REQUEST, GET_REQUEST, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION };$/;"	e	enum:http_conn::HTTP_CODE
+OK	springsnail/fdwrapper.h	/^enum RET_CODE { OK = 0, NOTHING = 1, IOERR = -1, CLOSED = -2, BUFFER_FULL = -3, BUFFER_EMPTY = -4, TRY_AGAIN };$/;"	e	enum:RET_CODE
+OPTIONS	15/15-4http_conn.h	/^    enum METHOD { GET = 0, POST, HEAD, PUT, DELETE, TRACE, OPTIONS, CONNECT, PATCH };$/;"	e	enum:http_conn::METHOD
+OP_TYPE	springsnail/fdwrapper.h	/^enum OP_TYPE { READ = 0, WRITE, ERROR };$/;"	g
+PATCH	15/15-4http_conn.h	/^    enum METHOD { GET = 0, POST, HEAD, PUT, DELETE, TRACE, OPTIONS, CONNECT, PATCH };$/;"	e	enum:http_conn::METHOD
+POST	15/15-4http_conn.h	/^    enum METHOD { GET = 0, POST, HEAD, PUT, DELETE, TRACE, OPTIONS, CONNECT, PATCH };$/;"	e	enum:http_conn::METHOD
+PROCESSPOOL_H	15/15-1processpool.h	2;"	d
+PROCESSPOOL_H	springsnail/processpool.h	2;"	d
+PROCESS_COUNT	15/15-2pool_cgi.cpp	21;"	d	file:
+PROCESS_LIMIT	13/13-4shm_talk_server.cpp	22;"	d	file:
+PUT	15/15-4http_conn.h	/^    enum METHOD { GET = 0, POST, HEAD, PUT, DELETE, TRACE, OPTIONS, CONNECT, PATCH };$/;"	e	enum:http_conn::METHOD
+READ	springsnail/fdwrapper.h	/^enum OP_TYPE { READ = 0, WRITE, ERROR };$/;"	e	enum:OP_TYPE
+READ_BUFFER_SIZE	15/15-4http_conn.h	/^    static const int READ_BUFFER_SIZE = 2048;$/;"	m	class:http_conn
+RET_CODE	springsnail/fdwrapper.h	/^enum RET_CODE { OK = 0, NOTHING = 1, IOERR = -1, CLOSED = -2, BUFFER_FULL = -3, BUFFER_EMPTY = -4, TRY_AGAIN };$/;"	g
+SRVMGR_H	springsnail/mgr.h	2;"	d
+TCP_BUFFER_SIZE	9/9-8multi_port.cpp	16;"	d	file:
+THREADPOOL_H	15/15-3threadpool.h	2;"	d
+TI	11/11-5tw_timer.h	/^    static const int TI = 1; $/;"	m	class:time_wheel
+TIMEOUT	11/11-4io_timer.cpp	1;"	d	file:
+TIMESLOT	11/11-3nonactive_conn.cpp	19;"	d	file:
+TIME_WHEEL_TIMER	11/11-5tw_timer.h	2;"	d
+TRACE	15/15-4http_conn.h	/^    enum METHOD { GET = 0, POST, HEAD, PUT, DELETE, TRACE, OPTIONS, CONNECT, PATCH };$/;"	e	enum:http_conn::METHOD
+TRY_AGAIN	springsnail/fdwrapper.h	/^enum RET_CODE { OK = 0, NOTHING = 1, IOERR = -1, CLOSED = -2, BUFFER_FULL = -3, BUFFER_EMPTY = -4, TRY_AGAIN };$/;"	e	enum:RET_CODE
+UDP_BUFFER_SIZE	9/9-8multi_port.cpp	17;"	d	file:
+USER_LIMIT	13/13-4shm_talk_server.cpp	18;"	d	file:
+USER_LIMIT	9/9-7mytalk_server.cpp	15;"	d	file:
+USER_PER_PROCESS	15/15-1processpool.h	/^    static const int USER_PER_PROCESS = 65536;$/;"	m	class:processpool
+USER_PER_PROCESS	15/15-2pool_cgi.cpp	22;"	d	file:
+USER_PER_PROCESS	springsnail/processpool.h	/^    static const int USER_PER_PROCESS = 65536;$/;"	m	class:processpool
+WRITE	springsnail/fdwrapper.h	/^enum OP_TYPE { READ = 0, WRITE, ERROR };$/;"	e	enum:OP_TYPE
+WRITE_BUFFER_SIZE	15/15-4http_conn.h	/^    static const int WRITE_BUFFER_SIZE = 1024;$/;"	m	class:http_conn
+_GNU_SOURCE	9/9-6mytalk_client.cpp	1;"	d	file:
+_GNU_SOURCE	9/9-7mytalk_server.cpp	1;"	d	file:
+__buf	13/13-3sem.cpp	/^     struct seminfo* __buf;    $/;"	m	union:semun	typeref:struct:semun::seminfo	file:
+a	14/14-1mutual_lock.c	/^int a = 0;$/;"	v
+add_blank_line	15/15-5http_conn.cpp	/^bool http_conn::add_blank_line()$/;"	f	class:http_conn
+add_content	15/15-5http_conn.cpp	/^bool http_conn::add_content( const char* content )$/;"	f	class:http_conn
+add_content_length	15/15-5http_conn.cpp	/^bool http_conn::add_content_length( int content_len )$/;"	f	class:http_conn
+add_headers	15/15-5http_conn.cpp	/^bool http_conn::add_headers( int content_len )$/;"	f	class:http_conn
+add_linger	15/15-5http_conn.cpp	/^bool http_conn::add_linger()$/;"	f	class:http_conn
+add_read_fd	springsnail/fdwrapper.cpp	/^void add_read_fd( int epollfd, int fd )$/;"	f
+add_response	15/15-5http_conn.cpp	/^bool http_conn::add_response( const char* format, ... )$/;"	f	class:http_conn
+add_status_line	15/15-5http_conn.cpp	/^bool http_conn::add_status_line( int status, const char* title )$/;"	f	class:http_conn
+add_timer	11/11-2lst_timer.h	/^    void add_timer( util_timer* timer )$/;"	f	class:sort_timer_lst
+add_timer	11/11-2lst_timer.h	/^    void add_timer( util_timer* timer, util_timer* lst_head )$/;"	f	class:sort_timer_lst
+add_timer	11/11-5tw_timer.h	/^    tw_timer* add_timer( int timeout )$/;"	f	class:time_wheel
+add_timer	11/11-6time_heap.h	/^    void add_timer( heap_timer* timer ) throw ( std::exception )$/;"	f	class:time_heap
+add_write_fd	springsnail/fdwrapper.cpp	/^void add_write_fd( int epollfd, int fd )$/;"	f
+addfd	10/10-1unievent.cpp	/^void addfd( int epollfd, int fd )$/;"	f
+addfd	11/11-3nonactive_conn.cpp	/^void addfd( int epollfd, int fd )$/;"	f
+addfd	13/13-4shm_talk_server.cpp	/^void addfd( int epollfd, int fd )$/;"	f
+addfd	15/15-1processpool.h	/^static void addfd( int epollfd, int fd )$/;"	f
+addfd	15/15-2pool_cgi.cpp	/^void addfd( int epollfd, int fd )$/;"	f
+addfd	15/15-5http_conn.cpp	/^void addfd( int epollfd, int fd, bool one_shot )$/;"	f
+addfd	16/16-4stress_client.cpp	/^void addfd( int epoll_fd, int fd )$/;"	f
+addfd	9/9-3mtlt.cpp	/^void addfd( int epollfd, int fd, bool enable_et )$/;"	f
+addfd	9/9-4oneshot.cpp	/^void addfd( int epollfd, int fd, bool oneshot )$/;"	f
+addfd	9/9-8multi_port.cpp	/^void addfd( int epollfd, int fd )$/;"	f
+address	11/11-2lst_timer.h	/^    sockaddr_in address;$/;"	m	struct:client_data
+address	11/11-5tw_timer.h	/^    sockaddr_in address;$/;"	m	struct:client_data
+address	11/11-6time_heap.h	/^    sockaddr_in address;$/;"	m	struct:client_data
+address	13/13-4shm_talk_server.cpp	/^    sockaddr_in address;$/;"	m	struct:client_data	file:
+address	15/15-2pool_cgi.cpp	/^    sockaddr_in address;$/;"	m	struct:client_data	file:
+address	9/9-7mytalk_server.cpp	/^    sockaddr_in address;$/;"	m	struct:client_data	file:
+addsig	10/10-1unievent.cpp	/^void addsig( int sig )$/;"	f
+addsig	10/10-3sigurg.cpp	/^void addsig( int sig, void ( *sig_handler )( int ) )$/;"	f
+addsig	11/11-3nonactive_conn.cpp	/^void addsig( int sig )$/;"	f
+addsig	13/13-4shm_talk_server.cpp	/^void addsig( int sig, void(*handler)(int), bool restart = true )$/;"	f
+addsig	15/15-1processpool.h	/^static void addsig( int sig, void( handler )(int), bool restart = true )$/;"	f
+addsig	15/15-2pool_cgi.cpp	/^void addsig( int sig, void(*handler)(int), bool restart = true )$/;"	f
+addsig	15/15-6main.cpp	/^void addsig( int sig, void( handler )(int), bool restart = true )$/;"	f
+addsig	springsnail/processpool.h	/^static void addsig( int sig, void( handler )(int), bool restart = true )$/;"	f
+adjust_timer	11/11-2lst_timer.h	/^    void adjust_timer( util_timer* timer )$/;"	f	class:sort_timer_lst
+another	14/14-1mutual_lock.c	/^void* another( void* arg )$/;"	f
+another	14/14-3thread_atfork.c	/^void* another( void* arg )$/;"	f
+append	15/15-3threadpool.h	/^bool threadpool< T >::append( T* request )$/;"	f	class:threadpool
+array	11/11-6time_heap.h	/^    heap_timer** array;$/;"	m	class:time_heap
+array	13/13-3sem.cpp	/^     unsigned short int* array;$/;"	m	union:semun	file:
+b	14/14-1mutual_lock.c	/^int b = 0;$/;"	v
+buf	11/11-2lst_timer.h	/^    char buf[ BUFFER_SIZE ];$/;"	m	struct:client_data
+buf	11/11-5tw_timer.h	/^    char buf[ BUFFER_SIZE ];$/;"	m	struct:client_data
+buf	11/11-6time_heap.h	/^    char buf[ BUFFER_SIZE ];$/;"	m	struct:client_data
+buf	13/13-3sem.cpp	/^     struct semid_ds* buf;     $/;"	m	union:semun	typeref:struct:semun::semid_ds	file:
+buf	15/15-2pool_cgi.cpp	/^    char buf[ BUFFER_SIZE ];$/;"	m	struct:client_data	file:
+buf	9/9-7mytalk_server.cpp	/^    char buf[ BUFFER_SIZE ];$/;"	m	struct:client_data	file:
+byteorder	5/5-1byteorder.cpp	/^void byteorder()$/;"	f
+capacity	11/11-6time_heap.h	/^    int capacity;$/;"	m	class:time_heap
+cb_func	11/11-2lst_timer.h	/^   void (*cb_func)( client_data* );$/;"	m	class:util_timer
+cb_func	11/11-3nonactive_conn.cpp	/^void cb_func( client_data* user_data )$/;"	f
+cb_func	11/11-5tw_timer.h	/^    void (*cb_func)( client_data* );$/;"	m	class:tw_timer
+cb_func	11/11-6time_heap.h	/^   void (*cb_func)( client_data* );$/;"	m	class:heap_timer
+child_child_handler	15/15-2pool_cgi.cpp	/^void child_child_handler( int sig )$/;"	f
+child_term_handler	13/13-4shm_talk_server.cpp	/^void child_term_handler( int sig )$/;"	f
+child_term_handler	15/15-2pool_cgi.cpp	/^void child_term_handler( int sig )$/;"	f
+client_data	11/11-2lst_timer.h	/^struct client_data$/;"	s
+client_data	11/11-5tw_timer.h	/^struct client_data$/;"	s
+client_data	11/11-6time_heap.h	/^struct client_data$/;"	s
+client_data	13/13-4shm_talk_server.cpp	/^struct client_data$/;"	s	file:
+client_data	15/15-2pool_cgi.cpp	/^struct client_data$/;"	s	file:
+client_data	9/9-7mytalk_server.cpp	/^struct client_data$/;"	s	file:
+close_conn	15/15-5http_conn.cpp	/^void http_conn::close_conn( bool real_close )$/;"	f	class:http_conn
+close_conn	16/16-4stress_client.cpp	/^void close_conn( int epoll_fd, int sockfd )$/;"	f
+closefd	springsnail/fdwrapper.cpp	/^void closefd( int epollfd, int fd )$/;"	f
+cond	14/14-2locker.h	/^    cond()$/;"	f	class:cond
+cond	14/14-2locker.h	/^class cond$/;"	c
+conn	springsnail/conn.cpp	/^conn::conn()$/;"	f	class:conn
+conn	springsnail/conn.h	/^class conn$/;"	c
+conn2srv	springsnail/mgr.cpp	/^int mgr::conn2srv( const sockaddr_in& address )$/;"	f	class:mgr
+connfd	10/10-3sigurg.cpp	/^static int connfd;$/;"	v	file:
+connfd	13/13-4shm_talk_server.cpp	/^    int connfd;$/;"	m	struct:client_data	file:
+create	15/15-1processpool.h	/^    static processpool< T >* create( int listenfd, int process_number = 8 )$/;"	f	class:processpool
+create	springsnail/processpool.h	/^    static processpool< C, H, M >* create( int listenfd, int process_number = 8 )$/;"	f	class:processpool
+cur_size	11/11-6time_heap.h	/^    int cur_size;$/;"	m	class:time_heap
+cur_slot	11/11-5tw_timer.h	/^    int cur_slot;$/;"	m	class:time_wheel
+daemonize	7/7-3daemonize.cpp	/^bool daemonize()$/;"	f
+del_resource	13/13-4shm_talk_server.cpp	/^void del_resource()$/;"	f
+del_resource	15/15-2pool_cgi.cpp	/^void del_resource()$/;"	f
+del_timer	11/11-2lst_timer.h	/^    void del_timer( util_timer* timer )$/;"	f	class:sort_timer_lst
+del_timer	11/11-5tw_timer.h	/^    void del_timer( tw_timer* timer )$/;"	f	class:time_wheel
+del_timer	11/11-6time_heap.h	/^    void del_timer( heap_timer* timer )$/;"	f	class:time_heap
+do_request	15/15-5http_conn.cpp	/^http_conn::HTTP_CODE http_conn::do_request()$/;"	f	class:http_conn
+doc_root	15/15-5http_conn.cpp	/^const char* doc_root = "\/var\/www\/html";$/;"	v
+empty	11/11-6time_heap.h	/^    bool empty() const { return cur_size == 0; }$/;"	f	class:time_heap
+end	11/11-4io_timer.cpp	/^time_t end = time( NULL );$/;"	v
+epollfd	11/11-3nonactive_conn.cpp	/^static int epollfd = 0;$/;"	v	file:
+epollfd	13/13-4shm_talk_server.cpp	/^int epollfd;$/;"	v
+epollfd	15/15-2pool_cgi.cpp	/^int epollfd;$/;"	v
+epollfd	9/9-4oneshot.cpp	/^   int epollfd;$/;"	m	struct:fds	file:
+error_400_form	15/15-5http_conn.cpp	/^const char* error_400_form = "Your request has bad syntax or is inherently impossible to satisfy.\\n";$/;"	v
+error_400_title	15/15-5http_conn.cpp	/^const char* error_400_title = "Bad Request";$/;"	v
+error_403_form	15/15-5http_conn.cpp	/^const char* error_403_form = "You do not have permission to get file from this server.\\n";$/;"	v
+error_403_title	15/15-5http_conn.cpp	/^const char* error_403_title = "Forbidden";$/;"	v
+error_404_form	15/15-5http_conn.cpp	/^const char* error_404_form = "The requested file was not found on this server.\\n";$/;"	v
+error_404_title	15/15-5http_conn.cpp	/^const char* error_404_title = "Not Found";$/;"	v
+error_500_form	15/15-5http_conn.cpp	/^const char* error_500_form = "There was an unusual problem serving the requested file.\\n";$/;"	v
+error_500_title	15/15-5http_conn.cpp	/^const char* error_500_title = "Internal Error";$/;"	v
+et	9/9-3mtlt.cpp	/^void et( epoll_event* events, int number, int epollfd, int listenfd )$/;"	f
+expire	11/11-2lst_timer.h	/^   time_t expire; $/;"	m	class:util_timer
+expire	11/11-6time_heap.h	/^   time_t expire;$/;"	m	class:heap_timer
+fds	9/9-4oneshot.cpp	/^struct fds$/;"	s	file:
+free_conn	springsnail/mgr.cpp	/^void mgr::free_conn( conn* connection )$/;"	f	class:mgr
+get_file_name	15/15-2pool_cgi.cpp	/^char * get_file_name(char * buf)$/;"	f
+get_line	15/15-4http_conn.h	/^    char* get_line() { return m_read_buf + m_start_line; }$/;"	f	class:http_conn
+get_most_free_srv	springsnail/processpool.h	/^int processpool< C, H, M >::get_most_free_srv()$/;"	f	class:processpool
+get_used_conn_cnt	springsnail/mgr.cpp	/^int mgr::get_used_conn_cnt()$/;"	f	class:mgr
+handle_error_en	14/14-5sigmask.c	10;"	d	file:
+handle_term	5/5-3testlisten.cpp	/^static void handle_term( int sig )$/;"	f	file:
+handler	14/14-5sigmask.c	/^static void handler( int arg )$/;"	f	file:
+head	11/11-2lst_timer.h	/^    util_timer* head;$/;"	m	class:sort_timer_lst
+heap_timer	11/11-6time_heap.h	/^    heap_timer( int delay )$/;"	f	class:heap_timer
+heap_timer	11/11-6time_heap.h	/^class heap_timer$/;"	c
+host	springsnail/mgr.h	/^class host$/;"	c
+http_conn	15/15-4http_conn.h	/^    http_conn(){}$/;"	f	class:http_conn
+http_conn	15/15-4http_conn.h	/^class http_conn$/;"	c
+infork	14/14-3thread_atfork.c	/^void infork()$/;"	f
+init	15/15-5http_conn.cpp	/^void http_conn::init( int sockfd, const sockaddr_in& addr )$/;"	f	class:http_conn
+init	15/15-5http_conn.cpp	/^void http_conn::init()$/;"	f	class:http_conn
+init_clt	springsnail/conn.cpp	/^void conn::init_clt( int sockfd, const sockaddr_in& client_addr )$/;"	f	class:conn
+init_srv	springsnail/conn.cpp	/^void conn::init_srv( int sockfd, const sockaddr_in& server_addr )$/;"	f	class:conn
+intIME_HEAP	11/11-6time_heap.h	2;"	d
+level	springsnail/log.cpp	/^static int level = LOG_INFO;$/;"	v	file:
+listenfd	13/13-4shm_talk_server.cpp	/^int listenfd;$/;"	v
+listenfd	15/15-2pool_cgi.cpp	/^int listenfd;$/;"	v
+lock	14/14-2locker.h	/^    bool lock()$/;"	f	class:locker
+locker	14/14-2locker.h	/^    locker()$/;"	f	class:locker
+locker	14/14-2locker.h	/^class locker$/;"	c
+log	springsnail/log.cpp	/^void log( int log_level,  const char* file_name, int line_num, const char* format, ... )$/;"	f
+loglevels	springsnail/log.cpp	/^static const char* loglevels[] =$/;"	v	file:
+lt	9/9-3mtlt.cpp	/^void lt( epoll_event* events, int number, int epollfd, int listenfd )$/;"	f
+m_address	15/15-4http_conn.h	/^    sockaddr_in m_address;$/;"	m	class:http_conn
+m_busy_ratio	springsnail/processpool.h	/^    int m_busy_ratio;$/;"	m	class:process
+m_check_state	15/15-4http_conn.h	/^    CHECK_STATE m_check_state;$/;"	m	class:http_conn
+m_checked_idx	15/15-4http_conn.h	/^    int m_checked_idx;$/;"	m	class:http_conn
+m_clt_address	springsnail/conn.h	/^    sockaddr_in m_clt_address;$/;"	m	class:conn
+m_clt_buf	springsnail/conn.h	/^    char* m_clt_buf;$/;"	m	class:conn
+m_clt_read_idx	springsnail/conn.h	/^    int m_clt_read_idx;$/;"	m	class:conn
+m_clt_write_idx	springsnail/conn.h	/^    int m_clt_write_idx;$/;"	m	class:conn
+m_cltfd	springsnail/conn.h	/^    int m_cltfd;$/;"	m	class:conn
+m_cond	14/14-2locker.h	/^    pthread_cond_t m_cond;$/;"	m	class:cond
+m_conncnt	springsnail/mgr.h	/^    int m_conncnt;$/;"	m	class:host
+m_conns	springsnail/mgr.h	/^    map< int, conn* > m_conns;$/;"	m	class:mgr
+m_content_length	15/15-4http_conn.h	/^    int m_content_length;$/;"	m	class:http_conn
+m_epollfd	15/15-1processpool.h	/^    int m_epollfd;$/;"	m	class:processpool
+m_epollfd	15/15-4http_conn.h	/^    static int m_epollfd;$/;"	m	class:http_conn
+m_epollfd	15/15-5http_conn.cpp	/^int http_conn::m_epollfd = -1;$/;"	m	class:http_conn	file:
+m_epollfd	springsnail/mgr.cpp	/^int mgr::m_epollfd = -1;$/;"	m	class:mgr	file:
+m_epollfd	springsnail/mgr.h	/^    static int m_epollfd;$/;"	m	class:mgr
+m_epollfd	springsnail/processpool.h	/^    int m_epollfd;$/;"	m	class:processpool
+m_file_address	15/15-4http_conn.h	/^    char* m_file_address;$/;"	m	class:http_conn
+m_file_stat	15/15-4http_conn.h	/^    struct stat m_file_stat;$/;"	m	class:http_conn	typeref:struct:http_conn::stat
+m_freed	springsnail/mgr.h	/^    map< int, conn* > m_freed;$/;"	m	class:mgr
+m_host	15/15-4http_conn.h	/^    char* m_host;$/;"	m	class:http_conn
+m_hostname	springsnail/mgr.h	/^    char m_hostname[1024];$/;"	m	class:host
+m_idx	15/15-1processpool.h	/^    int m_idx;$/;"	m	class:processpool
+m_idx	springsnail/processpool.h	/^    int m_idx;$/;"	m	class:processpool
+m_instance	15/15-1processpool.h	/^    static processpool< T >* m_instance;$/;"	m	class:processpool
+m_instance	15/15-1processpool.h	/^processpool< T >* processpool< T >::m_instance = NULL;$/;"	m	class:processpool
+m_instance	springsnail/processpool.h	/^    static processpool< C, H, M >* m_instance;$/;"	m	class:processpool
+m_instance	springsnail/processpool.h	/^processpool< C, H, M >* processpool< C, H, M >::m_instance = NULL;$/;"	m	class:processpool
+m_iv	15/15-4http_conn.h	/^    struct iovec m_iv[2];$/;"	m	class:http_conn	typeref:struct:http_conn::iovec
+m_iv_count	15/15-4http_conn.h	/^    int m_iv_count;$/;"	m	class:http_conn
+m_linger	15/15-4http_conn.h	/^    bool m_linger;$/;"	m	class:http_conn
+m_listenfd	15/15-1processpool.h	/^    int m_listenfd;$/;"	m	class:processpool
+m_listenfd	springsnail/processpool.h	/^    int m_listenfd;$/;"	m	class:processpool
+m_logic_srv	springsnail/mgr.h	/^    host m_logic_srv;$/;"	m	class:mgr
+m_max_requests	15/15-3threadpool.h	/^    int m_max_requests;$/;"	m	class:threadpool
+m_method	15/15-4http_conn.h	/^    METHOD m_method;$/;"	m	class:http_conn
+m_mutex	14/14-2locker.h	/^    pthread_mutex_t m_mutex;$/;"	m	class:cond
+m_mutex	14/14-2locker.h	/^    pthread_mutex_t m_mutex;$/;"	m	class:locker
+m_pid	15/15-1processpool.h	/^    pid_t m_pid;$/;"	m	class:process
+m_pid	springsnail/processpool.h	/^    pid_t m_pid;$/;"	m	class:process
+m_pipefd	15/15-1processpool.h	/^    int m_pipefd[2];$/;"	m	class:process
+m_pipefd	springsnail/processpool.h	/^    int m_pipefd[2];$/;"	m	class:process
+m_port	springsnail/mgr.h	/^    int m_port;$/;"	m	class:host
+m_process_number	15/15-1processpool.h	/^    int m_process_number;$/;"	m	class:processpool
+m_process_number	springsnail/processpool.h	/^    int m_process_number;$/;"	m	class:processpool
+m_queuelocker	15/15-3threadpool.h	/^    locker m_queuelocker;$/;"	m	class:threadpool
+m_queuestat	15/15-3threadpool.h	/^    sem m_queuestat;$/;"	m	class:threadpool
+m_read_buf	15/15-4http_conn.h	/^    char m_read_buf[ READ_BUFFER_SIZE ];$/;"	m	class:http_conn
+m_read_idx	15/15-4http_conn.h	/^    int m_read_idx;$/;"	m	class:http_conn
+m_real_file	15/15-4http_conn.h	/^    char m_real_file[ FILENAME_LEN ];$/;"	m	class:http_conn
+m_sem	14/14-2locker.h	/^    sem_t m_sem;$/;"	m	class:sem
+m_sockfd	15/15-4http_conn.h	/^    int m_sockfd;$/;"	m	class:http_conn
+m_srv_address	springsnail/conn.h	/^    sockaddr_in m_srv_address;$/;"	m	class:conn
+m_srv_buf	springsnail/conn.h	/^    char* m_srv_buf;$/;"	m	class:conn
+m_srv_closed	springsnail/conn.h	/^    bool m_srv_closed;$/;"	m	class:conn
+m_srv_read_idx	springsnail/conn.h	/^    int m_srv_read_idx;$/;"	m	class:conn
+m_srv_write_idx	springsnail/conn.h	/^    int m_srv_write_idx;$/;"	m	class:conn
+m_srvfd	springsnail/conn.h	/^    int m_srvfd;$/;"	m	class:conn
+m_start_line	15/15-4http_conn.h	/^    int m_start_line;$/;"	m	class:http_conn
+m_stop	15/15-1processpool.h	/^    int m_stop;$/;"	m	class:processpool
+m_stop	15/15-3threadpool.h	/^    bool m_stop;$/;"	m	class:threadpool
+m_stop	springsnail/processpool.h	/^    int m_stop;$/;"	m	class:processpool
+m_sub_process	15/15-1processpool.h	/^    process* m_sub_process;$/;"	m	class:processpool
+m_sub_process	springsnail/processpool.h	/^    process* m_sub_process;$/;"	m	class:processpool
+m_thread_number	15/15-3threadpool.h	/^    int m_thread_number;$/;"	m	class:threadpool
+m_threads	15/15-3threadpool.h	/^    pthread_t* m_threads;$/;"	m	class:threadpool
+m_url	15/15-4http_conn.h	/^    char* m_url;$/;"	m	class:http_conn
+m_used	springsnail/mgr.h	/^    map< int, conn* > m_used;$/;"	m	class:mgr
+m_user_count	15/15-4http_conn.h	/^    static int m_user_count;$/;"	m	class:http_conn
+m_user_count	15/15-5http_conn.cpp	/^int http_conn::m_user_count = 0;$/;"	m	class:http_conn	file:
+m_version	15/15-4http_conn.h	/^    char* m_version;$/;"	m	class:http_conn
+m_workqueue	15/15-3threadpool.h	/^    std::list< T* > m_workqueue;$/;"	m	class:threadpool
+m_write_buf	15/15-4http_conn.h	/^    char m_write_buf[ WRITE_BUFFER_SIZE ];$/;"	m	class:http_conn
+m_write_idx	15/15-4http_conn.h	/^    int m_write_idx;$/;"	m	class:http_conn
+main	10/10-1unievent.cpp	/^int main( int argc, char* argv[] )$/;"	f
+main	10/10-3sigurg.cpp	/^int main( int argc, char* argv[] )$/;"	f
+main	11/11-1connect_timeout.cpp	/^int main( int argc, char* argv[] )$/;"	f
+main	11/11-3nonactive_conn.cpp	/^int main( int argc, char* argv[] )$/;"	f
+main	12/12-1libevent_test.c	/^int main()  $/;"	f
+main	13/13-3sem.cpp	/^int main( int argc, char* argv[] )$/;"	f
+main	13/13-4shm_talk_server.cpp	/^int main( int argc, char* argv[] )$/;"	f
+main	13/13-5passfd.cpp	/^int main()$/;"	f
+main	14/14-1mutual_lock.c	/^int main()$/;"	f
+main	14/14-3thread_atfork.c	/^int main()$/;"	f
+main	14/14-5sigmask.c	/^       main(int argc, char *argv[])$/;"	f
+main	15/15-2pool_cgi.cpp	/^int main( int argc, char* argv[] )$/;"	f
+main	15/15-6main.cpp	/^int main( int argc, char* argv[] )$/;"	f
+main	15/tacc.cpp	/^int main()$/;"	f
+main	16/16-4stress_client.cpp	/^int main( int argc, char* argv[] )$/;"	f
+main	5/5-10set_send_buffer.cpp	/^int main( int argc, char* argv[] )$/;"	f
+main	5/5-11set_recv_buffer.cpp	/^int main( int argc, char* argv[] )$/;"	f
+main	5/5-12access_daytime.cpp	/^int main( int argc, char *argv[] )$/;"	f
+main	5/5-1byteorder.cpp	/^int main()$/;"	f
+main	5/5-3testlisten.cpp	/^int main( int argc, char* argv[] )$/;"	f
+main	5/5-5testaccept.cpp	/^int main( int argc, char* argv[] )$/;"	f
+main	5/5-6oobsend.cpp	/^int main( int argc, char* argv[] )$/;"	f
+main	5/5-7oobrecv.cpp	/^int main( int argc, char* argv[] )$/;"	f
+main	5/5-9reuse_address.cpp	/^int main( int argc, char* argv[] )$/;"	f
+main	6/6-1testdup.cpp	/^int main( int argc, char* argv[] )$/;"	f
+main	6/6-2testwritev.cpp	/^int main( int argc, char* argv[] )$/;"	f
+main	6/6-3testsendfile.cpp	/^int main( int argc, char* argv[] )$/;"	f
+main	6/6-4testsplice.cpp	/^int main( int argc, char* argv[] )$/;"	f
+main	6/6-5testtee.cpp	/^int main( int argc, char* argv[] )$/;"	f
+main	7/7-1testeuid.cpp	/^int main()$/;"	f
+main	8/8-3httpparser.cpp	/^int main( int argc, char* argv[] )$/;"	f
+main	8/t.cpp	/^int main( int argc, char* argv[] )$/;"	f
+main	8/tt.cpp	/^int main()$/;"	f
+main	9/9-1use_select.cpp	/^int main( int argc, char* argv[] )$/;"	f
+main	9/9-3mtlt.cpp	/^int main( int argc, char* argv[] )$/;"	f
+main	9/9-4oneshot.cpp	/^int main( int argc, char* argv[] )$/;"	f
+main	9/9-5unblockconnect.cpp	/^int main( int argc, char* argv[] )$/;"	f
+main	9/9-6mytalk_client.cpp	/^int main( int argc, char* argv[] )$/;"	f
+main	9/9-7mytalk_server.cpp	/^int main( int argc, char* argv[] )$/;"	f
+main	9/9-8multi_port.cpp	/^int main( int argc, char* argv[] )$/;"	f
+main	springsnail/main.cpp	/^int main( int argc, char* argv[] )$/;"	f
+mgr	springsnail/mgr.cpp	/^mgr::mgr( int epollfd, const host& srv ) : m_logic_srv( srv )$/;"	f	class:mgr
+mgr	springsnail/mgr.h	/^class mgr$/;"	c
+modfd	15/15-5http_conn.cpp	/^void modfd( int epollfd, int fd, int ev )$/;"	f
+modfd	springsnail/fdwrapper.cpp	/^void modfd( int epollfd, int fd, int ev )$/;"	f
+mutex	14/14-3thread_atfork.c	/^pthread_mutex_t mutex;$/;"	v
+mutex_a	14/14-1mutual_lock.c	/^pthread_mutex_t mutex_a;$/;"	v
+mutex_b	14/14-1mutual_lock.c	/^pthread_mutex_t mutex_b;$/;"	v
+next	11/11-2lst_timer.h	/^   util_timer* next;$/;"	m	class:util_timer
+next	11/11-5tw_timer.h	/^    tw_timer* next;$/;"	m	class:tw_timer
+notify_parent_busy_ratio	springsnail/processpool.h	/^void processpool< C, H, M >::notify_parent_busy_ratio( int pipefd, M* manager )$/;"	f	class:processpool
+ok_200_title	15/15-5http_conn.cpp	/^const char* ok_200_title = "OK";$/;"	v
+parse_content	15/15-5http_conn.cpp	/^http_conn::HTTP_CODE http_conn::parse_content( char* text )$/;"	f	class:http_conn
+parse_content	8/8-3httpparser.cpp	/^HTTP_CODE parse_content( char* buffer, int& checked_index, CHECK_STATE& checkstate, int& read_index, int& start_line )$/;"	f
+parse_headers	15/15-5http_conn.cpp	/^http_conn::HTTP_CODE http_conn::parse_headers( char* text )$/;"	f	class:http_conn
+parse_headers	8/8-3httpparser.cpp	/^HTTP_CODE parse_headers( char* szTemp )$/;"	f
+parse_headers	8/t.cpp	/^HTTP_CODE parse_headers( char* szTemp )$/;"	f
+parse_line	15/15-5http_conn.cpp	/^http_conn::LINE_STATUS http_conn::parse_line()$/;"	f	class:http_conn
+parse_line	8/8-3httpparser.cpp	/^LINE_STATUS parse_line( char* buffer, int& checked_index, int& read_index )$/;"	f
+parse_request_line	15/15-5http_conn.cpp	/^http_conn::HTTP_CODE http_conn::parse_request_line( char* text )$/;"	f	class:http_conn
+parse_requestline	8/8-3httpparser.cpp	/^HTTP_CODE parse_requestline( char* szTemp, CHECK_STATE& checkstate )$/;"	f
+parse_requestline	8/t.cpp	/^HTTP_CODE parse_requestline( char* szTemp )$/;"	f
+percolate_down	11/11-6time_heap.h	/^    void percolate_down( int hole )$/;"	f	class:time_heap
+pick_conn	springsnail/mgr.cpp	/^conn* mgr::pick_conn( int cltfd  )$/;"	f	class:mgr
+pid	13/13-4shm_talk_server.cpp	/^    pid_t pid;$/;"	m	struct:client_data	file:
+pid	15/15-2pool_cgi.cpp	/^    pid_t pid;$/;"	m	struct:process_in_pool	file:
+pipefd	10/10-1unievent.cpp	/^static int pipefd[2];$/;"	v	file:
+pipefd	11/11-3nonactive_conn.cpp	/^static int pipefd[2];$/;"	v	file:
+pipefd	13/13-4shm_talk_server.cpp	/^    int pipefd[2];$/;"	m	struct:client_data	file:
+pipefd	15/15-2pool_cgi.cpp	/^    int pipefd[2];$/;"	m	struct:process_in_pool	file:
+pop_timer	11/11-6time_heap.h	/^    void pop_timer()$/;"	f	class:time_heap
+post	14/14-2locker.h	/^    bool post()$/;"	f	class:sem
+prepare	14/14-3thread_atfork.c	/^void prepare()$/;"	f
+prev	11/11-2lst_timer.h	/^   util_timer* prev;$/;"	m	class:util_timer
+prev	11/11-5tw_timer.h	/^    tw_timer* prev;$/;"	m	class:tw_timer
+process	15/15-1processpool.h	/^    process() : m_pid( -1 ){}$/;"	f	class:process
+process	15/15-1processpool.h	/^class process$/;"	c
+process	15/15-5http_conn.cpp	/^void http_conn::process()$/;"	f	class:http_conn
+process	springsnail/mgr.cpp	/^RET_CODE mgr::process( int fd, OP_TYPE type )$/;"	f	class:mgr
+process	springsnail/processpool.h	/^    process() : m_pid( -1 ){}$/;"	f	class:process
+process	springsnail/processpool.h	/^class process$/;"	c
+process_in_pool	15/15-2pool_cgi.cpp	/^struct process_in_pool$/;"	s	file:
+process_read	15/15-5http_conn.cpp	/^http_conn::HTTP_CODE http_conn::process_read()$/;"	f	class:http_conn
+process_write	15/15-5http_conn.cpp	/^bool http_conn::process_write( HTTP_CODE ret )$/;"	f	class:http_conn
+processpool	15/15-1processpool.h	/^class processpool$/;"	c
+processpool	15/15-1processpool.h	/^processpool< T >::processpool( int listenfd, int process_number ) $/;"	f	class:processpool
+processpool	springsnail/processpool.h	/^class processpool$/;"	c
+processpool	springsnail/processpool.h	/^processpool< C, H, M >::processpool( int listenfd, int process_number ) $/;"	f	class:processpool
+pv	13/13-3sem.cpp	/^void pv( int sem_id, int op )$/;"	f
+read	15/15-5http_conn.cpp	/^bool http_conn::read()$/;"	f	class:http_conn
+read_clt	springsnail/conn.cpp	/^RET_CODE conn::read_clt()$/;"	f	class:conn
+read_idx	15/15-2pool_cgi.cpp	/^    int read_idx;$/;"	m	struct:client_data	file:
+read_once	16/16-4stress_client.cpp	/^bool read_once( int sockfd, char* buffer, int len )$/;"	f
+read_srv	springsnail/conn.cpp	/^RET_CODE conn::read_srv()$/;"	f	class:conn
+recv_fd	13/13-5passfd.cpp	/^int recv_fd( int fd )$/;"	f
+recycle_conns	springsnail/mgr.cpp	/^void mgr::recycle_conns()$/;"	f	class:mgr
+removefd	15/15-1processpool.h	/^static void removefd( int epollfd, int fd )$/;"	f
+removefd	15/15-5http_conn.cpp	/^void removefd( int epollfd, int fd )$/;"	f
+removefd	springsnail/fdwrapper.cpp	/^void removefd( int epollfd, int fd )$/;"	f
+request	16/16-4stress_client.cpp	/^static const char* request = "GET http:\/\/localhost\/index.html HTTP\/1.1\\r\\nConnection: keep-alive\\r\\n\\r\\nxxxxxxxxxxxx";$/;"	v	file:
+reset	springsnail/conn.cpp	/^void conn::reset()$/;"	f	class:conn
+reset_oneshot	9/9-4oneshot.cpp	/^void reset_oneshot( int epollfd, int fd )$/;"	f
+resize	11/11-6time_heap.h	/^    void resize() throw ( std::exception )$/;"	f	class:time_heap
+rotation	11/11-5tw_timer.h	/^    int rotation;$/;"	m	class:tw_timer
+run	15/15-1processpool.h	/^void processpool< T >::run()$/;"	f	class:processpool
+run	15/15-3threadpool.h	/^void threadpool< T >::run()$/;"	f	class:threadpool
+run	springsnail/processpool.h	/^void processpool< C, H, M >::run( const vector<H>& arg )$/;"	f	class:processpool
+run_child	13/13-4shm_talk_server.cpp	/^int run_child( int idx, client_data* users, char* share_mem )$/;"	f
+run_child	15/15-1processpool.h	/^void processpool< T >::run_child()$/;"	f	class:processpool
+run_child	15/15-2pool_cgi.cpp	/^int run_child( int idx )$/;"	f
+run_child	springsnail/processpool.h	/^void processpool< C, H, M >::run_child( const vector<H>& arg )$/;"	f	class:processpool
+run_parent	15/15-1processpool.h	/^void processpool< T >::run_parent()$/;"	f	class:processpool
+run_parent	springsnail/processpool.h	/^void processpool< C, H, M >::run_parent()$/;"	f	class:processpool
+sem	14/14-2locker.h	/^    sem()$/;"	f	class:sem
+sem	14/14-2locker.h	/^class sem$/;"	c
+semun	13/13-3sem.cpp	/^union semun$/;"	u	file:
+send_fd	13/13-5passfd.cpp	/^void send_fd( int fd, int fd_to_send )$/;"	f
+set_loglevel	springsnail/log.cpp	/^void set_loglevel( int log_level )$/;"	f
+setnonblocking	10/10-1unievent.cpp	/^int setnonblocking( int fd )$/;"	f
+setnonblocking	11/11-3nonactive_conn.cpp	/^int setnonblocking( int fd )$/;"	f
+setnonblocking	13/13-4shm_talk_server.cpp	/^int setnonblocking( int fd )$/;"	f
+setnonblocking	15/15-1processpool.h	/^static int setnonblocking( int fd )$/;"	f
+setnonblocking	15/15-2pool_cgi.cpp	/^int setnonblocking( int fd )$/;"	f
+setnonblocking	15/15-5http_conn.cpp	/^int setnonblocking( int fd )$/;"	f
+setnonblocking	16/16-4stress_client.cpp	/^int setnonblocking( int fd )$/;"	f
+setnonblocking	9/9-3mtlt.cpp	/^int setnonblocking( int fd )$/;"	f
+setnonblocking	9/9-4oneshot.cpp	/^int setnonblocking( int fd )$/;"	f
+setnonblocking	9/9-5unblockconnect.cpp	/^int setnonblocking( int fd )$/;"	f
+setnonblocking	9/9-7mytalk_server.cpp	/^int setnonblocking( int fd )$/;"	f
+setnonblocking	9/9-8multi_port.cpp	/^int setnonblocking( int fd )$/;"	f
+setnonblocking	springsnail/fdwrapper.cpp	/^int setnonblocking( int fd )$/;"	f
+setup_sig_pipe	15/15-1processpool.h	/^void processpool< T >::setup_sig_pipe()$/;"	f	class:processpool
+setup_sig_pipe	springsnail/processpool.h	/^void processpool< C, H, M >::setup_sig_pipe()$/;"	f	class:processpool
+share_mem	13/13-4shm_talk_server.cpp	/^char* share_mem = 0;$/;"	v
+shm_name	13/13-4shm_talk_server.cpp	/^static const char* shm_name = "\/my_shm";$/;"	v	file:
+shmfd	13/13-4shm_talk_server.cpp	/^int shmfd;$/;"	v
+show_error	15/15-6main.cpp	/^void show_error( int connfd, const char* info )$/;"	f
+sig_handler	10/10-1unievent.cpp	/^void sig_handler( int sig )$/;"	f
+sig_handler	11/11-3nonactive_conn.cpp	/^void sig_handler( int sig )$/;"	f
+sig_handler	13/13-4shm_talk_server.cpp	/^void sig_handler( int sig )$/;"	f
+sig_handler	15/15-1processpool.h	/^static void sig_handler( int sig )$/;"	f
+sig_handler	15/15-2pool_cgi.cpp	/^void sig_handler( int sig )$/;"	f
+sig_handler	springsnail/processpool.h	/^static void sig_handler( int sig )$/;"	f
+sig_pipefd	13/13-4shm_talk_server.cpp	/^int sig_pipefd[2];$/;"	v
+sig_pipefd	15/15-1processpool.h	/^static int sig_pipefd[2];$/;"	v
+sig_pipefd	15/15-2pool_cgi.cpp	/^int sig_pipefd[2];$/;"	v
+sig_pipefd	springsnail/processpool.h	/^static int sig_pipefd[2];$/;"	v
+sig_thread	14/14-5sigmask.c	/^       sig_thread(void *arg)$/;"	f	file:
+sig_urg	10/10-3sigurg.cpp	/^void sig_urg( int sig )$/;"	f
+signal	14/14-2locker.h	/^    bool signal()$/;"	f	class:cond
+signal_cb	12/12-1libevent_test.c	/^void signal_cb( int fd, short event, void* argc )$/;"	f
+slots	11/11-5tw_timer.h	/^    tw_timer* slots[N];$/;"	m	class:time_wheel
+sockfd	11/11-2lst_timer.h	/^    int sockfd;$/;"	m	struct:client_data
+sockfd	11/11-5tw_timer.h	/^    int sockfd;$/;"	m	struct:client_data
+sockfd	11/11-6time_heap.h	/^    int sockfd;$/;"	m	struct:client_data
+sockfd	9/9-4oneshot.cpp	/^   int sockfd;$/;"	m	struct:fds	file:
+sort_timer_lst	11/11-2lst_timer.h	/^    sort_timer_lst() : head( NULL ), tail( NULL ) {}$/;"	f	class:sort_timer_lst
+sort_timer_lst	11/11-2lst_timer.h	/^class sort_timer_lst$/;"	c
+start	11/11-4io_timer.cpp	/^time_t start = time( NULL );$/;"	v
+start_conn	16/16-4stress_client.cpp	/^void start_conn( int epoll_fd, int num, const char* ip, int port )$/;"	f
+status_line	6/6-2testwritev.cpp	/^static const char* status_line[2] = { "200 OK", "500 Internal server error" };$/;"	v	file:
+stop	5/5-3testlisten.cpp	/^static bool stop = false;$/;"	v	file:
+stop_child	13/13-4shm_talk_server.cpp	/^bool stop_child = false;$/;"	v
+stop_child	15/15-2pool_cgi.cpp	/^bool stop_child = false;$/;"	v
+sub_process	13/13-4shm_talk_server.cpp	/^int* sub_process = 0;$/;"	v
+sub_process	15/15-2pool_cgi.cpp	/^process_in_pool sub_process[ PROCESS_COUNT ];$/;"	v
+switch_to_user	7/7-2switchuser.cpp	/^static bool switch_to_user( uid_t user_id, gid_t gp_id )$/;"	f	file:
+szret	8/8-3httpparser.cpp	/^static const char* szret[] = { "I get a correct result\\n", "Something wrong\\n" };$/;"	v	file:
+szret	8/t.cpp	/^static const char* szret[] = { "I get a correct result\\n", "Something wrong\\n" };$/;"	v	file:
+tail	11/11-2lst_timer.h	/^    util_timer* tail;$/;"	m	class:sort_timer_lst
+threadpool	15/15-3threadpool.h	/^class threadpool$/;"	c
+threadpool	15/15-3threadpool.h	/^threadpool< T >::threadpool( int thread_number, int max_requests ) : $/;"	f	class:threadpool
+tick	11/11-2lst_timer.h	/^    void tick()$/;"	f	class:sort_timer_lst
+tick	11/11-5tw_timer.h	/^    void tick()$/;"	f	class:time_wheel
+tick	11/11-6time_heap.h	/^    void tick()$/;"	f	class:time_heap
+time_heap	11/11-6time_heap.h	/^    time_heap( heap_timer** init_array, int size, int capacity ) throw ( std::exception )$/;"	f	class:time_heap
+time_heap	11/11-6time_heap.h	/^    time_heap( int cap ) throw ( std::exception )$/;"	f	class:time_heap
+time_heap	11/11-6time_heap.h	/^class time_heap$/;"	c
+time_slot	11/11-5tw_timer.h	/^    int time_slot;$/;"	m	class:tw_timer
+time_wheel	11/11-5tw_timer.h	/^    time_wheel() : cur_slot( 0 )$/;"	f	class:time_wheel
+time_wheel	11/11-5tw_timer.h	/^class time_wheel$/;"	c
+timeout	11/11-4io_timer.cpp	/^int timeout = TIMEOUT;$/;"	v
+timeout_cb	12/12-1libevent_test.c	/^void timeout_cb( int fd, short event, void* argc )$/;"	f
+timeout_connect	11/11-1connect_timeout.cpp	/^int timeout_connect( const char* ip, int port, int time )$/;"	f
+timer	11/11-2lst_timer.h	/^    util_timer* timer;$/;"	m	struct:client_data
+timer	11/11-5tw_timer.h	/^    tw_timer* timer;$/;"	m	struct:client_data
+timer	11/11-6time_heap.h	/^    heap_timer* timer;$/;"	m	struct:client_data
+timer_handler	11/11-3nonactive_conn.cpp	/^void timer_handler()$/;"	f
+timer_lst	11/11-3nonactive_conn.cpp	/^static sort_timer_lst timer_lst;$/;"	v	file:
+top	11/11-6time_heap.h	/^    heap_timer* top() const$/;"	f	class:time_heap
+tw_timer	11/11-5tw_timer.h	/^    tw_timer( int rot, int ts ) $/;"	f	class:tw_timer
+tw_timer	11/11-5tw_timer.h	/^class tw_timer$/;"	c
+unblock_connect	9/9-5unblockconnect.cpp	/^int unblock_connect( const char* ip, int port, int time )$/;"	f
+unlock	14/14-2locker.h	/^    bool unlock()$/;"	f	class:locker
+unmap	15/15-5http_conn.cpp	/^void http_conn::unmap()$/;"	f	class:http_conn
+usage	springsnail/main.cpp	/^static void usage( const char* prog )$/;"	f	file:
+user_count	13/13-4shm_talk_server.cpp	/^int user_count = 0;$/;"	v
+user_data	11/11-2lst_timer.h	/^   client_data* user_data;$/;"	m	class:util_timer
+user_data	11/11-5tw_timer.h	/^    client_data* user_data;$/;"	m	class:tw_timer
+user_data	11/11-6time_heap.h	/^   client_data* user_data;$/;"	m	class:heap_timer
+users	13/13-4shm_talk_server.cpp	/^client_data* users = 0;$/;"	v
+util_timer	11/11-2lst_timer.h	/^    util_timer() : prev( NULL ), next( NULL ){}$/;"	f	class:util_timer
+util_timer	11/11-2lst_timer.h	/^class util_timer$/;"	c
+val	13/13-3sem.cpp	/^     int val;                  $/;"	m	union:semun	file:
+version	springsnail/main.cpp	/^static const char* version = "1.0";$/;"	v	file:
+wait	14/14-2locker.h	/^    bool wait()$/;"	f	class:cond
+wait	14/14-2locker.h	/^    bool wait()$/;"	f	class:sem
+worker	15/15-3threadpool.h	/^void* threadpool< T >::worker( void* arg )$/;"	f	class:threadpool
+worker	9/9-4oneshot.cpp	/^void* worker( void* arg )$/;"	f
+write	15/15-5http_conn.cpp	/^bool http_conn::write()$/;"	f	class:http_conn
+write_buf	9/9-7mytalk_server.cpp	/^    char* write_buf;$/;"	m	struct:client_data	file:
+write_clt	springsnail/conn.cpp	/^RET_CODE conn::write_clt()$/;"	f	class:conn
+write_nbytes	16/16-4stress_client.cpp	/^bool write_nbytes( int sockfd, const char* buffer, int len )$/;"	f
+write_srv	springsnail/conn.cpp	/^RET_CODE conn::write_srv()$/;"	f	class:conn
+~cond	14/14-2locker.h	/^    ~cond()$/;"	f	class:cond
+~conn	springsnail/conn.cpp	/^conn::~conn()$/;"	f	class:conn
+~http_conn	15/15-4http_conn.h	/^    ~http_conn(){}$/;"	f	class:http_conn
+~locker	14/14-2locker.h	/^    ~locker()$/;"	f	class:locker
+~mgr	springsnail/mgr.cpp	/^mgr::~mgr()$/;"	f	class:mgr
+~processpool	15/15-1processpool.h	/^    ~processpool()$/;"	f	class:processpool
+~processpool	springsnail/processpool.h	/^    ~processpool()$/;"	f	class:processpool
+~sem	14/14-2locker.h	/^    ~sem()$/;"	f	class:sem
+~sort_timer_lst	11/11-2lst_timer.h	/^    ~sort_timer_lst()$/;"	f	class:sort_timer_lst
+~threadpool	15/15-3threadpool.h	/^threadpool< T >::~threadpool()$/;"	f	class:threadpool
+~time_heap	11/11-6time_heap.h	/^    ~time_heap()$/;"	f	class:time_heap
+~time_wheel	11/11-5tw_timer.h	/^    ~time_wheel()$/;"	f	class:time_wheel

@@ -1,0 +1,1 @@
+//document.writeln("<a href=\"http://esf.cd.soufun.com/zt/201105/esffangxinfang.html\" target=\"_blank\"><img src=\"http:\/\/www.diybl.com\/ad\/2010\/468x60.jpg\" width=\"468\" height=\"60\" border=\"0\"><\/a>");

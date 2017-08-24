@@ -1,0 +1,104 @@
+PopulationSize            = 300
+NumberOfGenerations       = 20
+CrossoverProbability      = 100
+CreationProbability       = 0
+CreationType              = Ramped Half and Half
+MaximumDepthForCreation   = 6
+MaximumDepthForCrossover  = 17
+SelectionType             = Tournament selection
+TournamentSize            = 20
+DemeticGrouping           = Off
+DemeSize                  = 100
+DemeticMigProbability     = 100
+SwapMutationProbability   = 3
+ShrinkMutationProbability = 3
+AddBestToNewPopulation    = 1
+SteadyState               = 0
+
+GP tree 0: +(2) -(2) *(2) %(2) ADF0(2) x
+GP tree 1: +(2) *(2) x2 x1
+
+Best of generation 0 (Fitness = 109.055, Structural Complexity = 18)
+GP: ADF0 (x,x)*x
+ADF0: x1*x1+x2+x2*x2*x2+x1
+
+Best of generation 1 (Fitness = 109.055, Structural Complexity = 18)
+GP: ADF0 (x,x)*x
+ADF0: x1*x2+x2+x2*x2*x2+x1
+
+Best of generation 2 (Fitness = 1.66667, Structural Complexity = 20)
+GP: (x%x+ADF0 (x,x))*x
+ADF0: x1*x1+x2+x2*x2*x2
+
+Best of generation 3 (Fitness = 1, Structural Complexity = 12)
+GP: ADF0 (x*x,ADF0 (x,x))
+ADF0: x1*x2+x2
+
+Best of generation 4 (Fitness = 1, Structural Complexity = 12)
+GP: ADF0 (x*x,ADF0 (x,x))
+ADF0: x1*x2+x2
+
+Best of generation 5 (Fitness = 1, Structural Complexity = 12)
+GP: ADF0 (x*x,ADF0 (x,x))
+ADF0: x1*x2+x2
+
+Best of generation 6 (Fitness = 1, Structural Complexity = 12)
+GP: ADF0 (x*x,ADF0 (x,x))
+ADF0: x1*x2+x2
+
+Best of generation 7 (Fitness = 1, Structural Complexity = 12)
+GP: ADF0 (x*x,ADF0 (x,x))
+ADF0: x1*x2+x2
+
+Best of generation 8 (Fitness = 1, Structural Complexity = 12)
+GP: ADF0 (x*x,ADF0 (x,x))
+ADF0: x1*x2+x2
+
+Best of generation 9 (Fitness = 1, Structural Complexity = 12)
+GP: ADF0 (x*x,ADF0 (x,x))
+ADF0: x1*x2+x2
+
+Best of generation 10 (Fitness = 1, Structural Complexity = 12)
+GP: ADF0 (x*x,ADF0 (x,x))
+ADF0: x1*x2+x2
+
+Best of generation 11 (Fitness = 1, Structural Complexity = 12)
+GP: ADF0 (x*x,ADF0 (x,x))
+ADF0: x2*x1+x2
+
+Best of generation 12 (Fitness = 1, Structural Complexity = 12)
+GP: ADF0 (x*x,ADF0 (x,x))
+ADF0: x1*x2+x2
+
+Best of generation 13 (Fitness = 1, Structural Complexity = 12)
+GP: ADF0 (x*x,ADF0 (x,x))
+ADF0: x1*x2+x2
+
+Best of generation 14 (Fitness = 1, Structural Complexity = 12)
+GP: ADF0 (x*x,ADF0 (x,x))
+ADF0: x1*x2+x2
+
+Best of generation 15 (Fitness = 1, Structural Complexity = 12)
+GP: ADF0 (x*x,ADF0 (x,x))
+ADF0: x1*x2+x2
+
+Best of generation 16 (Fitness = 1, Structural Complexity = 12)
+GP: ADF0 (x*x,ADF0 (x,x))
+ADF0: x1*x2+x2
+
+Best of generation 17 (Fitness = 1, Structural Complexity = 12)
+GP: ADF0 (x*x,ADF0 (x,x))
+ADF0: x1*x2+x2
+
+Best of generation 18 (Fitness = 1, Structural Complexity = 12)
+GP: ADF0 (x*x,ADF0 (x,x))
+ADF0: x1*x2+x2
+
+Best of generation 19 (Fitness = 1, Structural Complexity = 12)
+GP: ADF0 (x*x,ADF0 (x,x))
+ADF0: x1*x2+x2
+
+Best of generation 20 (Fitness = 1, Structural Complexity = 12)
+GP: ADF0 (x*x,ADF0 (x,x))
+ADF0: x1*x2+x2
+

@@ -1,0 +1,24 @@
+Please read the IlliGAL Report No. 2006015 available on the 
+technical reports page of the IlliGAL website at 
+http://www-illigal.ge.uiuc.edu/techreps.php3
+
+That report contains instructions on how to compile, run, and 
+modify the GA toolbox so that you can try it on your own problems.
+
+The code is distributed for academic purposes only. It has no warranty
+implied or given, and the authors assume no liability for damage resulting 
+from its use or misuse. If you have any comments or find any bugs please
+send an email to kumara@illigal.ge.uiuc.edu.
+
+For a commercial use of the code please contact Prof. David E. Goldberg at
+deg@uiuc.edu.
+
+
+Kumara Sastry
+Illinois Genetic Algorithms Laboratory
+Department of Industrial and Enterprise Systems Engineering
+University of Illinois at Urbana-Champaign
+http://www-illigal.ge.uiuc.edu/~kumara
+March 2006
+
+

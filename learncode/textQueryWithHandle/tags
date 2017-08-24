@@ -1,0 +1,61 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AndQuery	QueryBase.h	/^	AndQuery(Query left,Query right):BinaryQuery(left,right,"&")$/;"	f	class:AndQuery
+AndQuery	QueryBase.h	/^class AndQuery:public BinaryQuery$/;"	c
+BinaryQuery	QueryBase.h	/^	BinaryQuery(Query left,Query right,string op):lhs(left),rhs(right),oper(op)$/;"	f	class:BinaryQuery
+BinaryQuery	QueryBase.h	/^class BinaryQuery:public QueryBase$/;"	c
+NotQuery	QueryBase.h	/^	NotQuery( Query q):query(q){}$/;"	f	class:NotQuery
+NotQuery	QueryBase.h	/^class NotQuery : public QueryBase$/;"	c
+OrQuery	QueryBase.h	/^	OrQuery(Query left,Query right):BinaryQuery(left,right,"&")$/;"	f	class:OrQuery
+OrQuery	QueryBase.h	/^class OrQuery:public BinaryQuery$/;"	c
+QUERYBASE_H	QueryBase.h	2;"	d
+Query	QueryBase.cpp	/^Query::Query(const string & s):q(new WordQuery(s)),use(new std::size_t(1))$/;"	f	class:Query
+Query	QueryBase.h	/^		Query (const Query & query):q(query.q),use(query.use)$/;"	f	class:Query
+Query	QueryBase.h	/^		Query(QueryBase * qb):q(qb),use(new std::size_t(1))$/;"	f	class:Query
+Query	QueryBase.h	/^class Query$/;"	c
+QueryBase	QueryBase.h	/^class QueryBase$/;"	c
+TEXTQUERY_H	textQuery.h	2;"	d
+TextQuery	textQuery.h	/^class TextQuery$/;"	c
+WordQuery	QueryBase.h	/^	WordQuery(const string & s):queryWord(s)$/;"	f	class:WordQuery
+WordQuery	QueryBase.h	/^class WordQuery :public QueryBase$/;"	c
+buildMap	textQuery.cpp	/^void TextQuery::buildMap()$/;"	f	class:TextQuery
+decr_use	QueryBase.h	/^		void decr_use()$/;"	f	class:Query
+display	QueryBase.h	/^		std::ostream & display (std::ostream &os) const $/;"	f	class:Query
+display	QueryBase.h	/^	ostream & display (ostream &os) const$/;"	f	class:NotQuery
+display	QueryBase.h	/^	ostream & display (ostream &os)const$/;"	f	class:BinaryQuery
+display	QueryBase.h	/^	ostream & display(ostream & os) const$/;"	f	class:WordQuery
+displayMap	textQuery.cpp	/^void TextQuery::displayMap()$/;"	f	class:TextQuery
+eval	QueryBase.cpp	/^set<TextQuery ::line_no > NotQuery :: eval(const TextQuery & tq) const$/;"	f	class:NotQuery
+eval	QueryBase.cpp	/^std::set<TextQuery ::line_no > AndQuery::eval(const TextQuery & tq) const $/;"	f	class:AndQuery
+eval	QueryBase.cpp	/^std::set<TextQuery::line_no> OrQuery:: eval (const TextQuery & tq) const $/;"	f	class:OrQuery
+eval	QueryBase.h	/^		set<TextQuery::line_no> eval (const TextQuery & t) const$/;"	f	class:Query
+eval	QueryBase.h	/^	set<line_no> eval(const TextQuery & t) const$/;"	f	class:WordQuery
+lhs	QueryBase.h	/^	const Query lhs,rhs;$/;"	m	class:BinaryQuery
+lineOfText	textQuery.h	/^		vector <string> lineOfText;$/;"	m	class:TextQuery
+line_no	QueryBase.h	/^	typedef TextQuery::line_no line_no;$/;"	t	class:QueryBase
+line_no	textQuery.h	/^		typedef std::vector<std::string>::size_type line_no;$/;"	t	class:TextQuery
+main	mainQuery.cpp	/^int main(int argc , char * argv[])$/;"	f
+oper	QueryBase.h	/^	const string oper;$/;"	m	class:BinaryQuery
+operator &	QueryBase.h	/^inline Query operator & (const Query & l ,const Query & r)$/;"	f
+operator <<	QueryBase.h	/^inline  std::ostream & operator<<(std::ostream & os,const Query & q) $/;"	f
+operator =	QueryBase.cpp	/^Query & Query::operator =(const Query & que)$/;"	f	class:Query
+operator |	QueryBase.h	/^inline Query operator | (const Query & l,const Query & r)$/;"	f
+operator ~	QueryBase.h	/^inline  Query operator ~ (const Query & q)$/;"	f
+printResult	mainQuery.cpp	/^void printResult(const set<TextQuery::line_no> & res,string & w,TextQuery & tq)$/;"	f
+q	QueryBase.h	/^		QueryBase * q;$/;"	m	class:Query
+query	QueryBase.h	/^	const Query query;$/;"	m	class:NotQuery
+queryWord	QueryBase.h	/^	string queryWord;$/;"	m	class:WordQuery
+readFile	textQuery.h	/^		void readFile(istream & is)$/;"	f	class:TextQuery
+rhs	QueryBase.h	/^	const Query lhs,rhs;$/;"	m	class:BinaryQuery
+runQuery	textQuery.cpp	/^set<TextQuery::line_no> TextQuery::runQuery(const string & word) const$/;"	f	class:TextQuery
+size	textQuery.h	/^		line_no size() const$/;"	f	class:TextQuery
+storeInputFile	textQuery.cpp	/^ void TextQuery::storeInputFile(istream & is)$/;"	f	class:TextQuery
+textOfLineN	textQuery.cpp	/^string TextQuery::textOfLineN(TextQuery::line_no n)$/;"	f	class:TextQuery
+use	QueryBase.h	/^		std::size_t * use;$/;"	m	class:Query
+wordMap	textQuery.h	/^		map<string,set<line_no> >  wordMap;$/;"	m	class:TextQuery
+~Query	QueryBase.h	/^		~Query() $/;"	f	class:Query
+~QueryBase	QueryBase.h	/^	virtual ~QueryBase(){}$/;"	f	class:QueryBase

@@ -1,0 +1,3 @@
+//document.writeln("<iframe border=\"0\" vspace=\"0\" hspace=\"0\" marginwidth=\"0\" marginheight=\"0\"");
+//document.writeln("  framespacing=\"0\" frameborder=\"0\" scrolling=\"no\" width=\"950\" height=\"24\" style=\"border:1px solid #FFFFFF\" src=\"http:\/\/s.114.com.cn\/us.php?userid=12777&width=950&height=24&ismargin=1&website_id=1349&ad_type=0&pay_mode=1&position=0&class=s95024&bg=&link=&border=FFFFFF&\">");
+//document.writeln("<\/iframe>");

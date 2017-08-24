@@ -1,0 +1,66 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>/mnt/hgfs/linux/osc/codelittle/rbs.cpp.html</title>
+<meta name="Generator" content="Vim/7.2">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body bgcolor="#ffffff" text="#000000"><font face="monospace">
+<font color="#ff6060">&nbsp;1 </font>Void Resolution(ClauseSet *S1,ClauseSet *S2,ClauseSet *S3) <br>
+<font color="#ff6060">&nbsp;2 </font>{ <br>
+<font color="#ff6060">&nbsp;3 </font>&nbsp;&nbsp; head1指向子句集S1中的第一个子句；<br>
+<font color="#ff6060">&nbsp;4 </font>&nbsp;&nbsp; head2指向子句集S2中的第一个子句；<br>
+<font color="#ff6060">&nbsp;5 </font>&nbsp;&nbsp; <font color="#ff6060">if</font>(head1==<font color="#ff6060">NULL</font>&nbsp;|| head2 ==<font color="#ff6060">NULL</font>)<br>
+<font color="#ff6060">&nbsp;6 </font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; exit(<font color="#ff6060">0</font>)；<br>
+<font color="#ff6060">&nbsp;7 </font>&nbsp;&nbsp;&nbsp;&nbsp;<font color="#ff6060">while</font>(<font color="#ff6060">true</font>)<br>
+<font color="#ff6060">&nbsp;8 </font>&nbsp;&nbsp;&nbsp;&nbsp;{<br>
+<font color="#ff6060">&nbsp;9 </font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;P指向子句集S1中的第一个子句；<br>
+<font color="#ff6060">10 </font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#ff6060">do</font><br>
+<font color="#ff6060">11 </font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br>
+<font color="#ff6060">12 </font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;q 指向子句集S2中的第一个子句;<br>
+<font color="#ff6060">13 </font><br>
+<font color="#ff6060">14 </font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#ff6060">do</font><br>
+<font color="#ff6060">15 </font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br>
+<font color="#ff6060">16 </font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;调用两子句间的归结函数 guijie（p,q）<font color="#8080ff">//该函数返回指向子句的指针pc，若pc==null</font><br>
+<font color="#ff6060">17 </font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#8080ff">//说明两子句不能归结。</font><br>
+<font color="#ff6060">18 </font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#ff6060">if</font>(pc是空子句)<br>
+<font color="#ff6060">19 </font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {<br>
+<font color="#ff6060">20 </font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 输出信息：该子句集S不可满足！<br>
+<font color="#ff6060">21 </font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; exit(<font color="#ff6060">0</font>);<br>
+<font color="#ff6060">22 </font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }<br>
+<font color="#ff6060">23 </font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#ff6060">else</font><br>
+<font color="#ff6060">24 </font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;将pc指向的子句插入到S1中；<br>
+<font color="#ff6060">25 </font><br>
+<font color="#ff6060">26 </font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;q指向S2中的下一个子句；<br>
+<font color="#ff6060">27 </font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<font color="#ff6060">while</font>（q!=head2）<br>
+<font color="#ff6060">28 </font><br>
+<font color="#ff6060">29 </font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;p指向S2中的下一个子句；<br>
+<font color="#ff6060">30 </font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<font color="#ff6060">while</font>（p!=head1）<br>
+<font color="#ff6060">31 </font><br>
+<font color="#ff6060">32 </font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;输出信息：该子句集不能证明不可满足；<br>
+<font color="#ff6060">33 </font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;exit(<font color="#ff6060">0</font>);<br>
+<font color="#ff6060">34 </font>}<br>
+<font color="#ff6060">35 </font><br>
+<font color="#ff6060">36 </font>}<br>
+<font color="#ff6060">37 </font>}<br>
+<font color="#ff6060">38 </font>}<br>
+<font color="#ff6060">39 </font><font color="#8080ff">//该函数从p和q指向的子句中寻找互补谓词对，并调用具体的归结实现函数生成新</font><br>
+<font color="#ff6060">40 </font>子句，并返回新子句。如果子句p和q不能归结则返回NULL。<br>
+<font color="#ff6060">41 </font>Clause *guijie(Clause *p,*q){<br>
+<font color="#ff6060">42 </font>p指向子句C1的第一个谓词；<br>
+<font color="#ff6060">43 </font>While(p!=null)<br>
+<font color="#ff6060">44 </font>{ q指向子句C2的第一个谓词；<br>
+<font color="#ff6060">45 </font>While（q!=null）<br>
+<font color="#ff6060">46 </font>{<font color="#ff6060">if</font>（p，q指向的谓词对象的num之和==<font color="#ff6060">0</font>）<br>
+<font color="#ff6060">47 </font>&nbsp;&nbsp;{运用最一般合一算法对C1和C2进行归结；终止并返回新子句指针；}<br>
+<font color="#ff6060">48 </font><font color="#ff6060">else</font>&nbsp;<font color="#ff6060">if</font>(p指向的谓词对象的num的绝对值)&gt;q指向的谓词对象的num的绝对值<span style="background-color: #ff6060"><font color="#ffffff"><b>)</b></font></span><br>
+<font color="#ff6060">49 </font>q指向下一个谓词；<br>
+<font color="#ff6060">50 </font><font color="#ff6060">else</font>&nbsp;跳出该层循环；<br>
+<font color="#ff6060">51 </font>}<br>
+<font color="#ff6060">52 </font>P指向下一个谓词；<br>
+<font color="#ff6060">53 </font>}<br>
+<font color="#ff6060">54 </font>返回null；<font color="#8080ff">//代表C1与C2不能归结。</font><br>
+<font color="#ff6060">55 </font>}<br>
+<font color="#ff6060">56 </font>}<br>
+</font></body>
+</html>

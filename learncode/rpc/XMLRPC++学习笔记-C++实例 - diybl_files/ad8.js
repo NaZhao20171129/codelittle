@@ -1,0 +1,2 @@
+document.writeln("<script type=\"text\/javascript\"> \/*开发频道-下部：336*280，创建于2010-9-9*\/ var cpro_id = \'u193138\';<\/script>");
+document.writeln("<script type=\"text\/javascript\" src=\"http:\/\/cpro.baidu.com\/cpro\/ui\/c.js\"><\/script>");
